@@ -1,0 +1,68 @@
+#region
+children_list=[
+	//icone, nome, idade, estado, xx, peso, altura, sangue, genero
+	[s_dhan_faceicon_idle_1,["Dhan"],10,["Entregue","Entregado","Delivered"],0,28.67,120,"O-","M"],
+	[s_mark_faceicon_idle_1,["Mark"],10,["Entregue","Entregado","Delivered"],0,30.90,160,"B-","M"],
+	[s_shiu_faceicon_idle_1,["Shiu"],10,["Entregue","Entregado","Delivered"],0,29.56,140,"A-","M"],
+	[s_joe_faceicon_idle_1,["Joe"],10,["Entregue","Entregado","Delivered"],0,29.53,126,"AB-","M"],
+	[s_mewa_faceicon_idle_1,["Mewa"],10,["Entregue","Entregado","Delivered"],0,30.94,153,"A+","F"],
+	[s_maria_faceicon_idle_1,["Maria"],10,["Entregue","Entregado","Delivered"],0,28.33,118,"B+","F"],
+	[s_laura_faceicon_idle_1,["Laura"],10,["Entregue","Entregado","Delivered"],0,],
+	[s_barbara_faceicon_idle_1,["Barbara"],10,["Entregue","Entregado","Delivered"],0],
+	[s_jeyjey_faceicon_idle_1,["JeyJey"],9,["Pronto","Listo","Ready"],0],
+	[s_larry_faceicon_idle_1,["Larry"],9,["Pronto","Listo","Ready"],0],
+	[s_petter_faceicon_idle_1,["Petter"],9,["Pronto","Listo","Ready"],0],
+	[s_edgar_faceicon_idle_1,["Edgar"],9,["Pronto","Listo","Ready"],0],
+	[s_wendy_faceicon_idle_1,["Wendy"],9,["Pronto","Listo","Ready"],0],
+	[s_grettel_faceicon_idle_1,["Grettel"],9,["Pronto","Listo","Ready"],0],
+	[s_eleanor_faceicon_idle_1,["Eleanor"],9,["Pronto","Listo","Ready"],0],
+	[s_hellen_faceicon_idle_1,["Hellen"],9,["Pronto","Listo","Ready"],0],
+	[s_bunbun_faceicon_idle_1,["BunBun"],8,["Possível descarte","Posible eliminación","Posible disposal"],0],
+	[s_todd_faceicon_idle_1,["Todd"],8,["Aprovado","Aprobado","Approved"],0],
+	[s_fritz_faceicon_idle_1,["Fritz"],8,["Aprovado","Aprobado","Approved"],0],
+	[s_nickolai_faceicon_idle_1,["Nickolai"],8,["Aprovado","Aprobado","Approved"],0],
+	[s_amanda_faceicon_idle_1,["Amanda"],8,["Aprovado","Aprobado","Approved"],0],
+	[s_clara_faceicon_idle_1,["Clara"],8,["Aprovado","Aprobado","Approved"],0],
+	[s_james_faceicon_idle_1,["James"],8,["Negado","Negado","Denied"],0],
+	[s_rubbert_faceicon_idle_1,["Rubbert"],8,["Aprovado","Aprobado","Approved"],0],
+	[s_calina_faceicon_idle_1,["Calina"],7,["Aprovado","Aprobado","Approved"],0],
+	[s_iriya_faceicon_idle_1,["Iriya"],7,["Negado","Negado","Denied"],0],
+	[s_danya_darya_faceicon_idle_1,["Darya"],7,["Aprovado","Aprobado","Approved"],0],
+	[s_danya_darya_faceicon_idle_1,["Danya"],7,["Aprovado","Aprobado","Approved"],0],
+	[s_linus_faceicon_idle_1,["Linus"],7,["Negado","Negado","Denied"],0],
+	[s_tomas_faceicon_idle_1,["Tomas"],7,["Aprovado","Aprobado","Approved"],0],
+	[s_jill_faceicon_idle_1,["Jill"],7,["Aprovado","Aprobado","Approved"],0],
+	[s_nina_faceicon_idle_1,["Nina"],7,["Aprovado","Aprobado","Approved"],0],
+	[s_jasenska_faceicon_idle_1,["Jasenska"],6,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_julia_faceicon_idle_1,["Julia"],6,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_laszlo_faceicon_idle_1,["Laszlo"],6,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_boris_faceicon_idle_1,["Boris"],6,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_danica_faceicon_idle_1,["Danica"],5,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_ksenia_faceicon_idle_1,["Ksenia"],5,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_paxton_faceicon_idle_1,["Paxton"],5,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_gleb_faceicon_idle_1,["Gleb"],5,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_julian_faceicon_idle_1,["Julian"],4,["Em análise, possível descarte","Bajo revisión, posible eliminación","Under review, posible disposal "],0],
+	[s_vladmir_faceicon_idle_1,["Vladmir"],4,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_lorie_faceicon_idle_1,["Lorie"],3,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_olivia_faceicon_idle_1,["Olivia"],3,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_noah_faceicon_idle_1,["45"],2,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_oliver_faceicon_idle_1,["46"],2,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_ophelia_faceicon_idle_1,["47"],2,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_sofia_faceicon_idle_1,["48"],2,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_edwin_faceicon_idle_1,["49"],1,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_zanny_faceicon_idle_1,["50"],1,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_robin_faceicon_idle_1,["51"],.11,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_lara_faceicon_idle_1,["52"],.11,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_memo_faceicon_idle_1,["53"],.9,["Em análise, mal estado","Bajo revisión, mal estado","Under review, bad condition"],0],
+	[s_galle_faceicon_idle_1,["54"],.9,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_hinawa_faceicon_idle_1,["55"],.9,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+	[s_marta_faceicon_idle_1,["56"],.9,["Em análise, bom estado","Bajo revisión, buen estado","Under review, good condition"],0],
+];
+#endregion
+current_kid=0;
+show_icon=true;
+icon_alpha_tx=0;
+var i=0; repeat array_length(children_list){
+	icon_left[i][4]=global.cw+64;
+	i++;
+}

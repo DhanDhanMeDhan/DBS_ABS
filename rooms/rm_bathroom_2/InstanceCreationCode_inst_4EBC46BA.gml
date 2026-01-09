@@ -1,0 +1,47 @@
+if(global.event[0][2]==progress.non_complete){
+	quest_array=[
+		[0,quest_type.talk_to,o_lorie],
+	];
+	complete_cutscene=0;
+	non_complete_cutscene[0]=[
+		[scr_cutscene_variable,variable.normal,o_lorie,"ppl_talked",true],
+		[scr_cutscene_bars,true,true],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_move_character,o_bunbun,720,451,false,1,true,true],
+		[scr_cutscene_variable,variable.normal,o_bunbun,"direction",45],
+		[scr_cutscene_variable,variable.normal,o_laszlo,"ppl_flowing",false],
+		[scr_cutscene_move_character,o_laszlo,745,464,false,1,true,true],
+		[scr_cutscene_variable,variable.normal,o_laszlo,"direction",90],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_variable,variable.nearst,o_door_1,"open",true,731,435],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Te achamos!!"]],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_lorie,["De fato vocês me acharam..."]],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Foi um bom esconderijo"]],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_lorie,["Não, não foi"]],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Ah! Qual é! Não seja assim!"]],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_lorie,["Apenas gosto daqui"]],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_lorie,["É silencioso... Bom, irei para o hall"]],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Oh... Tudo bem..."]],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_circle_wake_up,true,true,-1,-1,true,false,false,make_color_rgb(36,34,52)],
+		[scr_cutscene_wait,1],
+		
+		[scr_cutscene_instance_destroy,o_lorie],
+		[scr_cutscene_instance_destroy_nearst,x,y,o_cutscene_trigger_3],
+		[scr_cutscene_circle_wake_up,true,true,-1,-1,true,true,false,make_color_rgb(36,34,52)],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_variable,variable.normal,o_bunbun,"direction",315],
+		[scr_cutscene_variable,variable.normal,o_laszlo,"direction",135],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Lorie sempre foi assim?"]],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_laszlo,["Sim... Ela sempre foi meio apática..."]],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_laszlo,["Honestamente, acho que ela se daria bem com a Grettel..."]],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Você acha?"]],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_laszlo,["Sim... Eu acho..."]],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Oh! Ok!!"]],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_variable,variable.normal,o_laszlo,"ppl_flowing",true],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_bars,true,false],
+	];
+}

@@ -1,0 +1,1 @@
+stair_set_side=stair_side.right;

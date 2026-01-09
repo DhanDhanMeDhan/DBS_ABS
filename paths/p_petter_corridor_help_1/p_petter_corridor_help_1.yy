@@ -1,0 +1,23 @@
+{
+  "$GMPath":"",
+  "%Name":"p_petter_corridor_help_1",
+  "closed":false,
+  "kind":0,
+  "name":"p_petter_corridor_help_1",
+  "parent":{
+    "name":"others",
+    "path":"folders/Rutas/others.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":580.0,"y":505.0,},
+    {"speed":100.0,"x":464.0,"y":505.0,},
+    {"speed":100.0,"x":431.0,"y":472.0,},
+    {"speed":100.0,"x":382.0,"y":472.0,},
+    {"speed":100.0,"x":382.0,"y":400.0,},
+    {"speed":100.0,"x":304.0,"y":400.0,},
+    {"speed":100.0,"x":304.0,"y":428.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

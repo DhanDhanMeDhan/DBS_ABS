@@ -1,0 +1,101 @@
+function scr_talk_tomas(){
+	switch global.day{
+		case 0:
+			#region
+			if(global.event[0][1]==progress.non_complete){
+				quest_array=[
+					[0,quest_type.talk_to,o_tomas]
+				];
+				non_complete_cutscene[0]=[
+					[scr_cutscene_variable,variable.normal,o_tomas,"ppl_talked",true],
+					[scr_cutscene_bars,true,true],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_move_character,o_bunbun,554,1757,false,1,true,true],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"direction",315],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Olá, Tomas, como está?"]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Saudações, pequeno"],-1,[-1,[s_tomas_casual_playground_idle_1_2],[s_tomas_casual_playground_talk_1_2]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Até o momento me encontro bem, e você? Aproveitou o café?"],-1,[-1,[s_tomas_casual_playground_idle_1_3],[s_tomas_casual_playground_talk_1_3]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_tomas,"sprite_index",s_tomas_casual_playground_idle_1_2],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Ah, sim, o café estava bom!"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Eu prefiro a comida do Tio Big B, mas a comida do Tio Dmitriy não é tão ruim"]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Claro que gosta..."],-1,[-1,[s_tomas_casual_playground_idle_1_1],[s_tomas_casual_playground_talk_1_1]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Bom, no que posso te ajuda, pequeno?"],-1,[-1,[s_tomas_casual_playground_idle_1_2],[s_tomas_casual_playground_talk_1_2]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Ah, eu só queria saber como você está..."]],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["HaaHaa, eu gosto como você tem sua pequena rotina, caro pequeno"],-1,[-1,[s_tomas_casual_playground_idle_1_3],[s_tomas_casual_playground_talk_1_3]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Você sempre pergunta como estamos, sem esquecer de ninguém"],-1,[-1,[s_tomas_casual_playground_idle_1_1],[s_tomas_casual_playground_talk_1_1]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Possuí-se uma preocupação consideravél por todos, de equivalente modo?"],-1,[-1,[s_tomas_casual_playground_idle_1_2],[s_tomas_casual_playground_talk_1_2]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["B-Bom..."]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Por favor, sente-se"],-1,[-1,[s_tomas_casual_playground_idle_1_2],[s_tomas_casual_playground_talk_1_2]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Ok..."]],
+					[scr_cutscene_animation_sprite,o_bunbun,[s_bunbun_casual_playground_idle_1_3],[s_bunbun_casual_playground_idle_1_3],false,true,[.2,.2]],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_variable,variable.normal,o_tomas,"sprite_index",s_tomas_casual_playground_idle_1_1],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Você se esforça muito para certificar-se do bem estar geral"],-1,[-1,[s_tomas_casual_playground_idle_1_1],[s_tomas_casual_playground_talk_1_1]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_tomas,"sprite_index",s_tomas_casual_playground_idle_1_2],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Bom... Para ser honesto, eu gosto de todos aqui"],-1,[-1,[s_bunbun_casual_playground_idle_1_4],[s_bunbun_casual_playground_talk_1_4]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Eu gosto de todos por igual..."],-1,[-1,[s_bunbun_casual_playground_idle_1_4],[s_bunbun_casual_playground_talk_1_4]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"sprite_index",s_bunbun_casual_playground_idle_1_3],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Eu tenho minhas dúvidas"],-1,[-1,[s_tomas_casual_playground_idle_1_1],[s_tomas_casual_playground_talk_1_1]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_tomas,"sprite_index",s_tomas_casual_playground_idle_1_2],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Ah! Não, eu gosto de você! Eu me preocupo com você"],-1,[-1,[s_bunbun_casual_playground_idle_1_3],[s_bunbun_casual_playground_talk_1_3]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Eu pergunto todos os dias como você está para me certificar se você está bem!"],-1,[-1,[s_bunbun_casual_playground_idle_1_3],[s_bunbun_casual_playground_talk_1_3]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["De fato que vós perguntais"],-1,[-1,[s_tomas_casual_playground_idle_1_3],[s_tomas_casual_playground_talk_1_3]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["E ainda mais diáriamente"],-1,[-1,[s_tomas_casual_playground_idle_1_1],[s_tomas_casual_playground_talk_1_1]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Mas por que? Por que você gosta de todos dessa casa? Por que essa preocupação?"],-1,[-1,[s_tomas_casual_playground_idle_1_2],[s_tomas_casual_playground_talk_1_2]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Eu não sei..."],-1,[-1,[s_bunbun_casual_playground_idle_1_11],[s_bunbun_casual_playground_talk_1_11]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Nunca me perguntei isso, esse tipo de coisa..."],-1,[-1,[s_bunbun_casual_playground_idle_1_11],[s_bunbun_casual_playground_talk_1_11]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Até onde sei, faz parte de mim"],-1,[-1,[s_bunbun_casual_playground_idle_1_3],[s_bunbun_casual_playground_talk_1_3]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Faz parte de ti tamanho coração?"],-1,[-1,[s_tomas_casual_playground_idle_1_2],[s_tomas_casual_playground_talk_1_2]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Acho que sim... Acho que faz parte de mim me preocupar com todos"],-1,[-1,[s_bunbun_casual_playground_idle_1_3],[s_bunbun_casual_playground_talk_1_3]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Muito empático você, devo dizer"],-1,[-1,[s_tomas_casual_playground_idle_1_2],[s_tomas_casual_playground_talk_1_2]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Acho que sim... Mas e você? Não há ninguém que você se preocupe?"],-1,[-1,[s_bunbun_casual_playground_idle_1_3],[s_bunbun_casual_playground_talk_1_3]],false,false,[0,.2,.25]],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Você"],-1,[-1,[s_tomas_casual_playground_idle_1_2],[s_tomas_casual_playground_talk_1_2]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Eu?!"],-1,[-1,[s_bunbun_casual_playground_idle_1_3],[s_bunbun_casual_playground_talk_1_3]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"sprite_index",s_bunbun_casual_playground_idle_1_3],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Sim, você e uma outra pessoa..."],-1,[-1,[s_tomas_casual_playground_idle_1_1],[s_tomas_casual_playground_talk_1_1]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Mas no geral... Você"],-1,[-1,[s_tomas_casual_playground_idle_1_2],[s_tomas_casual_playground_talk_1_2]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Bom... Não esperava..."],-1,[-1,[s_bunbun_casual_playground_idle_1_4],[s_bunbun_casual_playground_talk_1_4]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"sprite_index",s_bunbun_casual_playground_idle_1_3],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Faça-me o favor, BunBun..."],-1,[-1,[s_tomas_casual_playground_idle_1_3],[s_tomas_casual_playground_talk_1_3]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Você sempre se preocupa com todos, incluso comigo"],-1,[-1,[s_tomas_casual_playground_idle_1_2],[s_tomas_casual_playground_talk_1_2]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Chega a ser hipócrita da sua parte não esperar que alguém fosse desenvolver algum carinho por ti"],-1,[-1,[s_tomas_casual_playground_idle_1_1],[s_tomas_casual_playground_talk_1_1]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_tomas,"sprite_index",s_tomas_casual_playground_idle_1_2],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Não digo dessa forma... Mas..."],-1,[-1,[s_bunbun_casual_playground_idle_1_11],[s_bunbun_casual_playground_talk_1_11]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Eu só queria fazer o dia das pessoas melhores"],-1,[-1,[s_bunbun_casual_playground_idle_1_4],[s_bunbun_casual_playground_talk_1_4]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"sprite_index",s_bunbun_casual_playground_idle_1_3],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Pois aí está, meu dia ficou melhor com a sua preocupação"],-1,[-1,[s_tomas_casual_playground_idle_1_3],[s_tomas_casual_playground_talk_1_3]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Fico feliz em ouvir isso, Tomas"],-1,[-1,[s_bunbun_casual_playground_idle_1_4],[s_bunbun_casual_playground_talk_1_4]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"sprite_index",s_bunbun_casual_playground_idle_1_3],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Não há motivos para agradecer ou preocupar-te"],-1,[-1,[s_tomas_casual_playground_idle_1_3],[s_tomas_casual_playground_talk_1_3]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_tomas,["Agora vá brincar, pequeno"],-1,[-1,[s_tomas_casual_playground_idle_1_1],[s_tomas_casual_playground_talk_1_1]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Tudo bem, Tomas"],-1,[-1,[s_bunbun_casual_playground_idle_1_3],[s_bunbun_casual_playground_talk_1_3]],false,false,[0,.2,.25]],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"sprite_index",s_bunbun_casual_idle_1_downright],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_bars,true,false],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"direction",315],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_act_state",ppl_act.play]
+				];
+				complete_cutscene=[
+					[scr_cutscene_bars,true,true],
+					[scr_cutscene_wait,.5],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_to_look_at",o_tomas],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_looking_to",true],
+					[scr_cutscene_wait,.5],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Ele parece calmo..."]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Eu vou deixar ele em paz, ele está bem"]],
+					[scr_cutscene_wait,.5],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_looking_to",false],
+					[scr_cutscene_wait,.5],
+					[scr_cutscene_bars,true,false],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_act_state",ppl_act.play]
+				];
+			}
+			break;
+			#endregion
+	}
+}

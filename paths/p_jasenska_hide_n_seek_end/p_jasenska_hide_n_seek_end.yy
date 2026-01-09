@@ -1,0 +1,24 @@
+{
+  "$GMPath":"",
+  "%Name":"p_jasenska_hide_n_seek_end",
+  "closed":false,
+  "kind":0,
+  "name":"p_jasenska_hide_n_seek_end",
+  "parent":{
+    "name":"hide_n_seek",
+    "path":"folders/Rutas/hide_n_seek.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":594.0,"y":552.0,},
+    {"speed":100.0,"x":594.0,"y":512.0,},
+    {"speed":100.0,"x":464.0,"y":512.0,},
+    {"speed":100.0,"x":432.0,"y":480.0,},
+    {"speed":100.0,"x":376.0,"y":480.0,},
+    {"speed":100.0,"x":376.0,"y":408.0,},
+    {"speed":100.0,"x":310.0,"y":408.0,},
+    {"speed":100.0,"x":310.0,"y":442.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

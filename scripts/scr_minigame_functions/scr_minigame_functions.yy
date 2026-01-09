@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_minigame_functions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_minigame_functions",
+  "parent":{
+    "name":"minigames",
+    "path":"folders/Scripts/minigames.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

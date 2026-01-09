@@ -1,0 +1,24 @@
+{
+  "$GMPath":"",
+  "%Name":"p_playground_day_1_1",
+  "closed":true,
+  "kind":0,
+  "name":"p_playground_day_1_1",
+  "parent":{
+    "name":"playground",
+    "path":"folders/Rutas/playground.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":1160.0,"y":1712.0,},
+    {"speed":100.0,"x":1060.0,"y":1712.0,},
+    {"speed":100.0,"x":1042.0,"y":1730.0,},
+    {"speed":100.0,"x":1042.0,"y":1776.0,},
+    {"speed":100.0,"x":1060.0,"y":1794.0,},
+    {"speed":100.0,"x":1160.0,"y":1794.0,},
+    {"speed":100.0,"x":1178.0,"y":1776.0,},
+    {"speed":100.0,"x":1178.0,"y":1730.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

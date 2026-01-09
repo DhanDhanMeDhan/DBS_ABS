@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"bgm_008",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":44.70238,
+  "exportDir":"",
+  "name":"bgm_008",
+  "parent":{
+    "name":"bgm",
+    "path":"folders/Sonidos/bgm.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"bgm_008.mp3",
+  "volume":1.0,
+}

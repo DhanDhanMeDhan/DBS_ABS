@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"tld_b_bedroom_1_2",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"tld_b_bedroom_1_2",
+  "out_columns":21,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"bedroom",
+    "path":"folders/Conjuntos de casillas/bedroom.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"s_tld_b_bedroom__1_2",
+    "path":"sprites/s_tld_b_bedroom__1_2/s_tld_b_bedroom__1_2.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":450,
+}

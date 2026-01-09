@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_cutscene_reset_all_rooms",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_cutscene_reset_all_rooms",
+  "parent":{
+    "name":"arg",
+    "path":"folders/Scripts/cutscene/arg.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
