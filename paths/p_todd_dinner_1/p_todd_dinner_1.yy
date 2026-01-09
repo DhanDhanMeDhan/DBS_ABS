@@ -1,0 +1,24 @@
+{
+  "$GMPath":"",
+  "%Name":"p_todd_dinner_1",
+  "closed":false,
+  "kind":0,
+  "name":"p_todd_dinner_1",
+  "parent":{
+    "name":"others",
+    "path":"folders/Rutas/others.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":826.0,"y":302.0,},
+    {"speed":100.0,"x":736.0,"y":302.0,},
+    {"speed":100.0,"x":700.0,"y":338.0,},
+    {"speed":100.0,"x":700.0,"y":400.0,},
+    {"speed":100.0,"x":652.0,"y":448.0,},
+    {"speed":100.0,"x":298.0,"y":448.0,},
+    {"speed":100.0,"x":298.0,"y":390.0,},
+    {"speed":100.0,"x":388.0,"y":390.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

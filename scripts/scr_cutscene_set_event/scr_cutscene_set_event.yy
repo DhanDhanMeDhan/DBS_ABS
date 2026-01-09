@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_cutscene_set_event",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_cutscene_set_event",
+  "parent":{
+    "name":"arg",
+    "path":"folders/Scripts/cutscene/arg.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

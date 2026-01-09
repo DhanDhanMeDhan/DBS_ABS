@@ -1,0 +1,32 @@
+#region dia 0
+non_avaliable_cutscene=[
+		[scr_cutscene_bars,true,true],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_variable,variable.normal,o_uncle_bruce,"spd",0],
+		[scr_cutscene_variable,variable.normal,o_uncle_bruce,"ppl_to_look_at",o_bunbun],
+		[scr_cutscene_variable,variable.normal,o_uncle_bruce,"ppl_looking_to",true],
+		[scr_cutscene_variable,variable.normal,o_todd,"ppl_flowing",false],
+		[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_to_look_at",o_uncle_bruce],
+		[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_looking_to",true],
+		[scr_cutscene_variable,variable.normal,o_todd,"ppl_to_look_at",o_uncle_bruce],
+		[scr_cutscene_variable,variable.normal,o_todd,"ppl_looking_to",true],
+		[scr_cutscene_variable,variable.normal,o_camera,"npc_to_flow",o_uncle_bruce],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["BunBun, Todd, a onde vocês pensam que estão indo?"]],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Vocês não tem permissão para entrar nessa porta, voltem para casa"]],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_variable,variable.normal,o_camera,"npc_to_flow",o_bunbun],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Desculpe, Tio"]],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_variable,variable.normal,o_todd,"ppl_looking_to",false],
+		[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_looking_to",false],
+		[scr_cutscene_variable,variable.normal,o_todd,"ppl_flowing",true],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_move_character,o_bunbun,0,8,true,.5,true,true],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_variable,variable.normal,o_uncle_bruce,"ppl_looking_to",false],
+		[scr_cutscene_variable,variable.normal,o_uncle_bruce,"spd",1],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_bars,true,false]
+	];
+#endregion

@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"tld_house_ext_back_2_3",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"tld_house_ext_back_2_3",
+  "out_columns":51,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"house_front",
+    "path":"folders/Conjuntos de casillas/exterior/house_front.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"s_tld_house_ext_front_1_2_3",
+    "path":"sprites/s_tld_house_ext_front_1_2_3/s_tld_house_ext_front_1_2_3.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":2596,
+}

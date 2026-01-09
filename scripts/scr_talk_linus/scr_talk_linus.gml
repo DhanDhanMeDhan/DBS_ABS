@@ -1,0 +1,96 @@
+function scr_talk_linus(){
+	switch global.day{
+		case 0:
+			#region
+			if(global.event[0][1]==progress.non_complete){
+				quest_array=[
+					[0,quest_type.talk_to,o_linus],
+				];
+				non_complete_cutscene[0]=[
+					[scr_cutscene_variable,variable.normal,o_linus,"ppl_talked",true],
+					[scr_cutscene_variable,variable.normal,o_james,"ppl_talked",true],
+					[scr_cutscene_bars,true,true],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_move_character,o_bunbun,1051,1675,false,1,true,true],
+					[scr_cutscene_animation_sprite,o_bunbun,[s_bunbun_casual_playground_idle_1_5],[s_bunbun_casual_playground_idle_1_5],false,true,[.2,.2]],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_linus,["Sim, e no fim de tudo..."],-1,[-1,[s_linus_casual_playground_idle_1_1],[s_linus_casual_playground_talk_1_1]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_linus,["Ah! Oi BunBun!"],-1,[-1,[s_linus_casual_playground_idle_1_2],[s_linus_casual_playground_talk_1_2]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_james,["E ai, BunBun?"],-1,[-1,[s_james_casual_playground_idle_1_4],[s_james_casual_playground_talk_1_4]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Olá Linus, olá James!!"],-1,[-1,[s_bunbun_casual_playground_idle_1_13],[s_bunbun_casual_playground_talk_1_13]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Como vocês estão?"],-1,[-1,[s_bunbun_casual_playground_idle_1_5],[s_bunbun_casual_playground_talk_1_5]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_linus,["Estamos bem! Apenas conversando com o James!"],-1,[-1,[s_linus_casual_playground_idle_1_3],[s_linus_casual_playground_talk_1_3]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_linus,"sprite_index",s_linus_casual_playground_idle_1_1],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_james,["HeeHee, estou apenas escutando o Linus"],-1,[-1,[s_james_casual_playground_idle_1_1],[s_james_casual_playground_talk_1_1]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_james,"sprite_index",s_james_casual_playground_idle_1_4],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"sprite_index",s_bunbun_casual_playground_idle_1_13],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_linus,["Ah, qual é! Nem falo tanto assim!"],-1,[-1,[s_linus_casual_playground_idle_1_1],[s_linus_casual_playground_talk_1_1]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_james,["Não foi isso que eu falei, apenas disse que estava te ouvindo"],-1,[-1,[s_james_casual_playground_idle_1_5],[s_james_casual_playground_talk_1_5]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_james,"sprite_index",s_james_casual_playground_idle_1_4],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_linus,["Ah, qual é! Assim você deixa implícito que eu falo muito"],-1,[-1,[s_linus_casual_playground_idle_1_3],[s_linus_casual_playground_talk_1_3]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_linus,"sprite_index",s_linus_casual_playground_idle_1_1],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_james,["Bom, eu também não reclamei"],-1,[-1,[s_james_casual_playground_idle_1_5],[s_james_casual_playground_talk_1_5]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_linus,["Ah, James!! HaaHaa!"],-1,[-1,[s_linus_casual_playground_idle_1_4],[s_linus_casual_playground_talk_1_4]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_linus,"sprite_index",s_linus_casual_playground_idle_1_2],
+					[scr_cutscene_variable,variable.normal,o_james,"sprite_index",s_james_casual_playground_idle_1_4],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["HeeHee! Se tem uma coisa que eu gosto de verdade, é como você e o James se dão bem!"],-1,[-1,[s_bunbun_casual_playground_idle_1_13],[s_bunbun_casual_playground_talk_1_13]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_linus,["Bom, sim, por mais que o James não seja minha dupla, gosto de passar o tempo com ele!"],-1,[-1,[s_linus_casual_playground_idle_1_4],[s_linus_casual_playground_talk_1_4]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_linus,"sprite_index",s_linus_casual_playground_idle_1_1],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_james,["Bom, sou capaz de cuidar de ti e do Rubbert, então por mim tudo bem"],-1,[-1,[s_james_casual_playground_idle_1_5],[s_james_casual_playground_talk_1_5]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Mas a Mamãe não brigam com vocês por estarem juntos?"],-1,[-1,[s_bunbun_casual_playground_idle_1_5],[s_bunbun_casual_playground_talk_1_5]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Tipo, você deveria estar com a sua dupla, não?"],-1,[-1,[s_bunbun_casual_playground_idle_1_5],[s_bunbun_casual_playground_talk_1_5]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_james,["Bom, eu deveria passar mais tempo com o Rubbert, mas ainda assim eu gosto de passar tempo com o Linus"],-1,[-1,[s_james_casual_playground_idle_1_5],[s_james_casual_playground_talk_1_5]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_james,["O Linus é legal"],-1,[-1,[s_james_casual_playground_idle_1_4],[s_james_casual_playground_talk_1_4]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_james,["Não que o Rubbert não seja"],-1,[-1,[s_james_casual_playground_idle_1_1],[s_james_casual_playground_talk_1_1]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_linus,"sprite_index",s_linus_casual_playground_idle_1_3],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"sprite_index",s_bunbun_casual_playground_idle_1_13],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_james,["Mas o Linus é legal"],-1,[-1,[s_james_casual_playground_idle_1_4],[s_james_casual_playground_talk_1_4]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_linus,["Você também é legal, James!"],-1,[-1,[s_linus_casual_playground_idle_1_3],[s_linus_casual_playground_talk_1_3]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"sprite_index",s_bunbun_casual_playground_idle_1_5],
+					[scr_cutscene_variable,variable.normal,o_linus,"sprite_index",s_linus_casual_playground_idle_1_2],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_james,["Mas e ai, BunBun? Do que precisa? Veio fazer sua checagem de sempre?"],-1,[-1,[s_james_casual_playground_idle_1_4],[s_james_casual_playground_talk_1_4]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["HeeHee!~"],-1,[-1,[s_bunbun_casual_playground_idle_1_13],[s_bunbun_casual_playground_talk_1_13]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Vocês não são os primeiros a comentarem isso!~"],-1,[-1,[s_bunbun_casual_playground_idle_1_13],[s_bunbun_casual_playground_talk_1_13]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_linus,["Ah, BunBun! Todos os dias você pergunta, já virou parte da sua rotina"],-1,[-1,[s_linus_casual_playground_idle_1_2],[s_linus_casual_playground_talk_1_2]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_linus,["Você é tão preocupado que eu acho que você vai virar um Tio quando crescer"],-1,[-1,[s_linus_casual_playground_idle_1_2],[s_linus_casual_playground_talk_1_2]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["HeeHee!~"],-1,[-1,[s_bunbun_casual_playground_idle_1_13],[s_bunbun_casual_playground_talk_1_13]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Eu penso seriamente nisso, na realiade"],-1,[-1,[s_bunbun_casual_playground_idle_1_5],[s_bunbun_casual_playground_talk_1_5]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Virar um Tio ou um Pai de uma Esperança"],-1,[-1,[s_bunbun_casual_playground_idle_1_5],[s_bunbun_casual_playground_talk_1_5]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_linus,"sprite_index",s_linus_casual_playground_idle_1_1],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_james,["Você se daria bem"],-1,[-1,[s_james_casual_playground_idle_1_5],[s_james_casual_playground_talk_1_5]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_james,"sprite_index",s_james_casual_playground_idle_1_3],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_linus,["Diferente do Tio Antony, você seria um Tio legal!"],-1,[-1,[s_linus_casual_playground_idle_1_2],[s_linus_casual_playground_talk_1_2]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_linus,"sprite_index",s_linus_casual_playground_idle_1_1],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_james,["Definitivamente..."],-1,[-1,[s_james_casual_playground_idle_1_5],[s_james_casual_playground_talk_1_5]],false,false,[0,.2,.25]],
+					[scr_cutscene_variable,variable.normal,o_linus,"sprite_index",s_linus_casual_playground_idle_1_2],
+					[scr_cutscene_variable,variable.normal,o_james,"sprite_index",s_james_casual_playground_idle_1_4],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_bunbun,["Obrigado de verdade! Bom, vou terminar de ver como os outros estão!"],-1,[-1,[s_bunbun_casual_playground_idle_1_13],[s_bunbun_casual_playground_talk_1_13]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_linus,["Vai lá, BunBun!"],-1,[-1,[s_linus_casual_playground_idle_1_4],[s_linus_casual_playground_talk_1_4]],false,false,[0,.2,.25]],
+					[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_james,["Se cuida"],-1,[-1,[s_james_casual_playground_idle_1_5],[s_james_casual_playground_talk_1_5]],false,false,[0,.2,.25]],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_variable,variable.normal,o_james,"sprite_index",s_james_casual_playground_idle_1_1],
+					[scr_cutscene_variable,variable.normal,o_linus,"sprite_index",s_linus_casual_playground_talk_1_1],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"sprite_index",s_bunbun_casual_idle_1_downleft],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_bars,true,false],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"direction",315],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_act_state",ppl_act.play]
+				];
+				complete_cutscene=[
+					[scr_cutscene_bars,true,true],
+					[scr_cutscene_wait,.5],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_to_look_at",o_linus],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_looking_to",true],
+					[scr_cutscene_wait,.5],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Vou deixar eles conversando"]],
+					[scr_cutscene_wait,.5],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_looking_to",false],
+					[scr_cutscene_wait,.5],
+					[scr_cutscene_bars,true,false],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_act_state",ppl_act.play]
+				];
+			}
+			#endregion
+			break;
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_talk_moments",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_talk_moments",
+  "parent":{
+    "name":"moments",
+    "path":"folders/Scripts/people/talk/moments.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

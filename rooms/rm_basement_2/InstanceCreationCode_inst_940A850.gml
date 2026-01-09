@@ -1,0 +1,77 @@
+quest_array=[
+	[0,quest_type.have_item,item.basement_key_1]
+]
+complete_cutscene=[
+	[scr_cutscene_bars,true,true],
+	[scr_cutscene_wait,1],
+	[scr_cutscene_variable,variable.nearst,o_door_1,"open",true,x,y],
+	[scr_cutscene_wait,1],
+	[scr_cutscene_circle_wake_up,true,true,-1,-1,true,false,false,make_color_rgb(36,34,52)],//[scr_cutscene_transition,cutscene_transition_type.bars,true,true,-1,make_color_rgb(36,34,52)],
+	[scr_cutscene_room_goto,rm_basement_4,true,false],
+	[scr_cutscene_variable,variable.normal,o_bunbun,"x",759],
+	[scr_cutscene_variable,variable.normal,o_bunbun,"y",355],
+	[scr_cutscene_refresh_party_member,true],
+	[scr_cutscene_variable,variable.normal,o_camera,"x",759],
+	[scr_cutscene_variable,variable.normal,o_camera,"y",380],
+	[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",false],
+	[scr_cutscene_variable,variable.normal,o_todd,"ppl_flowing",true],
+	[scr_cutscene_wait,1],
+	[scr_cutscene_circle_wake_up,true,true,-1,-1,true,true,false,make_color_rgb(36,34,52)],
+	[scr_cutscene_wait,1],
+	[scr_cutscene_variable,variable.nearst,o_door_1,"open",true,759,380],
+	[scr_cutscene_wait,1],
+	[scr_cutscene_move_character,o_bunbun,759,380,false,1,true,true],
+	[scr_cutscene_refresh_party_member,false],
+	[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",true],
+	[scr_cutscene_wait,1],
+	[scr_cutscene_variable,variable.nearst,o_door_1,"open",false,759,380],
+	[scr_cutscene_wait,1],
+	[scr_cutscene_bars,true,false]
+]
+non_complete_cutscene[0]=[
+	[scr_cutscene_bars,true,true],
+	[scr_cutscene_wait,1],
+	[scr_cutscene_variable,variable.nearst,o_door_1,"open",true,x,y],
+	[scr_cutscene_wait,1],
+	[scr_cutscene_circle_wake_up,true,true,-1,-1,true,false,false,make_color_rgb(36,34,52)],//[scr_cutscene_transition,cutscene_transition_type.bars,true,true,-1,make_color_rgb(36,34,52)],
+	[scr_cutscene_room_goto,rm_basement_4,true,false],
+	[scr_cutscene_variable,variable.normal,o_bunbun,"x",759],
+	[scr_cutscene_variable,variable.normal,o_bunbun,"y",355],
+	[scr_cutscene_refresh_party_member,true],
+	[scr_cutscene_variable,variable.normal,o_camera,"x",759],
+	[scr_cutscene_variable,variable.normal,o_camera,"y",380],
+	[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",false],
+	[scr_cutscene_variable,variable.normal,o_todd,"ppl_flowing",true],
+	[scr_cutscene_wait,1],
+	[scr_cutscene_circle_wake_up,true,true,-1,-1,true,true,false,make_color_rgb(36,34,52)],
+	[scr_cutscene_wait,1],
+	[scr_cutscene_variable,variable.nearst,o_door_1,"open",true,759,380],
+	[scr_cutscene_wait,1],
+	[scr_cutscene_move_character,o_bunbun,759,380,false,1,true,true],
+	[scr_cutscene_refresh_party_member,false],
+	[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",true],
+	[scr_cutscene_wait,1],
+	[scr_cutscene_variable,variable.nearst,o_door_1,"open",false,759,380],
+	[scr_cutscene_wait,1],
+	[scr_cutscene_condition,question.have_person,o_todd,
+		[
+			[
+				[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Hum..."]],
+				[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Talvez tenha algo aqui"]],
+				[scr_cutscene_wait,1],
+				[scr_cutscene_bars,true,false]
+			],
+			[
+				[scr_cutscene_talk,cutscene_talk_mode.normal,o_todd,["Hum..."]],
+				[scr_cutscene_talk,cutscene_talk_mode.normal,o_todd,["Vou buscar por alguma chave por aqui, ok?"]],
+				[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Oh! Tudo bem, Todd..."]],
+				[scr_cutscene_wait,1],
+				[scr_cutscene_variable,variable.normal,o_todd,"ppl_flowing",false],
+				[scr_cutscene_move_character,o_todd,759,550,false,1,true,true],
+				[scr_cutscene_variable,variable.normal,o_todd,"direction",0],
+				[scr_cutscene_wait,1],
+				[scr_cutscene_bars,true,false]
+			]
+		]
+	]
+];

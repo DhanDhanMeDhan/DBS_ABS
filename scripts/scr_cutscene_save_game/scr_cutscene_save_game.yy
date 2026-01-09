@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_cutscene_save_game",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_cutscene_save_game",
+  "parent":{
+    "name":"arg",
+    "path":"folders/Scripts/cutscene/arg.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

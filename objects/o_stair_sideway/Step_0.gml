@@ -1,0 +1,42 @@
+/*
+//event_inherited();
+//============================================================
+//setting the stair
+//============================================================
+#region
+if(instance_exists(o_people)){
+	var _inst=instance_place(x,y,o_people);
+	if(_inst!=noone){
+		if(_inst.z==z){
+			var _len=lengthdir_x(_inst.spd,_inst.direction);
+			if(stair_set_side==stair_side.left){
+				with(_inst){
+					if(x!=xprevious)and(ppl_act_state!=ppl_act.flow){
+						if(place_meeting(x,y-(sign(_len)*2),block)){
+							while(!place_meeting(x,y-(sign(_len)*2),block)){
+								y-=sign(_len);
+							}
+							y-=0;
+						}else{
+							y-=_len;
+						}
+					}
+				}
+			}else{
+				with(_inst){
+					if(x!=xprevious)and(ppl_act_state!=ppl_act.flow){
+						if(place_meeting(x,y+(sign(_len)*2),block)){
+							while(!place_meeting(x,y+(sign(_len)*2),block)){
+								y+=sign(_len);
+							}
+							y+=0;
+						}else{
+							y+=_len;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+#endregion

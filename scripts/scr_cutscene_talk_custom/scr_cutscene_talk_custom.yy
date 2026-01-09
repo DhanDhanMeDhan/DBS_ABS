@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_cutscene_talk_custom",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_cutscene_talk_custom",
+  "parent":{
+    "name":"arg",
+    "path":"folders/Scripts/cutscene/arg.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

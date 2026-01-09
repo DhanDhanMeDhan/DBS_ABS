@@ -1,0 +1,37 @@
+//============================================================
+//creating the arrays
+//============================================================
+#region
+application_surface_draw_enable(false);
+floors=3;
+ds_tld=array_create(4);
+ds_ppl=array_create(3);
+ds_wth=[0,1];
+for(var i=0;i<floors;i++){
+	ds_tld[i]=[[-1,-1],[-1,-1],[-1,-1],[-1,-1],[-1,-1],0];
+	ds_ppl[i]=ds_grid_create(2,0);
+}
+event_perform(ev_other,ev_user0);
+#endregion
+//============================================================
+//setting the alphas
+//============================================================
+#region
+timer=0;
+xscale=irandom_range(-1,1);
+yscale=irandom_range(-1,1);
+graphic_custom_bg=false;
+graphic_color_bg=0;
+graphic_color_lt=0;
+graphic_amount_ppl_focus=0;
+graphic_amount_alp_focus=.05;
+graphic_npc_to_focus=-1;
+graphic_focus_mode=false;
+graphic_show_everything=false;
+graphic_focus_floor=-1;
+graphic_flow_player=true;
+graphic_flow_layer=-1;
+graphic_custom_bg_light_color=-1;
+graphic_custom_nt_light_color=-1;
+graphic_custom_at_light_color=-1;
+#endregion

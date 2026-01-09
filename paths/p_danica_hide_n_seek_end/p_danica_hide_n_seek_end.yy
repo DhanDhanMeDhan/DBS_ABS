@@ -1,0 +1,24 @@
+{
+  "$GMPath":"",
+  "%Name":"p_danica_hide_n_seek_end",
+  "closed":false,
+  "kind":0,
+  "name":"p_danica_hide_n_seek_end",
+  "parent":{
+    "name":"hide_n_seek",
+    "path":"folders/Rutas/hide_n_seek.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":545.0,"y":566.0,},
+    {"speed":100.0,"x":545.0,"y":514.0,},
+    {"speed":100.0,"x":464.0,"y":514.0,},
+    {"speed":100.0,"x":432.0,"y":482.0,},
+    {"speed":100.0,"x":370.0,"y":482.0,},
+    {"speed":100.0,"x":370.0,"y":410.0,},
+    {"speed":100.0,"x":320.0,"y":410.0,},
+    {"speed":100.0,"x":320.0,"y":442.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,188 @@
+non_avaliable_cutscene=[
+	[scr_cutscene_bars,true,true],
+	[scr_cutscene_wait,1],
+	[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",false],
+	[scr_cutscene_move_character,o_bunbun,0,100,true,1,true,true],
+	[scr_cutscene_wait,1],
+	[scr_cutscene_circle_wake_up,true,true,-1,-1,true,false,false,make_color_rgb(36,34,52)],//[scr_cutscene_transition,cutscene_transition_type.bars,true,true,-1,make_color_rgb(36,34,52)],
+	[scr_cutscene_room_goto,rm_corridors,true,false],
+	[scr_cutscene_variable,variable.normal,o_bunbun,"x",1000],
+	[scr_cutscene_variable,variable.normal,o_bunbun,"y",473],
+	[scr_cutscene_refresh_party_member,true],
+	[scr_cutscene_variable,variable.normal,o_camera,"x",1000],
+	[scr_cutscene_variable,variable.normal,o_camera,"y",373],
+	//[setting the camera x]
+	//[setting the camera y]
+	[scr_cutscene_wait,1],
+	[scr_cutscene_circle_wake_up,true,true,-1,-1,true,true,false,make_color_rgb(36,34,52)],
+	[scr_cutscene_wait,1],
+	[scr_cutscene_move_character,o_bunbun,1000,373,false,1,true,true],
+	[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",true],
+	[scr_cutscene_wait,1],
+	[scr_cutscene_bars,true,false]
+];
+#region dia 0
+if(global.event[0][0]==progress.non_complete){
+	#region
+	quest_array=[
+		[0,quest_type.switch_clothes,clothes.casual],
+	];
+	complete_cutscene=[
+		[scr_cutscene_bars,true,true],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",false],
+		[scr_cutscene_move_character,o_bunbun,0,100,true,1,true,true],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_circle_wake_up,true,true,-1,-1,true,false,false,make_color_rgb(36,34,52)],//[scr_cutscene_transition,cutscene_transition_type.bars,true,true,-1,make_color_rgb(36,34,52)],
+		[scr_cutscene_room_goto,rm_corridors,false,true],
+		[scr_cutscene_variable,variable.normal,o_bunbun,"x",1000],
+		[scr_cutscene_variable,variable.normal,o_bunbun,"y",473],
+		[scr_cutscene_refresh_party_member,true],
+		[scr_cutscene_variable,variable.normal,o_camera,"x",320],
+		[scr_cutscene_variable,variable.normal,o_camera,"y",448],
+		[scr_cutscene_audio_play,audio_type.bgm,bgm_002,true,0,1],
+		//[scr_cutscene_variable,variable.normal,o_bunbun,"y",373],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_audio_stop,audio_type.bgm,bgm_002],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_audio_play,audio_type.bgm,bgm_004,true,1,1],
+		[scr_cutscene_instance_create,381,417,"Instances_People_2",o_uncle_antony],
+		[scr_cutscene_animation_sprite,o_uncle_antony,[s_uncle_antony_casual_dinner_idle_0],[s_uncle_antony_casual_dinner_idle_0],false,true,[.2,.2]],
+		[scr_cutscene_circle_wake_up,true,false,608,448,true,true,false,make_color_rgb(36,34,52)],//[scr_cutscene_transition,cutscene_transition_type.bars,true,false,-1,make_color_rgb(36,34,52)],
+		[scr_cutscene_instance_create,1000,373,"Instances_Config",o_breakfast_intro],
+		[scr_cutscene_move_character,o_camera,608,448,false,1,false,false],
+		[scr_cutscene_move_character,o_camera,704,373,false,1,false,false],
+		[scr_cutscene_move_character,o_camera,1000,373,false,1,false,false],
+		//[scr_cutscene_wait,1],
+		[scr_cutscene_move_character,o_bunbun,1000,373,false,1,true,true],
+		[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",true],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_bars,true,false]
+	];
+	non_complete_cutscene[0]=[
+		[scr_cutscene_bars,true,true],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_variable,variable.normal,o_camera,"npc_to_flow",o_todd],
+		[scr_cutscene_wait,.5],
+		[scr_cutscene_variable,variable.normal,o_bunbun,"direction",315],
+		[scr_cutscene_wait,.1],
+		[scr_cutscene_variable,variable.normal,o_bunbun,"direction",0],
+		[scr_cutscene_wait,.1],
+		[scr_cutscene_variable,variable.normal,o_bunbun,"direction",45],
+		[scr_cutscene_wait,.5],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_todd,["BunBun, isso é mais esperado de mim do que de ti...","BunBun, eso es más esperado de mi de que de ti"]],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_todd,["A Mamãe vai brigar contigo se tu for tomar café de pijama","Te regañará Mamá si comes con los pijamas puestos","Mommy will scold you if you eat in pijamas"]],
+		[scr_cutscene_talk_animated,cutscene_talk_mode.normal,o_larry,["Que lindo, eu vivi para ver o Todd dando bronca no BunBun! Meu dia está feito","¡Que bonito, he vivido para ver Todd regañar a BunBun! Mi dia está hecho","What a wonderful day, i lived to see Todd scolding BunBun! My day is made"],-1,[-1,[s_larry_casual_waiting_intro_idle_2],[s_larry_casual_waiting_intro_talk_2]],false,false,[0,.2,.25]],
+		[scr_cutscene_variable,variable.normal,o_larry,"sprite_index",s_larry_casual_waiting_intro_idle_1],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Ok ok... Desculpe...","Vale vale... Perdón","Okay okay... Sorry..."]],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_todd,["Tá tudo bem, BunBun! Apenas vá se trocar","¡No pasa nada, BunBun! Solo cambiate de ropa","That's ok, BunBun! Just change your clothes"]],
+		[scr_cutscene_wait,.5],
+		[scr_cutscene_variable,variable.normal,o_camera,"npc_to_flow",o_bunbun],
+		[scr_cutscene_wait,.5],
+		[scr_cutscene_variable,variable.normal,o_bunbun,"direction",0],
+		[scr_cutscene_wait,.1],
+		[scr_cutscene_variable,variable.normal,o_bunbun,"direction",315],
+		[scr_cutscene_wait,.1],
+		[scr_cutscene_variable,variable.normal,o_bunbun,"direction",270],
+		[scr_cutscene_wait,.5],
+		[scr_cutscene_move_character,o_bunbun,0,-8,true,1,true,false],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_bars,true,false]
+	];
+	#endregion
+}else if(global.event[0][6]==progress.non_complete){
+	#region
+	quest_array=[
+		[0,quest_type.talk_to,o_cutscene_trigger_1],
+	];
+	non_complete_cutscene[0]=[
+		[scr_cutscene_variable,variable.normal,o_cutscene_trigger_1,"ppl_talked",true],
+		[scr_cutscene_bars,true,true],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",false],
+		[scr_cutscene_move_character,o_bunbun,0,100,true,1,true,true],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_circle_wake_up,true,true,-1,-1,true,false,false,make_color_rgb(36,34,52)],//[scr_cutscene_transition,cutscene_transition_type.bars,true,true,-1,make_color_rgb(36,34,52)],
+		[scr_cutscene_room_goto,rm_corridors,false,true],
+		[scr_cutscene_variable,variable.normal,o_bunbun,"x",1000],
+		[scr_cutscene_variable,variable.normal,o_bunbun,"y",473],
+		[scr_cutscene_refresh_party_member,true],
+		[scr_cutscene_variable,variable.normal,o_camera,"x",1000],
+		[scr_cutscene_variable,variable.normal,o_camera,"y",373],
+		[scr_cutscene_set_children],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_circle_wake_up,true,false,608,448,true,true,false,make_color_rgb(36,34,52)],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_move_character,o_bunbun,1000,373,false,1,true,true],
+		[scr_cutscene_variable,variable.normal,o_todd,"ppl_flowing",false],
+		[scr_cutscene_move_character,o_todd,0,-48,true,1,true,true],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_variable,variable.normal,o_todd,"direction",45],
+		[scr_cutscene_wait,.1],
+		[scr_cutscene_variable,variable.normal,o_todd,"direction",0],
+		[scr_cutscene_wait,.1],
+		[scr_cutscene_variable,variable.normal,o_todd,"direction",315],
+		[scr_cutscene_wait,.1],
+		[scr_cutscene_variable,variable.normal,o_todd,"direction",270],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_todd,["BunBun, você tem ideia de onde a Calina possa estar?"]],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Bom... Na realidade não"]],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_todd,["Ah... Tudo bem, vamos procurar ela então"]],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Desculpe"]],
+		[scr_cutscene_talk,cutscene_talk_mode.normal,o_todd,["Tá tudo bem, vamos lá"]],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",true],
+		[scr_cutscene_variable,variable.normal,o_todd,"ppl_flowing",true],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_bars,true,false]
+	];
+	complete_cutscene=[
+		[scr_cutscene_bars,true,true],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",false],
+		[scr_cutscene_move_character,o_bunbun,0,100,true,1,true,true],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_circle_wake_up,true,true,-1,-1,true,false,false,make_color_rgb(36,34,52)],//[scr_cutscene_transition,cutscene_transition_type.bars,true,true,-1,make_color_rgb(36,34,52)],
+		[scr_cutscene_room_goto,rm_corridors,true,false],
+		[scr_cutscene_variable,variable.normal,o_bunbun,"x",1000],
+		[scr_cutscene_variable,variable.normal,o_bunbun,"y",473],
+		[scr_cutscene_refresh_party_member,true],
+		[scr_cutscene_variable,variable.normal,o_camera,"x",1000],
+		[scr_cutscene_variable,variable.normal,o_camera,"y",373],
+		//[setting the camera x]
+		//[setting the camera y]
+		[scr_cutscene_wait,1],
+		[scr_cutscene_circle_wake_up,true,true,-1,-1,true,true,false,make_color_rgb(36,34,52)],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_move_character,o_bunbun,1000,373,false,1,true,true],
+		[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",true],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_bars,true,false]
+	];
+	#endregion
+}else if(global.event[0][9]==progress.non_complete){
+	non_avaliable_cutscene=[
+		[scr_cutscene_bars,true,true],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",false],
+		[scr_cutscene_move_character,o_bunbun,0,100,true,1,true,true],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_circle_wake_up,true,true,-1,-1,true,false,false,make_color_rgb(36,34,52)],//[scr_cutscene_transition,cutscene_transition_type.bars,true,true,-1,make_color_rgb(36,34,52)],
+		[scr_cutscene_room_goto,rm_corridors,true,false],
+		[scr_cutscene_variable,variable.normal,o_bunbun,"x",1000],
+		[scr_cutscene_variable,variable.normal,o_bunbun,"y",473],
+		[scr_cutscene_refresh_party_member,true],
+		[scr_cutscene_variable,variable.normal,o_camera,"x",1000],
+		[scr_cutscene_variable,variable.normal,o_camera,"y",373],
+		[scr_cutscene_variable,variable.nearst,o_door_1,"sprite_index",s_o_tld_door_1_2,304,544],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_circle_wake_up,true,true,-1,-1,true,true,false,make_color_rgb(36,34,52)],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_move_character,o_bunbun,1000,373,false,1,true,true],
+		[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",true],
+		[scr_cutscene_wait,1],
+		[scr_cutscene_bars,true,false]
+	];
+}
+#endregion

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_menu_inventory",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_menu_inventory",
+  "parent":{
+    "name":"menu",
+    "path":"folders/Scripts/config/menu.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

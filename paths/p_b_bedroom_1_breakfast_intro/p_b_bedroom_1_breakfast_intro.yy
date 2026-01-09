@@ -1,0 +1,28 @@
+{
+  "$GMPath":"",
+  "%Name":"p_b_bedroom_1_breakfast_intro",
+  "closed":false,
+  "kind":0,
+  "name":"p_b_bedroom_1_breakfast_intro",
+  "parent":{
+    "name":"breakfast",
+    "path":"folders/Rutas/breakfast.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":518.0,"y":532.0,},
+    {"speed":100.0,"x":518.0,"y":456.0,},
+    {"speed":100.0,"x":476.0,"y":456.0,},
+    {"speed":100.0,"x":462.0,"y":442.0,},
+    {"speed":100.0,"x":312.0,"y":442.0,},
+    {"speed":100.0,"x":312.0,"y":402.0,},
+    {"speed":100.0,"x":376.0,"y":402.0,},
+    {"speed":100.0,"x":376.0,"y":494.0,},
+    {"speed":100.0,"x":432.0,"y":494.0,},
+    {"speed":100.0,"x":464.0,"y":526.0,},
+    {"speed":100.0,"x":612.0,"y":526.0,},
+    {"speed":100.0,"x":612.0,"y":498.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

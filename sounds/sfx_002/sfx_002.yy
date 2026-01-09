@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_002",
+  "audioGroupId":{
+    "name":"audio_SFX",
+    "path":"audiogroups/audio_SFX",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.24,
+  "exportDir":"",
+  "name":"sfx_002",
+  "parent":{
+    "name":"sfx",
+    "path":"folders/Sonidos/sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_002.mp3",
+  "volume":1.0,
+}

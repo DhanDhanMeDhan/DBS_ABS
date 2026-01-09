@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"dag_001",
+  "audioGroupId":{
+    "name":"audio_SFX",
+    "path":"audiogroups/audio_SFX",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.06609977,
+  "exportDir":"",
+  "name":"dag_001",
+  "parent":{
+    "name":"dag",
+    "path":"folders/Sonidos/dag.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"dag_001.wav",
+  "volume":1.0,
+}

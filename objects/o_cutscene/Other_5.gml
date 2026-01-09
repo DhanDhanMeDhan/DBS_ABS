@@ -1,0 +1,1 @@
+if(cutscene_load){save_room();}

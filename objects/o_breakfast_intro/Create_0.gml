@@ -1,0 +1,96 @@
+//============================================================
+//config
+//============================================================
+timer=0;
+current_people=0;
+//============================================================
+//x and y
+//============================================================
+bedroom=[
+	//============================
+	//boy
+	//============================
+	[
+	[888,270],
+	[518,582],
+	[1000,473],
+	],
+	//============================
+	//grirl
+	//============================
+	[
+	[745,270],
+	[667,582],
+	[851,473],
+	],
+	//============================
+	//kids
+	//============================
+	[1032,320],
+];
+//============================================================
+//people control
+//============================================================
+control_people=[
+	[
+		[o_julia,bedroom[2][0],bedroom[2][1],1,p_k_bedroom_breakfast_intro],
+		[o_danica,bedroom[2][0],bedroom[2][1],1.5,p_k_bedroom_breakfast_intro],
+	],
+	[
+		[o_nickolai,bedroom[0][0][0],bedroom[0][0][1],1.5,p_b_bedroom_1_breakfast_intro],
+		[o_larry,bedroom[0][1][0],bedroom[0][1][1],1.5,p_b_bedroom_2_breakfast_intro],
+		[o_linus,bedroom[0][0][0],bedroom[0][0][1],1,p_b_bedroom_3_breakfast_intro],
+		[o_wendy,bedroom[1][0][0],bedroom[1][0][1],1,p_g_bedroom_3_breakfast_intro],
+		[o_jill,bedroom[1][1][0],bedroom[1][1][1],1.5,p_g_bedroom_2_breakfast_intro],
+		[o_boris,bedroom[2][0],bedroom[2][1],1,p_k_bedroom_breakfast_intro],
+		[o_gleb,bedroom[2][0],bedroom[2][1],1.5,p_k_bedroom_breakfast_intro],
+	],
+	[
+		[o_jeyjey,bedroom[0][1][0],bedroom[0][1][1],1,p_b_bedroom_2_breakfast_intro],
+		[o_tomas,bedroom[0][0][0],bedroom[0][0][1],1,p_b_bedroom_3_breakfast_intro],
+		[o_clara,bedroom[1][0][0],bedroom[1][0][1],1.5,p_g_bedroom_3_breakfast_intro],
+		[o_laszlo,bedroom[2][0],bedroom[2][1],1,p_k_bedroom_breakfast_intro],
+		[o_jasenska,bedroom[2][0],bedroom[2][1],1.5,p_k_bedroom_breakfast_intro],
+	],
+	[
+		[o_ksenia,bedroom[2][0],bedroom[2][1],1,p_k_bedroom_breakfast_intro],
+		[o_olivia,bedroom[2][0],bedroom[2][1],1.5,p_k_bedroom_breakfast_intro],
+	],
+	[
+		[o_fritz,bedroom[0][0][0],bedroom[0][0][1],1,p_b_bedroom_1_breakfast_intro],
+		[o_rubbert,bedroom[0][0][0],bedroom[0][0][1],1,p_b_bedroom_3_breakfast_intro],
+		[o_amanda,bedroom[1][0][0],bedroom[1][0][1],1,p_g_bedroom_3_breakfast_intro],
+		[o_nina,bedroom[1][1][0],bedroom[1][1][1],1,p_g_bedroom_2_breakfast_intro],
+		[o_julian,bedroom[2][0],bedroom[2][1],1,p_k_bedroom_breakfast_intro],
+		[o_paxton,bedroom[2][0],bedroom[2][1],1.5,p_k_bedroom_breakfast_intro],
+	],
+	[
+		[o_james,bedroom[0][0][0],bedroom[0][0][1],1,p_b_bedroom_3_breakfast_intro],
+		[o_grettel,bedroom[1][0][0],bedroom[1][0][1],1,p_g_bedroom_3_breakfast_intro],
+		[o_eleanor,bedroom[1][1][0],bedroom[1][1][1],1,p_g_bedroom_2_breakfast_intro],
+		[o_oliver,bedroom[2][0],bedroom[2][1],1,p_k_bedroom_breakfast_intro],
+		[o_sofia,bedroom[2][0],bedroom[2][1],1.5,p_k_bedroom_breakfast_intro],
+	],
+	[
+		[o_hellen,bedroom[1][1][0],bedroom[1][1][1],1,p_g_bedroom_2_breakfast_intro],
+		[o_petter,bedroom[0][0][0],bedroom[0][0][1],1,p_b_bedroom_1_breakfast_intro],
+		[o_vladmir,bedroom[2][0],bedroom[2][1],1,p_k_bedroom_breakfast_intro],
+	],
+	[
+		[o_edgar,bedroom[0][0][0],bedroom[0][0][1],1,p_b_bedroom_1_breakfast_intro],
+		[o_calina,bedroom[1][0][0],bedroom[1][0][1],1,p_g_bedroom_1_breakfast_intro],
+		[o_noah,bedroom[2][0],bedroom[2][1],1,p_k_bedroom_breakfast_intro],
+	],
+	[
+		[o_danya,bedroom[1][0][0],bedroom[1][0][1],1,p_g_bedroom_1_breakfast_intro],
+		[o_lorie,bedroom[2][0],bedroom[2][1],1,p_k_bedroom_breakfast_intro],
+	],
+	[
+		[o_darya,bedroom[1][0][0],bedroom[1][0][1],1,p_g_bedroom_1_breakfast_intro],
+		[o_ophelia,bedroom[2][0],bedroom[2][1],1,p_k_bedroom_breakfast_intro],
+	],
+	[
+		[o_iriya,bedroom[1][0][0],bedroom[1][0][1],1,p_g_bedroom_1_breakfast_intro],
+	],
+	
+];

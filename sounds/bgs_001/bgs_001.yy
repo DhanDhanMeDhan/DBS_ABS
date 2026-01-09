@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"bgs_001",
+  "audioGroupId":{
+    "name":"audio_BGS",
+    "path":"audiogroups/audio_BGS",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.7844445,
+  "exportDir":"",
+  "name":"bgs_001",
+  "parent":{
+    "name":"bgs",
+    "path":"folders/Sonidos/bgs.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"bgs_001.mp3",
+  "volume":1.0,
+}

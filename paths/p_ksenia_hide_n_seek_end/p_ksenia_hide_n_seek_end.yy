@@ -1,0 +1,25 @@
+{
+  "$GMPath":"",
+  "%Name":"p_ksenia_hide_n_seek_end",
+  "closed":false,
+  "kind":0,
+  "name":"p_ksenia_hide_n_seek_end",
+  "parent":{
+    "name":"hide_n_seek",
+    "path":"folders/Rutas/hide_n_seek.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":647.0,"y":561.0,},
+    {"speed":100.0,"x":647.0,"y":526.0,},
+    {"speed":100.0,"x":623.0,"y":502.0,},
+    {"speed":100.0,"x":464.0,"y":502.0,},
+    {"speed":100.0,"x":432.0,"y":470.0,},
+    {"speed":100.0,"x":388.0,"y":470.0,},
+    {"speed":100.0,"x":388.0,"y":404.0,},
+    {"speed":100.0,"x":286.0,"y":404.0,},
+    {"speed":100.0,"x":286.0,"y":442.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

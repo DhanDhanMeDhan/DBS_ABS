@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_talk_iriya",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_talk_iriya",
+  "parent":{
+    "name":"person",
+    "path":"folders/Scripts/people/talk/person.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

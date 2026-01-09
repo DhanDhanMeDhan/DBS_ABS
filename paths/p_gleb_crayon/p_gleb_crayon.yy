@@ -1,0 +1,24 @@
+{
+  "$GMPath":"",
+  "%Name":"p_gleb_crayon",
+  "closed":true,
+  "kind":0,
+  "name":"p_gleb_crayon",
+  "parent":{
+    "name":"crayon",
+    "path":"folders/Rutas/crayon.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":526.0,"y":1594.0,},
+    {"speed":100.0,"x":454.0,"y":1594.0,},
+    {"speed":100.0,"x":436.0,"y":1612.0,},
+    {"speed":100.0,"x":436.0,"y":1646.0,},
+    {"speed":100.0,"x":452.0,"y":1662.0,},
+    {"speed":100.0,"x":526.0,"y":1662.0,},
+    {"speed":100.0,"x":542.0,"y":1646.0,},
+    {"speed":100.0,"x":542.0,"y":1610.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

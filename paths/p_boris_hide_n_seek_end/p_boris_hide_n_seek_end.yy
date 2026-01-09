@@ -1,0 +1,25 @@
+{
+  "$GMPath":"",
+  "%Name":"p_boris_hide_n_seek_end",
+  "closed":false,
+  "kind":0,
+  "name":"p_boris_hide_n_seek_end",
+  "parent":{
+    "name":"hide_n_seek",
+    "path":"folders/Rutas/hide_n_seek.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":659.0,"y":593.0,},
+    {"speed":100.0,"x":659.0,"y":528.0,},
+    {"speed":100.0,"x":639.0,"y":508.0,},
+    {"speed":100.0,"x":464.0,"y":508.0,},
+    {"speed":100.0,"x":432.0,"y":476.0,},
+    {"speed":100.0,"x":402.0,"y":476.0,},
+    {"speed":100.0,"x":402.0,"y":398.0,},
+    {"speed":100.0,"x":304.0,"y":398.0,},
+    {"speed":100.0,"x":304.0,"y":426.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

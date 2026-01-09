@@ -1,0 +1,1 @@
+_words=scr_minigame_love_letter_words();

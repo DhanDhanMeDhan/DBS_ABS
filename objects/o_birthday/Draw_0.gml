@@ -1,0 +1,1 @@
+draw_sprite(s_hud_intro_birthday_bg,ppl_bg,global.cw/2,global.ch/2);

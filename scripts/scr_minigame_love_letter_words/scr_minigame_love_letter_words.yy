@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_minigame_love_letter_words",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_minigame_love_letter_words",
+  "parent":{
+    "name":"love_letter",
+    "path":"folders/Scripts/minigames/love_letter.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
