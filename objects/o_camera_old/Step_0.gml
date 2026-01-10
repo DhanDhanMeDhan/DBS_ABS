@@ -1023,7 +1023,7 @@
 //						[scr_cutscene_remove_party_member,o_hellen],
 //						[scr_cutscene_remove_party_member,o_todd],
 //						[scr_cutscene_new_party_member,o_todd],
-//						[scr_cutscene_sequence_create,story_tell.world_1,sq_world_story],
+//						[scr_cutscene_video,story_tell.world_1,sq_world_story],
 						
 //						[scr_cutscene_bars,true,false]
 //					]
@@ -1105,7 +1105,7 @@
 //		//[scr_cutscene_variable,variable.normal,o_camera,"x",592],
 //		//[scr_cutscene_variable,variable.normal,o_camera,"y",555],
 //		//[scr_cutscene_wait,1],
-//		//[scr_cutscene_sequence_create,story_tell.world_1,sq_world_story],
+//		//[scr_cutscene_video,story_tell.world_1,sq_world_story],
 //	]
 //}
 //if(!instance_exists(o_cutscene))and(_t_cutscene!=-1){

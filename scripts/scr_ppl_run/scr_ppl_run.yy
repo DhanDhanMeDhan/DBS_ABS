@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_ppl_run",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_ppl_run",
+  "parent":{
+    "name":"act",
+    "path":"folders/Scripts/people/act.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

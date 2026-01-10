@@ -1,10 +1,5 @@
-//video========================================================
-moment=-1;
-ppl_array=-1;
-video_string=-1;
-if(video_string!=-1) video=video_open(video_string);
 //cutscene====================================================
-switch moment{
+switch global.story_moment{
 	case story_tell.world_1:
 		#region história do mundo
 			ppl_array=[
@@ -871,6 +866,7 @@ switch moment{
 		break;
 		case story_tell.bunbun_find:
 		#region descoberta do bunbun
+			video_string="bunbun_finding.mp4";
 			if(array_length(global.party)>1){
 				ppl_array=[
 					[o_bunbun,s_bunbun_pijama_idletalk_1_up,657,396,"Instances_People_1"],
@@ -954,7 +950,9 @@ switch moment{
 			#endregion
 		break;
 }
-
+//video========================================================
+video=video_open(video_string);
+video_enable_loop(false)
 //video=video_open("bunbun_finding.mp4");
 //video_enable_loop(false)
 /*

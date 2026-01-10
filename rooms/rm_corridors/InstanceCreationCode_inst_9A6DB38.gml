@@ -332,6 +332,7 @@ switch global.day{
 						[scr_cutscene_room_goto,rm_house_ext_back,false,false],
 						[scr_cutscene_audio_play,audio_type.bgm,bgm_005,true,0,1],
 						[scr_cutscene_set_children],
+						[scr_cutscene_wait,1],
 						//[scr_cutscene_wait,1],
 	
 						//[scr_cutscene_instance_create,1105,1668,"Instances_People_1",o_uncle_bruce],
@@ -386,6 +387,7 @@ switch global.day{
 						[scr_cutscene_set_path,o_todd,p_playground_day_1_1,1.5,path_action_restart,true],
 						[scr_cutscene_set_path,o_nickolai,p_playground_day_1_2,1.5,path_action_restart,true],
 						[scr_cutscene_audio_stop,audio_type.bgm,bgm_005],
+						[scr_cutscene_wait,1],
 						[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",false],
 						[scr_cutscene_variable,variable.normal,o_camera,"x",2300],
 						[scr_cutscene_variable,variable.normal,o_camera,"y",840],
@@ -1500,7 +1502,7 @@ switch global.day{
 				[scr_cutscene_remove_party_member,o_todd],
 				[scr_cutscene_new_party_member,o_todd],
 				[scr_cutscene_wait,2],
-				[scr_cutscene_sequence_create,story_tell.eyecatch_1,sq_eyecatch_1],
+				[scr_cutscene_video,story_tell.eyecatch_1,sq_eyecatch_1],
 				[scr_cutscene_wait,.1],
 			];
 			complete_cutscene=[

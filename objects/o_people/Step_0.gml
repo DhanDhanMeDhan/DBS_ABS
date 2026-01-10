@@ -12,6 +12,7 @@ if(global.pause)or(!window_has_focus()){
 		switch ppl_act_state{
 			case ppl_act.play: direction=scr_ppl_play(spd,direction); break;
 			case ppl_act.flow: direction=scr_ppl_flow(spd,direction); break;
+			case ppl_act.run: scr_ppl_run(); break;
 			case ppl_act.npc: break;
 			case ppl_act.custom: ppl_anm_state=ppl_anm.custom; break;
 		}

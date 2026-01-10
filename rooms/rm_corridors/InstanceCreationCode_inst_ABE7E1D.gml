@@ -328,7 +328,7 @@ switch global.day{
 				[scr_cutscene_circle_wake_up,true,true,-1,-1,true,false,false,make_color_rgb(36,34,52)],
 				[scr_cutscene_wait,1],
 				[scr_cutscene_room_goto,rm_storytelling,false,false],
-				[scr_cutscene_sequence_create,story_tell.fritz_1,sq_fritz_story_1,],
+				[scr_cutscene_video,story_tell.fritz_1,sq_fritz_story_1,],
 				[scr_cutscene_bars,true,false]
 			]
 		}

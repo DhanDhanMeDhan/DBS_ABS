@@ -12,6 +12,7 @@ enum ppl_act{
 	play,
 	flow,
 	npc,
+	run,
 	custom
 }
 ppl_can_play=true;

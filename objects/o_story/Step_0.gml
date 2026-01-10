@@ -1,4 +1,7 @@
+/*
 if(moment==-1){
+	//cutscene=====================================================
+	#region
 	switch moment{
 		case story_tell.world_1:
 			#region história do mundo
@@ -35,6 +38,7 @@ if(moment==-1){
 					[o_uncle_dmitriy,s_uncle_dmitriy_casual_storyteller_idle_1,662,516,"Instances_People_1"],
 					[o_aunt_anzhelika,s_aunt_anzhelika_casual_storyteller_idle_1,692,516,"Instances_People_1"],
 				];
+				#region
 				t_cutscene_play=[
 					[scr_cutscene_reset_all_rooms],
 					[scr_cutscene_circle_wake_up,true,false,592,555,false,false,false,make_color_rgb(36,34,52)],
@@ -599,9 +603,11 @@ if(moment==-1){
 					],
 				];
 				#endregion
+			#endregion
 			break;
 			case story_tell.eyecatch_1:
 			#region eyecatch
+				#region
 				t_cutscene_play=[
 					[scr_cutscene_variable,variable.normal,o_camera,"can_pause",true],
 					[scr_cutscene_reset_all_rooms],
@@ -675,6 +681,7 @@ if(moment==-1){
 					[scr_cutscene_wait,1],
 					[scr_cutscene_bars,true,false],
 				]
+				#endregion
 			#endregion
 			break;
 			case story_tell.fritz_1:
@@ -688,6 +695,7 @@ if(moment==-1){
 					[o_hellen,s_hellen_pijama_idle_storyteller_1,527,486,"Instances_People_2"],
 					[o_fritz,s_fritz_pijama_idle_0_storyteller,479,489,"Instances_People_2"],
 				]
+				#region
 				t_cutscene_play=[
 					[scr_cutscene_wait,1],
 					[scr_cutscene_bars,false,false],
@@ -862,10 +870,12 @@ if(moment==-1){
 					[scr_cutscene_wait,1],
 					[scr_cutscene_bars,true,false],
 				];
+				#endregion
 			#endregion
 			break;
 			case story_tell.bunbun_find:
 			#region descoberta do bunbun
+				video_string="bunbun_finding.mp4";
 				if(array_length(global.party)>1){
 					ppl_array=[
 						[o_bunbun,s_bunbun_pijama_idletalk_1_up,657,396,"Instances_People_1"],
@@ -876,7 +886,7 @@ if(moment==-1){
 						[o_bunbun,s_bunbun_pijama_idletalk_1_up,657,396,"Instances_People_1"],
 					]
 				}
-				sq=sq_bunbun_find;
+				#region
 				t_cutscene_play=[
 					[scr_cutscene_bars,false,true],
 					[scr_cutscene_variable,variable.normal,o_bunbun,"direction",90],
@@ -947,8 +957,36 @@ if(moment==-1){
 					]
 				]
 				#endregion
+			#endregion
 			break;
 	}
+	#endregion
+	//people=======================================================
+	#region
+	if(room==rm_basement_4){
+		global.color=2;
+	}
+	var _ppl_num=array_length(ppl_array);
+	for(var i=0;i<_ppl_num;i++){
+		var _obj=ppl_array[i][0];
+		if(!instance_exists(_obj)){
+			var _xx=ppl_array[i][2];
+			var _yy=ppl_array[i][3];
+			var _spr=ppl_array[i][1];
+			var _lay=ppl_array[i][4];
+			with(instance_create_layer(_xx,_yy,_lay,_obj)){
+				if(_obj==o_bunbun){
+					ppl_can_play=false;
+					global.player=_obj;
+				}
+				ppl_act_state=ppl_act.custom;
+				sprite_index=_spr;
+				image_index=random_range(0,4);
+				image_speed=.2;
+			}
+		}
+	}
+	#endregion
 }
 #region
 /*

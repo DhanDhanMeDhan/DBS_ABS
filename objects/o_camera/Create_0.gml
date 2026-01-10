@@ -191,6 +191,7 @@ enum story_tell{
 	fritz_1,
 	bunbun_find
 }
+global.story_moment=story_tell.world_1;
 global.time=time.day;
 global.place=place.interior;
 #endregion
@@ -224,7 +225,7 @@ global.cam_data={
 #region
 global.player=-1;
 global.party=[
-	[o_bunbun,0],
+	[o_bunbun,0,s_bunbun_casual_walk_1_down],
 ];
 global.pause=false;
 can_pause=false;

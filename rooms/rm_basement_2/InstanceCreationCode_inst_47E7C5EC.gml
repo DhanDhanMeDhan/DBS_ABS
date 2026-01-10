@@ -66,7 +66,7 @@ complete_cutscene=[
 				[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",false],
 				[scr_cutscene_move_character,o_camera,0,100,true,1,false,false],
 				[scr_cutscene_wait,2],
-				[scr_cutscene_move_character,o_camera,0,-100,true,1,false,false],
+				[scr_cutscene_move_character,o_camera,0,-150,true,1,false,false],
 				[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",true],
 				[scr_cutscene_wait,2],
 				[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Um... Longo corredor...."]],
@@ -119,6 +119,8 @@ complete_cutscene=[
 				[scr_cutscene_move_character,o_bunbun,0,8,true,1,true,false],
 				[scr_cutscene_wait,4],
 				[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Correr"]],
+				[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_act_state",ppl_act.run],
+				[scr_cutscene_variable,variable.normal,o_they,"ppl_act_state",ppl_act.run],
 				[scr_cutscene_bars,false,false]
 			],
 			[
