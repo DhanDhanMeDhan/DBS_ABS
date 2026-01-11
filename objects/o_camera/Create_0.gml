@@ -191,7 +191,8 @@ enum story_tell{
 	fritz_1,
 	bunbun_find
 }
-global.story_moment=story_tell.world_1;
+global.story_moment=story_tell.bunbun_find;
+global.story_create=false;
 global.time=time.day;
 global.place=place.interior;
 #endregion
@@ -273,4 +274,8 @@ enum minigame_set{
 }
 #endregion
 #endregion
+//============================================================
+//instances
+//============================================================
 instance_create_layer(x,y,layer,o_graphic);
+//instance_create_layer(x,y,layer,o_video_playback);

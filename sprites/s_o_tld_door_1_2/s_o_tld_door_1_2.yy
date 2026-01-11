@@ -30,7 +30,7 @@
   "origin":7,
   "parent":{
     "name":"obj",
-    "path":"folders/Sprites/tld/obj.yy",
+    "path":"folders/Sprites/tld/obj/obj.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

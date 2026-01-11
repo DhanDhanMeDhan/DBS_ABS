@@ -952,7 +952,7 @@ switch global.story_moment{
 }
 //video========================================================
 video=video_open(video_string);
-video_enable_loop(false)
+video_enable_loop(false);
 //video=video_open("bunbun_finding.mp4");
 //video_enable_loop(false)
 /*

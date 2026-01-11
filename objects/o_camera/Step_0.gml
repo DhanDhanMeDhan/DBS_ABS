@@ -84,7 +84,10 @@ if(can_pause)and(!instance_exists(o_meal)){
 //============================================================
 var _t_cutscene=-1;
 if(keyboard_check_pressed(ord("0"))){
-	instance_create_layer(x,y,layer,o_papers);
+	_t_cutscene=[
+		[scr_cutscene_instance_create,x,y,layer,o_video_playback],
+	]
+	//instance_create_layer(x,y,layer,o_papers);
 }
 if(keyboard_check_pressed(ord("1"))){
 	_t_cutscene=[
