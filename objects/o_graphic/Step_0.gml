@@ -11,12 +11,10 @@ for(var i=0;i<floors;i++){
 		var k=0; repeat _ds_elements_size{
 			if(layer_get_element_type(_ds_elements[k])==layerelementtype_instance){
 				var _inst=layer_instance_get_instance(_ds_elements[k]);
-				if(object_get_parent(_inst.object_index)!=o_light){
 					_inst.z=i+1;
 					_inst.block=asset_get_index("o_block_"+string(i+1))
 					ds_ppl[i][# 0,k]=_inst;
 					ds_ppl[i][# 1,k]=_inst.y;
-				}
 			}
 			k++;
 		}

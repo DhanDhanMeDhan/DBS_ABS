@@ -23,7 +23,7 @@
   ],
   "name":"s_l_light_1",
   "nineSlice":null,
-  "origin":9,
+  "origin":7,
   "parent":{
     "name":"lgt",
     "path":"folders/Sprites/tld/obj/lgt.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":83,
-    "yorigin":85,
+    "yorigin":153,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

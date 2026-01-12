@@ -45,6 +45,10 @@ complete_cutscene=[
 	[scr_cutscene_variable,variable.normal,o_camera,"x",714],
 	[scr_cutscene_variable,variable.normal,o_camera,"y",217],
 	[scr_cutscene_instance_create,547,296,"Instances_People_1",o_they],
+	[scr_cutscene_variable,variable.normal,o_l_basement_light,"light_set_alpha",0],
+	[scr_cutscene_variable,variable.normal,o_graphic,"graphic_color_bg",c_black],
+	[scr_cutscene_variable,variable.normal,o_graphic,"graphic_custom_at_light_color",merge_color(c_white,c_red,.15)],
+	[scr_cutscene_variable,variable.normal,o_graphic,"graphic_custom_bg_light_color",c_red],
 	[scr_cutscene_wait,1],
 	//[setting the camera x]
 	//[setting the camera y]
