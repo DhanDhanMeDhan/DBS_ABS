@@ -169,8 +169,6 @@ if(global.pause)or(!window_has_focus()){
 			case 7: sprite_index=spr_downright; break;
 			default: sprite_index=spr_right; break;
 		}
-	}else{
-		
 	}
 	#endregion
 	#endregion

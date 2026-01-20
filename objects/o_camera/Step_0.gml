@@ -17,8 +17,17 @@ show_debug_overlay(debbug_mode);
 camera_set_view_size(view_camera[0],global.cw,global.ch);
 if(flow_npc){
 	if(npc_to_flow!=-1)and(instance_exists(npc_to_flow)){
-		x=lerp(x,npc_to_flow.x,.05);
-		y=lerp(y,npc_to_flow.y,.05);
+		x=lerp(x,npc_to_flow.x+random_range(-shake_lenght,shake_lenght),.05);
+		y=lerp(y,npc_to_flow.y+random_range(-shake_lenght,shake_lenght),.05);
+	}else{
+		x+=random_range(-shake_lenght,shake_lenght);
+		y+=random_range(-shake_lenght,shake_lenght);
+		if(!continue_shake){
+			shake_time--;
+			if((shake_time)<=0){
+				shake_lenght=0;
+			}
+		}
 	}
 }
 var x1=(o_camera.x-global.cw/2);
@@ -85,7 +94,7 @@ if(can_pause)and(!instance_exists(o_meal)){
 var _t_cutscene=-1;
 if(keyboard_check_pressed(ord("0"))){
 	_t_cutscene=[
-		[scr_cutscene_instance_create,x,y,layer,o_video_playback],
+		[scr_cutscene_instance_create,global.player.x,global.player.y,global.player.layer,o_gratuated],
 	]
 	//instance_create_layer(x,y,layer,o_papers);
 }

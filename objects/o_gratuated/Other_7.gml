@@ -1,0 +1,2 @@
+
+finnished_anim=true;

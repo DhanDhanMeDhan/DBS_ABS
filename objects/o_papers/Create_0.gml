@@ -1,3 +1,4 @@
+visible=false;
 #region
 children_list=[
 	//icone, nome, idade, estado, xx, peso, altura, sangue, genero

@@ -273,6 +273,10 @@ enum minigame_set{
 	save_things
 }
 #endregion
+//sahke=======================================================
+shake_lenght=0;
+shake_time=0;
+continue_shake=false;
 #endregion
 //============================================================
 //instances

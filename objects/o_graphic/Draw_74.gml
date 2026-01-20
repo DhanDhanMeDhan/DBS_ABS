@@ -114,6 +114,7 @@ if(surface_exists(_surf)){
 	if(instance_exists(o_mini_game)) with(o_mini_game){event_perform(ev_draw,ev_gui);}
 	if(instance_exists(o_meal)) with(o_meal){event_perform(ev_draw,ev_gui);}
 	if(instance_exists(o_story)) with(o_story){event_perform(ev_draw,ev_gui);}
+	if(instance_exists(o_papers)) with(o_papers){event_perform(ev_draw,ev_gui);}
 	if(instance_exists(o_pause)) with(o_pause){event_perform(ev_draw,ev_gui);}
 }
 #endregion

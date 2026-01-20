@@ -1,0 +1,32 @@
+event_inherited();
+var spr,tim,spd,spr_num;
+if(current_sprite<array_length(sprites)){
+	spr=sprites[current_sprite][0];
+	tim=sprites[current_sprite][1];
+	spd=sprites[current_sprite][2];
+		if(!finnished_anim){
+			sprite_index=spr;
+			timer=0;
+			ppl_custom_img_spd=spd;
+			image_speed=spd;
+		}else{
+			ppl_custom_img_spd=0;
+			image_speed=0;
+			image_index=sprite_get_number(spr)-1;
+		}
+	
+	if(finnished_anim){
+		timer++;
+		if(timer>=tim*60){
+			if(current_sprite+1<array_length(sprites)){
+				sprite_index=sprites[current_sprite+1][0];
+				image_index=0;
+			}
+			current_sprite++;
+			finnished_anim=false;
+		}
+	}
+}else{
+	image_index=sprite_get_number(s_gratuated_arms_2)-1;
+	image_speed=0;
+}

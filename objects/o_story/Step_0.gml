@@ -1,3 +1,28 @@
+#region
+if(aval){
+	var _ppl_num=array_length(ppl_array);
+	for(var i=0;i<_ppl_num;i++){
+		var _obj=ppl_array[i][0];
+		if(!instance_exists(_obj)){
+			var _xx=ppl_array[i][2];
+			var _yy=ppl_array[i][3];
+			var _spr=ppl_array[i][1];
+			var _lay=ppl_array[i][4];
+			with(instance_create_layer(_xx,_yy,_lay,_obj)){
+				if(_obj==o_bunbun){
+					ppl_can_play=false;
+					global.player=_obj;
+				}
+				ppl_act_state=ppl_act.custom;
+				sprite_index=_spr;
+				image_index=random_range(0,4);
+				image_speed=.2;
+			}
+		}
+	}
+}
+#endregion
+#region
 /*
 if(moment==-1){
 	//cutscene=====================================================

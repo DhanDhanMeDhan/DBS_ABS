@@ -20,7 +20,6 @@ if(show_icon){
 }
 
 scr_inputs();
-if(global.input_cancel) show_icon=false;
 if(global.input_select_up) current_kid--;
 if(global.input_select_down) current_kid++;
 current_kid=clamp(current_kid,0,_kid_num-1)

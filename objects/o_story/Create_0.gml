@@ -1,7 +1,10 @@
+visible=false;
 //cutscene====================================================
+instance_destroy(o_people);
 switch global.story_moment{
 	case story_tell.world_1:
 		#region história do mundo
+			video_string="place_holder.mp4";
 			ppl_array=[
 				[o_bunbun,s_bunbun_casual_idletalk_storyteller,472,590,"Instances_People_1"],
 				[o_edgar,s_edgar_casual_idletalk_storyteller,656,636,"Instances_People_1"],
@@ -35,9 +38,10 @@ switch global.story_moment{
 				[o_uncle_dmitriy,s_uncle_dmitriy_casual_storyteller_idle_1,662,516,"Instances_People_1"],
 				[o_aunt_anzhelika,s_aunt_anzhelika_casual_storyteller_idle_1,692,516,"Instances_People_1"],
 			];
+			aval=true;
 			t_cutscene_play=[
-				[scr_cutscene_reset_all_rooms],
 				[scr_cutscene_circle_wake_up,true,false,592,555,false,false,false,make_color_rgb(36,34,52)],
+				[scr_cutscene_reset_all_rooms],
 				[scr_cutscene_bars,false,true],
 				[scr_cutscene_instance_create,590,508,"Instances_People_1",o_corridor_detail_1_5_1],
 				[scr_cutscene_variable,variable.normal,o_story,"played_cutscene",true],
@@ -602,6 +606,8 @@ switch global.story_moment{
 		break;
 		case story_tell.eyecatch_1:
 		#region eyecatch
+			video_string="place_holder.mp4";
+			aval=true;
 			t_cutscene_play=[
 				[scr_cutscene_variable,variable.normal,o_camera,"can_pause",true],
 				[scr_cutscene_reset_all_rooms],
@@ -679,6 +685,7 @@ switch global.story_moment{
 		break;
 		case story_tell.fritz_1:
 		#region história do Fritz
+			video_string="place_holder.mp4";
 			ppl_array=[
 				[o_bunbun,s_bunbun_pijama_idletalk_storyteller,500,520,"Instances_People_2"],
 				[o_todd,s_todd_pijama_idletalk_storyteller,459,520,"Instances_People_2"],
@@ -687,7 +694,8 @@ switch global.story_moment{
 				[o_petter,s_petter_pijama_storyteller_idle_1_1,431,479,"Instances_People_2"],
 				[o_hellen,s_hellen_pijama_idle_storyteller_1,527,486,"Instances_People_2"],
 				[o_fritz,s_fritz_pijama_idle_0_storyteller,479,489,"Instances_People_2"],
-			]
+			];
+			aval=true;
 			t_cutscene_play=[
 				[scr_cutscene_wait,1],
 				[scr_cutscene_bars,false,false],
@@ -877,6 +885,7 @@ switch global.story_moment{
 					[o_bunbun,s_bunbun_pijama_idletalk_1_up,657,396,"Instances_People_1"],
 				]
 			}
+			aval=true;
 			sq=sq_bunbun_find;
 			t_cutscene_play=[
 				[scr_cutscene_bars,false,true],
