@@ -3,7 +3,7 @@ function scr_cutscene_audio_play(){
 	switch _audio_type{
 		case audio_type.bgm: global.current_bgm=_audio_to_play;_priority=4; break;
 		case audio_type.bgs: global.current_bgs=_audio_to_play;_priority=6; break;
-		case audio_type.sfx: global.current_sfx=_audio_to_play;_priority=8; break;
+		case audio_type.sfx: _priority=8; break;
 	}
 	if(!audio_is_playing(_audio_to_play)){
 		audio_play_sound(_audio_to_play,_priority,argument2);

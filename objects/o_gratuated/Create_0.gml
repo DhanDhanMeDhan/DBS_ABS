@@ -1,4 +1,8 @@
 event_inherited();
+sprite_index=s_gratuated_idle_1;
+ppl_custom_img_spd=0;
+image_speed=0;
+image_index=0;
 ppl_face_portrait=-1;
 ppl_scr_cutscene=-1;
 ppl_name=["?????","?????","?????"];
@@ -77,18 +81,20 @@ spr_pijama_talk_upright=-1;//s_aunt_anzhelika_pijama_idletalk_1_upright;
 #endregion
 #endregion
 
+anim_start=false;
 sprites=[
-	[s_gratuated_knock,1,.2],
-	[s_gratuated_knock,3,.2],
-	[s_gratuated_knock,2,.2],
-	[s_gratuated_knock,1,.2],
-	[s_gratuated_knock,5,.2],
-	[s_gratuated_open,2,.35],
-	[s_gratuated_arms_1,2,.35],
-	[s_gratuated_eyes,2,.35],
-	[s_gratuated_arms_2,2,.45],
+	[s_gratuated_knock,1,.2,sfx_019],
+	[s_gratuated_knock,1,.2,sfx_019],
+	[s_gratuated_knock,1,.2,sfx_019],
+	[s_gratuated_knock,1,.2,sfx_019],
+	[s_gratuated_knock,1,.2,sfx_019],
+	[s_gratuated_open,2,.35,sfx_021],
+	[s_gratuated_arms_1,2,.35,-1],
+	[s_gratuated_eyes,2,.35,-1],
+	[s_gratuated_arms_2,2,.45,sfx_019],
 ];
 finnished_anim=false;
+played_audio=false;
 current_sprite=0;
 timer=0;
 c_timer=0;

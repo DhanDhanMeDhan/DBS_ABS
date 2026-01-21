@@ -15,23 +15,16 @@ show_debug_overlay(debbug_mode);
 //if(global.player!=-1) instance_activate_object(global.player);
 //============================================================
 camera_set_view_size(view_camera[0],global.cw,global.ch);
+
+
 if(flow_npc){
 	if(npc_to_flow!=-1)and(instance_exists(npc_to_flow)){
-		x=lerp(x,npc_to_flow.x+random_range(-shake_lenght,shake_lenght),.05);
-		y=lerp(y,npc_to_flow.y+random_range(-shake_lenght,shake_lenght),.05);
-	}else{
-		x+=random_range(-shake_lenght,shake_lenght);
-		y+=random_range(-shake_lenght,shake_lenght);
-		if(!continue_shake){
-			shake_time--;
-			if((shake_time)<=0){
-				shake_lenght=0;
-			}
-		}
+		x=lerp(x,npc_to_flow.x,.05);
+		y=lerp(y,npc_to_flow.y,.05);
 	}
 }
-var x1=(o_camera.x-global.cw/2);
-var y1=(o_camera.y-global.ch/2);
+var x1=(o_camera.x-global.cw/2)+(random_range(-shake_lenght,shake_lenght));
+var y1=(o_camera.y-global.ch/2)+(random_range(-shake_lenght,shake_lenght));
 x1=clamp(x1,0,room_width-global.cw);
 y1=clamp(y1,0,room_height-global.ch);
 camera_set_view_pos(view_camera[0],x1,y1);
@@ -94,7 +87,7 @@ if(can_pause)and(!instance_exists(o_meal)){
 var _t_cutscene=-1;
 if(keyboard_check_pressed(ord("0"))){
 	_t_cutscene=[
-		[scr_cutscene_instance_create,global.player.x,global.player.y,global.player.layer,o_gratuated],
+		[scr_cutscene_instance_create,global.player.x,global.player.y,global.player.layer,o_quick_time],
 	]
 	//instance_create_layer(x,y,layer,o_papers);
 }

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"bgm_015",
+  "audioGroupId":{
+    "name":"audio_BGM",
+    "path":"audiogroups/audio_BGM",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":18.461588,
+  "exportDir":"",
+  "name":"bgm_015",
+  "parent":{
+    "name":"bgm",
+    "path":"folders/Sonidos/bgm.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"bgm_015.wav",
+  "volume":1.0,
+}

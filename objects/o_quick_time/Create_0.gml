@@ -1,22 +1,24 @@
+sprite_index=s_nothing;
 enum quick_type{
 	spam_press,
 	mult_press
 }
 quicktime_event_type=quick_type.spam_press;
 timer=0;
-quick_button_timer=5;
+quick_button_timer=0;
 quick_button_limit=0;
 quick_button_current=0;
+button_index=-1;
 quick_button_list=[
+	ord("Q"),
 	ord("W"),
+	ord("E"),
 	ord("A"),
 	ord("S"),
 	ord("D"),
-	ord("X"),
 	ord("Z"),
+	ord("X"),
 	ord("C"),
-	ord("Q"),
-	ord("E"),
 	global.input_select_down,
 	global.input_select_up,
 	global.input_select_left,
@@ -27,3 +29,4 @@ quick_button_end=false;
 cutscene_1=-1;
 cutscene_2=-1;
 t_cutscene_play=-1;
+quick_button_start=false;
