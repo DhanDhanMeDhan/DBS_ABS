@@ -47,4 +47,5 @@ if(interact_alpha>0){
 #endregion
 
 draw_set_halign(fa_left);
-draw_text_color(0,150,string(global.color),c_red,c_red,c_red,c_red,1);
+draw_text_color(0,150,string(shake_permit),c_red,c_red,c_red,c_red,1);
+draw_text_color(0,150+16,string(shake_power),c_red,c_red,c_red,c_red,1);

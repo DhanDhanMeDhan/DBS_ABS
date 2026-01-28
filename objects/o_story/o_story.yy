@@ -12,8 +12,8 @@
   "name":"o_story",
   "overriddenProperties":[],
   "parent":{
-    "name":"special_cutscene",
-    "path":"folders/Objetos/cutscene/special_cutscene.yy",
+    "name":"video",
+    "path":"folders/Objetos/cutscene/special_cutscene/video.yy",
   },
   "parentObjectId":null,
   "persistent":false,

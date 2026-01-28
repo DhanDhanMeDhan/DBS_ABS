@@ -16,15 +16,24 @@ show_debug_overlay(debbug_mode);
 //============================================================
 camera_set_view_size(view_camera[0],global.cw,global.ch);
 
-
 if(flow_npc){
 	if(npc_to_flow!=-1)and(instance_exists(npc_to_flow)){
 		x=lerp(x,npc_to_flow.x,.05);
 		y=lerp(y,npc_to_flow.y,.05);
 	}
 }
-var x1=(o_camera.x-global.cw/2)+(random_range(-shake_lenght,shake_lenght));
-var y1=(o_camera.y-global.ch/2)+(random_range(-shake_lenght,shake_lenght));
+
+var xx,yy;
+if(shake_permit){
+	xx=random_range(-shake_power,shake_power);
+	yy=random_range(-shake_power,shake_power);
+}else{
+	xx=0;
+	yy=0;
+}
+
+var x1=((o_camera.x-global.cw/2)+xx);
+var y1=((o_camera.y-global.ch/2)+yy);
 x1=clamp(x1,0,room_width-global.cw);
 y1=clamp(y1,0,room_height-global.ch);
 camera_set_view_pos(view_camera[0],x1,y1);
@@ -44,6 +53,7 @@ if(timer>.5*60){
 //============================================================
 //setting the audio
 //============================================================
+#region
 if(!window_has_focus()){
 	audio_pause_all()
 }else{
@@ -53,6 +63,7 @@ if(!window_has_focus()){
 	if(audio_group_is_loaded(audio_SFX)){audio_group_set_gain(audio_SFX,global.volume_master*global.volume_sfx,0);}else{audio_group_load(audio_SFX);}
 	audio_resume_all()
 }
+#endregion
 //============================================================
 //creating the main menu
 //============================================================

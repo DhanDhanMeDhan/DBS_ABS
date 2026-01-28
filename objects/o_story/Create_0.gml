@@ -958,6 +958,12 @@ switch global.story_moment{
 			]
 			#endregion
 		break;
+		case story_tell.gameover:
+		#region
+		video_string="game_over_animatic_4_1.mp4";
+		aval=false;
+		#endregion
+		break;
 }
 //video========================================================
 video=video_open(video_string);

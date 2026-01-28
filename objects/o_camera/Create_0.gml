@@ -189,7 +189,8 @@ enum story_tell{
 	world_1,
 	eyecatch_1,
 	fritz_1,
-	bunbun_find
+	bunbun_find,
+	gameover,
 }
 global.story_moment=story_tell.bunbun_find;
 global.story_create=false;
@@ -273,10 +274,9 @@ enum minigame_set{
 	save_things
 }
 #endregion
-//sahke=======================================================
-shake_lenght=0;
-shake_time=0;
-continue_shake=false;
+//shake=======================================================
+shake_permit=false;
+shake_power=2;
 #endregion
 //============================================================
 //instances
