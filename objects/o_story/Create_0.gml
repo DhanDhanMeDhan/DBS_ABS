@@ -960,8 +960,120 @@ switch global.story_moment{
 		break;
 		case story_tell.gameover:
 		#region
-		video_string="game_over_animatic_4_1.mp4";
-		aval=false;
+			video_string="game_over_animatic_4_1.mp4";
+			aval=false;
+		#endregion
+		break;
+		case story_tell.bunbun_dream_1:
+		#region sonho do bunbun 1
+			video_string="place_holder.mp4";
+			if(array_length(global.party)>1){
+				ppl_array=[
+					[o_bunbun,s_bunbun_pijama_idle_1_down,731,360,"Instances_People_1"],
+					[o_todd,s_bunbun_pijama_idle_1_down,731,360,"Instances_People_1"],
+					[o_uncle_bruce,s_bunbun_pijama_idle_1_down,731,360,"Instances_People_1"],
+				];
+			}else{
+				ppl_array=[
+					[o_bunbun,s_bunbun_pijama_idle_1_down,731,360,"Instances_People_1"],
+					[o_uncle_bruce,s_bunbun_pijama_idle_1_down,731,360,"Instances_People_1"],
+				];
+			}
+			aval=true;
+			t_cutscene_play=[
+				[scr_cutscene_variable,variable.normal,o_uncle_bruce,"ppl_act_state",ppl_act.npc],
+				[scr_cutscene_variable,variable.normal,o_camera,"shake_permit",false],
+				[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_can_play",true],
+				[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_act_state",ppl_act.play],
+				[scr_cutscene_variable,variable.normal,o_bunbun,"clothe",clothes.pijama],
+				[scr_cutscene_variable,variable.normal,o_todd,"ppl_act_state",ppl_act.flow],
+				[scr_cutscene_variable,variable.normal,o_graphic,"graphic_show_everything",false],
+				[scr_cutscene_new_party_member,o_uncle_bruce],
+				[scr_cutscene_bars,false,true],
+				[scr_cutscene_circle_wake_up,true,true,-1,-1,false,false,false,c_black],
+				[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",false],
+				[scr_cutscene_variable,variable.normal,o_camera,"x",731],
+				[scr_cutscene_variable,variable.normal,o_camera,"y",386],
+				[scr_cutscene_circle_wake_up,true,true,-1,-1,true,true,false,c_black],
+				[scr_cutscene_wait,2],
+				[scr_cutscene_variable,variable.nearst,o_door_1,"open",true,731,386],
+				[scr_cutscene_wait,1],
+				[scr_cutscene_move_character,o_bunbun,731,386,false,1,true,true],
+				[scr_cutscene_wait,.5],
+				[scr_cutscene_refresh_party_member,false],
+				[scr_cutscene_wait,1],
+				[scr_cutscene_variable,variable.nearst,o_door_1,"open",false,731,386],
+				[scr_cutscene_wait,1],
+				[scr_cutscene_variable,variable.normal,o_uncle_bruce,"ppl_flowing",false],
+				[scr_cutscene_variable,variable.normal,o_todd,"ppl_flowing",false],
+				[scr_cutscene_move_character,o_bunbun,-16,0,true,1,true,true],
+				[scr_cutscene_variable,variable.normal,o_bunbun,"direction",0],
+				[scr_cutscene_move_character,o_todd,-(16+24),0,true,1,true,true],
+				[scr_cutscene_variable,variable.normal,o_todd,"direction",0],
+				[scr_cutscene_move_character,o_uncle_bruce,16,0,true,1,true,true],
+				[scr_cutscene_variable,variable.normal,o_uncle_bruce,"direction",180],
+				[scr_cutscene_wait,1],
+				[scr_cutscene_condition,question.have_person,o_todd,
+					[
+						[
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Fico feliz que você esteja bem, BunBun, de verdade..."]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Mas você sabe que não deve descer ai!"]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["O que você foi fazer ai embaixo?!"]],
+							[scr_cutscene_wait,1],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Eu... Eu fiquei... Curioso..."]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["..."]],
+							[scr_cutscene_wait,1],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Curioso com o que?..."]],
+							[scr_cutscene_wait,1],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Curioso com o que, BunBun?..."]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Com o que tinha lá embaixo... Com o porque não podemos descer..."]],
+							[scr_cutscene_wait,1],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["BunBun... Vocês não podem descer lá embaixo por que tem ferramentas e maquinários da casa"]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Você sabe disso... E sabe que isso é perigoso..."]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Desculpe, Tio... Desculpe mesmo..."]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Espero que isso não se repita, BunBun"]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Desculpe..."]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["...."]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Novamente... Só de você estar bem, me deixa feliz..."]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Vamos, vou te levar para o seu quarto, ok?"]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Ah... Tudo bem..."]],
+							[scr_cutscene_wait,1],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["BunBun..."]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Ah, sim?"]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Você..."]],
+							[scr_cutscene_wait,1],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Você viu algo lá embaixo?"]],
+							[scr_cutscene_wait,2],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Não... Eu não vi nada..."]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Tem certeza?"]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Sim, tenho sim, Tio"]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Você não está mentindo, né?"]],
+							//negando com a cabeça
+							[scr_cutscene_wait,1],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Tudo bem"]],
+							[scr_cutscene_wait,1],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Se tu precisar falar algo..."]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Se tu quiser falar sobre qualquer coisa...."]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Saiba que você pode confiar em mim, tudo bem?"]],
+							[scr_cutscene_wait,1],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Tudo bem..."]],
+							[scr_cutscene_wait,1],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Vamos lá..."]],
+							[scr_cutscene_wait,1],
+							[scr_cutscene_variable,variable.normal,o_uncle_bruce,"ppl_flowing",true],
+							[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",true],
+							[scr_cutscene_wait,1],
+							[scr_cutscene_bars,true,false],
+						],
+						[
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Fico feliz que vocês estejam bem, de verdade..."]],
+							[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Mas vocês sabem que não devem descer ai!"]],
+							[scr_cutscene_wait,1],
+							[scr_cutscene_bars,true,false],
+						]
+					]
+				]
+			]
 		#endregion
 		break;
 }

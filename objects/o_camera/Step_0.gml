@@ -4,7 +4,7 @@
 #region
 if(keyboard_check_pressed(vk_f1)){debbug_mode=!debbug_mode;}
 if(debbug_mode){
-
+//cunt
 }
 show_debug_overlay(debbug_mode);
 //instance_deactivate_all(true);

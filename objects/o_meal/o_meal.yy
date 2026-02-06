@@ -10,8 +10,8 @@
   "name":"o_meal",
   "overriddenProperties":[],
   "parent":{
-    "name":"special_cutscene",
-    "path":"folders/Objetos/cutscene/special_cutscene.yy",
+    "name":"others",
+    "path":"folders/Objetos/cutscene/special_cutscene/others.yy",
   },
   "parentObjectId":null,
   "persistent":false,

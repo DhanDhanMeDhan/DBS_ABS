@@ -10,8 +10,8 @@
   "name":"o_hide_n_seek",
   "overriddenProperties":[],
   "parent":{
-    "name":"special_cutscene",
-    "path":"folders/Objetos/cutscene/special_cutscene.yy",
+    "name":"control",
+    "path":"folders/Objetos/cutscene/special_cutscene/control.yy",
   },
   "parentObjectId":null,
   "persistent":true,

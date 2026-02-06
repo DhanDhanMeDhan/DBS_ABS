@@ -1,4 +1,5 @@
 event_inherited();
+ppl_face_icon_idle=s_uncle_bruce_faceicon_idle_1;
 ppl_face_portrait=-1;
 scr_talk_uncle_big_b();
 ppl_name=["Tio Big B.","Tío Big B.","Uncle Big B."];

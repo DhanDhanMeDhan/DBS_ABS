@@ -9,8 +9,8 @@
   "name":"o_breakfast_intro",
   "overriddenProperties":[],
   "parent":{
-    "name":"special_cutscene",
-    "path":"folders/Objetos/cutscene/special_cutscene.yy",
+    "name":"control",
+    "path":"folders/Objetos/cutscene/special_cutscene/control.yy",
   },
   "parentObjectId":null,
   "persistent":false,

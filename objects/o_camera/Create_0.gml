@@ -191,6 +191,7 @@ enum story_tell{
 	fritz_1,
 	bunbun_find,
 	gameover,
+	bunbun_dream_1,
 }
 global.story_moment=story_tell.bunbun_find;
 global.story_create=false;
