@@ -525,6 +525,7 @@
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"bunbun_finding.mp4","CopyToMask":-1,"filePath":"datafiles","name":"bunbun_finding.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"credit.mp4","CopyToMask":-1,"filePath":"datafiles","name":"credit.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"game_over_animatic_4_1.mp4","CopyToMask":-1,"filePath":"datafiles","name":"game_over_animatic_4_1.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"place_holder.mp4","CopyToMask":-1,"filePath":"datafiles","name":"place_holder.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
@@ -712,6 +713,7 @@
     {"id":{"name":"scr_cutscene_audio_play","path":"scripts/scr_cutscene_audio_play/scr_cutscene_audio_play.yy",},},
     {"id":{"name":"scr_cutscene_audio_stop","path":"scripts/scr_cutscene_audio_stop/scr_cutscene_audio_stop.yy",},},
     {"id":{"name":"scr_cutscene_bars","path":"scripts/scr_cutscene_bars/scr_cutscene_bars.yy",},},
+    {"id":{"name":"scr_cutscene_basement_end","path":"scripts/scr_cutscene_basement_end/scr_cutscene_basement_end.yy",},},
     {"id":{"name":"scr_cutscene_block_create","path":"scripts/scr_cutscene_block_create/scr_cutscene_block_create.yy",},},
     {"id":{"name":"scr_cutscene_choice","path":"scripts/scr_cutscene_choice/scr_cutscene_choice.yy",},},
     {"id":{"name":"scr_cutscene_circle_wake_up","path":"scripts/scr_cutscene_circle_wake_up/scr_cutscene_circle_wake_up.yy",},},

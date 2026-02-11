@@ -90,6 +90,26 @@ for(var i=0;i<floors;i++){
 			if(_alpha>0)or(o_graphic.graphic_focus_mode) event_perform(ev_draw,0)
 		}
 	}
+	for(var k=0;k<array_length(ds_lgt[i]);k++){
+		with(ds_lgt[i][k]){
+			switch light_set_type{
+				case light_type.artificial: image_alpha=(_at_light_alpha*light_set_alpha)*_alpha; break;
+				case light_type.natural: image_alpha=(_nt_light_alpha*light_set_alpha)*_alpha; break;
+			}
+			var _a;
+			if(o_graphic.graphic_focus_mode){
+				if(!ppl_focused){
+					_a=_alpha;
+				}else{
+					_a=1;
+				}
+			}else{
+				_a=_alpha;
+			}
+			image_alpha=_a;
+			if(_alpha>0)or(o_graphic.graphic_focus_mode) event_perform(ev_draw,0);
+		}
+	}
 	#endregion
 	//============================================================
 	#region

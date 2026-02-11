@@ -6,10 +6,12 @@ application_surface_draw_enable(false);
 floors=3;
 ds_tld=array_create(4);
 ds_ppl=array_create(3);
+ds_lgt=array_create(3);
 ds_wth=[0,1];
 for(var i=0;i<floors;i++){
 	ds_tld[i]=[[-1,-1],[-1,-1],[-1,-1],[-1,-1],[-1,-1],0];
 	ds_ppl[i]=ds_grid_create(2,0);
+	ds_lgt[i]=array_create(1);
 }
 event_perform(ev_other,ev_user0);
 #endregion
@@ -34,4 +36,5 @@ graphic_flow_layer=-1;
 graphic_custom_bg_light_color=-1;
 graphic_custom_nt_light_color=-1;
 graphic_custom_at_light_color=-1;
+graphic_snow=false;
 #endregion

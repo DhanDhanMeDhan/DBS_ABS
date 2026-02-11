@@ -66,6 +66,7 @@ switch global.day{
 			];
 		}else if(global.event[0][9]==progress.non_complete){
 			non_avaliable_cutscene=[
+				[scr_cutscene_basement_end],
 				[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_talked",true],
 				[scr_cutscene_condition,question.have_person,o_todd,
 					[

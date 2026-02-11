@@ -3,13 +3,12 @@ var _videoStatus=_videoData[0];
 if(_videoStatus==0){
 	draw_surface_ext(_videoData[1],0,0,1,1,0,c_white,1);
 }
-draw_text_colour(0,16,string(_videoData[1]),c_red,c_red,c_red,c_red,1)
 var _status=video_get_status();
 if(global.pause)or(!window_has_focus()){
 	video_pause();	
 }else{
 	if(_status==video_status_closed){
-		if(global.story_moment!=story_tell.gameover){
+		if(global.story_moment!=story_tell.gameover)and(global.story_moment!=story_tell.credit){
 			if(!instance_exists(o_cutscene)){
 				scr_cutscene_create(t_cutscene_play);
 				video_close();
@@ -17,6 +16,17 @@ if(global.pause)or(!window_has_focus()){
 		}else{
 			instance_destroy(o_people);
 			room_goto(rm_main_menu);
+			if(array_length(global.party)>1){
+				o_ending_control.current_ending=end_list.colapse1;
+			}else{
+				o_ending_control.current_ending=end_list.colapse2;
+			}
+			o_camera.shake_permit=false;
+			o_camera.can_pause=false;
+			global.player=-1;
+			global.party=[
+				[o_bunbun,0,s_bunbun_casual_walk_1_down],
+			];
 			global.game_start=false;
 			global.game_load=false;
 			global.game_end=false;

@@ -33,7 +33,7 @@ if(!graphic_custom_bg){
 						_bg_light=c_white;
 						break;
 					case time.night:
-						_c=merge_color(c_dkgray,c_blue,.25);//make_color_rgb(64,51,83);
+						_c=merge_color(c_black,merge_color(c_dkgray,c_blue,.25),.5);//make_color_rgb(64,51,83);
 						_nt_light_alpha=.2;
 						_at_light_alpha=1;
 						_bg_light=_c;
@@ -70,10 +70,13 @@ if(surface_exists(_surf)){
 	surface_set_target(_surf);
 	draw_clear(_c);
 	//============================================================
-	//drawing the people
+	//drawing light and shadow
 	//============================================================
 	if(global.colored){
 		for(var i=0;i<floors;i++){
+			//============================================================
+			//drawing the down light
+			//============================================================
 			var k=0; repeat ds_grid_height(ds_ppl[i]){
 				with(ds_ppl[i][# 0,k]){
 					if(object_get_parent(object_index)==o_light){
@@ -92,6 +95,19 @@ if(surface_exists(_surf)){
 				k++;
 			}
 			//============================================================
+			//drawing the top lights
+			//============================================================
+			#region
+			var _lgt=ds_lgt[i];
+			for(var k=0;k<(array_length(_lgt));k++){
+				with(_lgt[k]){
+					gpu_set_blendmode(bm_add);
+					//draw_sprite_ext(sprite_index,image_index,x-global.cx,y-global.cy,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
+					gpu_set_blendmode(bm_normal);
+				}
+			}
+			#endregion
+			//============================================================
 			//drawing the top
 			//============================================================
 			draw_surface_ext(ds_tld[i][2][0],-global.cx,-global.cy,1,1,0,_c,ds_tld[i][5]);
@@ -104,6 +120,29 @@ if(surface_exists(_surf)){
 	gpu_set_blendmode_ext(bm_dest_color,bm_zero);
 	draw_surface_ext(application_surface,0,0,1,1,0,c_white,1);
 	gpu_set_blendmode(bm_normal);
+	
+	//============================================================
+	//particles
+	//============================================================
+	#region
+	if(graphic_snow){
+		var part_sys=part_system_create();
+		var part_ent=part_type_create();
+		part_type_shape(part_ent,pt_shape_disk);
+		part_type_colour1(part_ent,c_white);
+		var part_siz=random_range(.05,.025);
+		part_type_scale(part_ent,part_siz,part_siz);
+		part_type_life(part_ent,520,520);
+		part_type_direction(part_ent,225,270,0,50);
+		//part_type_gravity(part_ent,.3,270);
+		//part_type_orientation(part_ent,270,270,0,0,0);
+		part_type_speed(part_ent,1,1.5,0,0);
+
+		var xx,yy;
+		xx=random_range(0,global.cw);
+		part_particles_create(part_sys,xx,-10,part_ent,1);
+	}
+	#endregion
 	//============================================================
 	//gui
 	//============================================================
@@ -118,6 +157,7 @@ if(surface_exists(_surf)){
 	if(instance_exists(o_pause)) with(o_pause){event_perform(ev_draw,ev_gui);}
 }
 #endregion
+
 /*
 #region
 draw_set_alpha(1);

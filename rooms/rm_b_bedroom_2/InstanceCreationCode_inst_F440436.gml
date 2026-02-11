@@ -1,6 +1,6 @@
 if(global.event[0][9]==progress.non_complete){
 	quest_array=[
-		[0,quest_type.talk_to,o_todd],
+		[0,quest_type.someone_party,o_todd],
 	];
 	non_complete_cutscene[0]=[
 		[scr_cutscene_bars,true,true],
@@ -15,7 +15,11 @@ if(global.event[0][9]==progress.non_complete){
 					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Acho que eu só estou com a cabeça cheia"]],
 					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Se eu focar em dormir, vai ficar tudo bem!!"]],
 					[scr_cutscene_wait,1],
-					[scr_cutscene_bars,true,false],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Boa noite!!"]],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_circle_wake_up,true,true,-1,-1,true,false,false,c_black],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_video,story_tell.credit],
 				],
 				[
 					[scr_cutscene_wait,2],

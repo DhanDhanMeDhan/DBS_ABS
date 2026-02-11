@@ -7,7 +7,6 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_3688BD69_1","path":"rooms/rm_house_ext_front/rm_house_ext_front.yy",},
-    {"name":"inst_42DC6B35_1","path":"rooms/rm_house_ext_front/rm_house_ext_front.yy",},
     {"name":"inst_133E5342","path":"rooms/rm_house_ext_front/rm_house_ext_front.yy",},
     {"name":"inst_23533DB0","path":"rooms/rm_house_ext_front/rm_house_ext_front.yy",},
     {"name":"inst_2177F86A","path":"rooms/rm_house_ext_front/rm_house_ext_front.yy",},
@@ -91,7 +90,6 @@
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances_Config","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_3688BD69_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3688BD69_1","objectId":{"name":"o_petter","path":"objects/o_petter/o_petter.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":460.0,"y":1532.0,},
-        {"$GMRInstance":"v4","%Name":"inst_42DC6B35_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_42DC6B35_1","objectId":{"name":"o_bunbun","path":"objects/o_bunbun/o_bunbun.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":485.0,"y":1532.0,},
       ],"layers":[],"name":"Instances_Config","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"TLD_Top_1_1_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TLD_Top_1_1_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":116,"SerialiseWidth":87,"TileCompressedData":[
           44,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,

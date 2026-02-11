@@ -10,6 +10,7 @@ non_avaliable_cutscene=[
 	[scr_cutscene_variable,variable.normal,o_bunbun,"x",601],
 	[scr_cutscene_variable,variable.normal,o_bunbun,"y",424],
 	[scr_cutscene_refresh_party_member,true],
+	[scr_cutscene_variable,variable.normal,o_todd,"clothe",clothes.pijama],
 	[scr_cutscene_variable,variable.normal,o_camera,"x",601],
 	[scr_cutscene_variable,variable.normal,o_camera,"y",454],
 	[scr_cutscene_wait,1],

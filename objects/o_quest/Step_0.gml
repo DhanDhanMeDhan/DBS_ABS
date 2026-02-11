@@ -69,7 +69,7 @@ if(quest_index>_max){
 						break;
 					#endregion
 					//============================================================
-					#region
+					#region someone party
 					case quest_type.someone_party:
 						var _person=quest_array[quest_index][2];
 						if(instance_exists(_person)){
@@ -79,6 +79,18 @@ if(quest_index>_max){
 								}
 							}
 						}
+						break;
+					#endregion
+					//============================================================
+					#region end condition
+					case quest_type.end_condition:
+						var _basement=quest_array[quest_index][2];
+						if(o_ending_control.basement_find[global.day][0]){
+							if(o_ending_control.basement_find[global.day][1]==asset_get_index(_basement)){
+								quest_array[quest_index][0]=1;
+							}
+						}
+						break;
 					#endregion
 				}
 			}

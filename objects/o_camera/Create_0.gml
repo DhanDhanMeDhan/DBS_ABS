@@ -192,6 +192,7 @@ enum story_tell{
 	bunbun_find,
 	gameover,
 	bunbun_dream_1,
+	credit,
 }
 global.story_moment=story_tell.bunbun_find;
 global.story_create=false;
@@ -283,4 +284,5 @@ shake_power=2;
 //instances
 //============================================================
 instance_create_layer(x,y,layer,o_graphic);
+instance_create_layer(x,y,layer,o_ending_control);
 //instance_create_layer(x,y,layer,o_video_playback);
