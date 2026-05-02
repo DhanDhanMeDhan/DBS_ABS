@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_o_tld_house_ext_front_3_2",
-    "path":"sprites/s_o_tld_house_ext_front_3_2/s_o_tld_house_ext_front_3_2.yy",
+    "name":"s_oliver_casual_chill_1_idle_0",
+    "path":"sprites/s_oliver_casual_chill_1_idle_0/s_oliver_casual_chill_1_idle_0.yy",
   },
   "spriteMaskId":null,
   "visible":true,

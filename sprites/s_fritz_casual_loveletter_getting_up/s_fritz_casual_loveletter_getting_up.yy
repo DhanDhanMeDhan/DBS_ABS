@@ -33,8 +33,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"loveletter",
-    "path":"folders/Sprites/ppl/children/boys/b_bedroom_1/fritz/extras/loveletter.yy",
+    "name":"talk",
+    "path":"folders/Sprites/ppl/children/boys/b_bedroom_1/fritz/extras/loveletter/talk.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -76,15 +76,33 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bddf1512-0e45-4713-b57e-4e1cd102ba7d","path":"sprites/s_fritz_casual_loveletter_getting_up/s_fritz_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a4e458cb-8636-43ba-b290-ef1711f83411","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b1bed968-1d6b-41dc-b573-1ecb35ce1a73","path":"sprites/s_fritz_casual_loveletter_getting_up/s_fritz_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6bf537fa-9d22-45c7-a554-243fb3466592","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"78390d6d-cc61-42d8-934a-65dcbf860a4f","path":"sprites/s_fritz_casual_loveletter_getting_up/s_fritz_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7c1793e7-cf31-4806-9afa-53766f7b2c15","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d1a997ef-0575-48d5-8f51-e38e5e27d6b7","path":"sprites/s_fritz_casual_loveletter_getting_up/s_fritz_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fcc71e54-807a-4355-81f1-71f92ce00a77","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"eba4aa5f-6d9f-47b6-abd1-20b91ada802e","path":"sprites/s_fritz_casual_loveletter_getting_up/s_fritz_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"459d8dfa-9898-4e1e-8fe9-f4ef259b689f","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c6ab10f5-195f-4564-8163-721f0263da68","path":"sprites/s_fritz_casual_loveletter_getting_up/s_fritz_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a50bed39-b55e-47a2-9cc4-9c4040a57e9b","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0ce0d413-ee74-4a4c-89b5-f529b9122ee8","path":"sprites/s_fritz_casual_loveletter_getting_up/s_fritz_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d4b4cd5c-79c2-4fb2-8f2a-314f8c490719","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8be9312f-fdff-4ba3-9f7f-ff837cff3516","path":"sprites/s_fritz_casual_loveletter_getting_up/s_fritz_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b510cc3d-a1aa-4304-9950-189458939fc4","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"72ff7144-6394-4b3e-aa64-13ba032022f3","path":"sprites/s_fritz_casual_loveletter_getting_up/s_fritz_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ad5932ce-4e79-484f-a912-0f68b7bdcd9a","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bddf1512-0e45-4713-b57e-4e1cd102ba7d","path":"sprites/s_fritz_casual_loveletter_getting_up/s_fritz_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a4e458cb-8636-43ba-b290-ef1711f83411","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b1bed968-1d6b-41dc-b573-1ecb35ce1a73","path":"sprites/s_fritz_casual_loveletter_getting_up/s_fritz_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6bf537fa-9d22-45c7-a554-243fb3466592","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"78390d6d-cc61-42d8-934a-65dcbf860a4f","path":"sprites/s_fritz_casual_loveletter_getting_up/s_fritz_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7c1793e7-cf31-4806-9afa-53766f7b2c15","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d1a997ef-0575-48d5-8f51-e38e5e27d6b7","path":"sprites/s_fritz_casual_loveletter_getting_up/s_fritz_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fcc71e54-807a-4355-81f1-71f92ce00a77","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eba4aa5f-6d9f-47b6-abd1-20b91ada802e","path":"sprites/s_fritz_casual_loveletter_getting_up/s_fritz_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"459d8dfa-9898-4e1e-8fe9-f4ef259b689f","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c6ab10f5-195f-4564-8163-721f0263da68","path":"sprites/s_fritz_casual_loveletter_getting_up/s_fritz_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a50bed39-b55e-47a2-9cc4-9c4040a57e9b","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0ce0d413-ee74-4a4c-89b5-f529b9122ee8","path":"sprites/s_fritz_casual_loveletter_getting_up/s_fritz_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d4b4cd5c-79c2-4fb2-8f2a-314f8c490719","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8be9312f-fdff-4ba3-9f7f-ff837cff3516","path":"sprites/s_fritz_casual_loveletter_getting_up/s_fritz_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b510cc3d-a1aa-4304-9950-189458939fc4","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"72ff7144-6394-4b3e-aa64-13ba032022f3","path":"sprites/s_fritz_casual_loveletter_getting_up/s_fritz_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ad5932ce-4e79-484f-a912-0f68b7bdcd9a","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

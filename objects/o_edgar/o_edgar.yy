@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_petter_pijama_storyteller_idle_1_1",
-    "path":"sprites/s_petter_pijama_storyteller_idle_1_1/s_petter_pijama_storyteller_idle_1_1.yy",
+    "name":"s_edgar_casual_chill_1_idle_1",
+    "path":"sprites/s_edgar_casual_chill_1_idle_1/s_edgar_casual_chill_1_idle_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

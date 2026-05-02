@@ -43,8 +43,7 @@ switch global.day{
 				complete_cutscene=[
 					[scr_cutscene_bars,true,true],
 					[scr_cutscene_wait,1],
-					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Esquece"]],
-					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["O Dhan ainda não terminou essa parte, nem perca seu tempo"]],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"direction",],
 					[scr_cutscene_wait,1],
 					[scr_cutscene_move_character,o_bunbun,0,-8,true,.5,true,false],
 					[scr_cutscene_wait,1],

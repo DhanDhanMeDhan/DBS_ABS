@@ -1,4 +1,4 @@
-var _c0=c_black,_c1=make_color_rgb(232,106,115),_c2=make_color_rgb(245,160,151);
+var _c0=c_black,_c1=make_color_rgb(232,106,115),_c2=make_color_rgb(245,160,151),_c3=c_white;
 draw_sprite_stretched_ext(s_hud_pixel,0,bg_left,0,global.cw,global.ch,c_black,.5);
 draw_sprite_ext(bg_border,0,bg_left+1,global.ch/2,1,1,0,c_white,tx_alpha_1);
 //============================================================
@@ -143,3 +143,125 @@ if(use_config){
 	}
 }
 #endregion
+//============================================================
+//map
+//============================================================
+#region
+if(pause_menu_options[principal_cursor][3]==pause_menu_action.map){
+	var w=sprite_get_width(s_hud_pause_map_bg_1_2),h=sprite_get_height(s_hud_pause_map_bg_1_2)
+	var _ww=(global.cw/2)-(sprite_get_width(s_hud_pause_map_bg_1_1)/2);
+	var _hh=(global.ch/2)-(sprite_get_height(s_hud_pause_map_bg_1_1)/2);
+	if(!surface_exists(surf_map)){
+		surf_map=surface_create(w,h);
+	}else{
+		surface_set_target(surf_map);
+		draw_sprite_ext(s_hud_pause_map_bg_1_2,0,0,0,1,1,0,c_white,1);
+		gpu_set_colourwriteenable(1,1,1,0);
+		draw_sprite_ext(s_hud_pause_map_0,0,map_x_pos,map_y_pos,1,1,0,c_white,1);
+		gpu_set_colourwriteenable(1,1,1,1);
+		surface_reset_target();
+		draw_surface_ext(surf_map,_ww,map_1_yy-(h/2),1,1,0,c_white,map_alp);
+	}
+	draw_sprite_ext(s_hud_pause_map_bg_1_1,0,global.cw/2,map_1_yy,1,1,0,c_white,map_alp);
+	draw_sprite_ext(s_hud_pause_map_bg_2,0,map_2_xx,global.ch/2,1,1,0,c_white,map_alp);
+	var _offset=16;
+	var _h1=sprite_get_height(s_hud_pause_map_bg_3),_h2=sprite_get_height(s_hud_pause_map_bg_4);
+	var xx=sprite_get_width(s_hud_pause_map_bg_3);
+	draw_sprite_ext(s_hud_pause_map_bg_3,0,map_3_xx,map_3_yy,1,1,0,c_white,map_alp);
+	draw_sprite_ext(s_hud_pause_map_bg_4,0,map_3_xx,map_3_yy+_h1+_offset,1,1,0,c_white,map_alp);
+	draw_set_valign(fa_center);
+	draw_set_halign(fa_middle);
+	draw_set_font(fnt_carte);
+	var _text=map_pos_list[pause_menu_level[1][1][1]][2][global.lang];
+	draw_text_colour(map_3_xx,map_3_yy+_h1+_offset+(sprite_get_height(s_hud_pause_map_bg_4)/3),_text,_c1,_c1,_c1,_c1,map_alp);
+	draw_set_valign(fa_top);
+	draw_set_halign(fa_left);
+	draw_sprite_ext(s_hud_pause_map_bg_5,0,map_3_xx,map_3_yy+_h1+_h2+(_offset*2),1,1,0,c_white,map_alp);
+	var txt_size=font_get_size(fnt_carte);
+	var _text=map_pos_list[pause_menu_level[1][1][1]][3][global.lang];
+	draw_text_ext_colour(map_3_xx-70,map_3_yy+_h1+_h2+(_offset*2)+6,_text,16,140,_c1,_c1,_c1,_c1,map_alp);
+}
+#endregion
+//============================================================
+//window
+//============================================================
+#region
+if(window_has_focus()){
+	if(!change_button)and(!exit_question){
+		if(bg_alpha_5>=0){bg_alpha_5-=.025}
+		yy_button=lerp(yy_button,-global.ch,.15);
+	}else{
+		if(bg_alpha_5<=.5){bg_alpha_5+=.025}
+		yy_button=lerp(yy_button,(global.ch/2),.15);
+	}
+}
+var _c0=c_black;
+var _spr=s_hud_main_menu_save_detail_1;
+var _sw=sprite_get_width(_spr),_sh=sprite_get_height(_spr);
+draw_sprite_stretched_ext(s_hud_pixel,0,0,0,global.cw,global.ch,_c0,bg_alpha_5);
+draw_sprite_ext(_spr,0,(global.cw/2)-(_sw/2),yy_button-(_sh/2),1,1,0,c_white,1);
+
+
+var _txt,_str;
+draw_set_valign(fa_middle);
+draw_set_halign(fa_center);
+draw_set_font(global.font_talk);
+if(change_button){
+	switch array_length(global.scr){
+		case 1:	
+			_str=scr_change_button(global.scr);
+			_txt=_str[global.lang];
+			break;
+		case 2:
+			var _and
+			if(global.lang==0){_and=" e ";}
+			if(global.lang==1){_and=" y ";}
+			if(global.lang==2){_and=" and ";}
+			var _f=scr_change_button(global.scr[0]);
+			var _s=scr_change_button(global.scr[1]);
+			_str=_f[global.lang]+_and+_s[global.lang];
+			_txt=_str;
+			break;
+	}
+	draw_text_color(global.cw/2,yy_button,_txt,_c3,_c3,_c3,_c3,1);
+}
+if(exit_question){
+	var _txt=["Deseja voltar para o menu principal?","Deseas volver al menu principal?","Do you want to go back to main menu?"];
+	var _choice=[["Sim","Si","Yes"],["Não","No","No"]];
+	var _w_text=137-16,_h_text=string_height_ext(string(_txt[global.lang])+"\n\nM",global.font_talk_size,_w_text);
+	var _ico_w=sprite_get_width(s_hud_main_menu_cursor_1)
+	var _y_txt=yy_button-global.font_talk_size;
+	draw_text_ext_color(global.cw/2,_y_txt,string(_txt[global.lang])+"\n",global.font_talk_size,_w_text,_c3,_c3,_c3,_c3,1);
+	draw_text_color((global.cw/2)-((_w_text/2)-_ico_w)+24,yy_button+((_h_text)-(global.font_talk_size*3)),_choice[0][global.lang],_c3,_c3,_c3,_c3,1);
+	draw_text_color((global.cw/2)+((_w_text/2)-_ico_w)-24,yy_button+((_h_text)-(global.font_talk_size*3)),_choice[1][global.lang],_c3,_c3,_c3,_c3,1);
+	var _cursor_pose=0;
+	if(pause_menu_level[1][1][0]==1){
+		_cursor_pose=(global.cw/2)+((_w_text/2)-_ico_w)-(string_width(_choice[1][0])+20);
+	}else{
+		_cursor_pose=(global.cw/2)-((_w_text/2)-_ico_w);
+	}
+	draw_sprite_ext(s_hud_main_menu_cursor_1,0,_cursor_pose,yy_button+((_h_text)-(global.font_talk_size*3)),1,1,0,c_white,1);
+	//s_hud_main_menu_cursor_1
+	//var _wh_s_hud_confirm=sprite_get_height(s_hud_main_menu_save_detail_1),_ww_s_hud_confirm=sprite_get_width(s_hud_main_menu_save_detail_1);
+	//var _wh_confirm=global.ch-_wh_s_hud_confirm,_ww_confirm=global.cw-_ww_s_hud_confirm;
+	//var _yy_confirm_pos=_wh_confirm/2,_xx_confirm_pos=_ww_confirm/2;
+	//var _choice=[["Sim","Si","Yes"],["Não","No","No"]];
+	//var _txt=["Deseja voltar para o menu principal?","Deseas volver al menu principal?","Do you want to go back to main menu?"];
+	//draw_text_ext_color(_xx_confirm_pos+(_ww_s_hud_confirm/3),yy_button-((_wh_s_hud_confirm/3)*2),_choice[0][global.lang],global.font_talk_size,137-16,_c3,_c3,_c3,_c3,1);
+	//draw_text_ext_color(_xx_confirm_pos+((_ww_s_hud_confirm/3)*2),yy_button-((_wh_s_hud_confirm/3)*2),_choice[1][global.lang],global.font_talk_size,137-16,_c3,_c3,_c3,_c3,1);
+	//draw_text_ext_color(_xx_confirm_pos+(_ww_s_hud_confirm/2),yy_button-(_wh_s_hud_confirm/3)+global.font_talk_size,_txt[global.lang],global.font_talk_size,137-16,_c3,_c3,_c3,_c3,1);
+}
+#endregion
+//============================================================
+//primordial black
+//============================================================
+#region
+draw_sprite_ext(s_hud_pixel,0,0,0,global.cw,global.ch,0,c_black,bg_alpha_6);
+#endregion
+
+
+draw_text_colour(50,50,string(menu_next_level),c_red,c_red,c_red,c_red,1);
+draw_text_colour(50,50+16,string(pause_menu_index),c_red,c_red,c_red,c_red,1);
+draw_text_colour(50,50+32,string(use_config),c_red,c_red,c_red,c_red,1);
+draw_text_colour(50,50+48,string(exit_question),c_red,c_red,c_red,c_red,1);
+draw_text_colour(50,50+64,string(pause_menu_level[1][1][0]),c_red,c_red,c_red,c_red,1);

@@ -35,8 +35,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"love_letter",
-    "path":"folders/Sprites/ppl/children/girls/g_bedroom_2/hellen/extras/love_letter.yy",
+    "name":"letter",
+    "path":"folders/Sprites/ppl/children/girls/g_bedroom_2/hellen/extras/love_letter/confession/letter.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -78,17 +78,39 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"456e316c-1804-4e24-81ca-ce1673bc6dc7","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"03f7d74c-97ea-4c38-b84d-5900b000c862","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d24e6005-1402-4912-bf5c-d8adc79dbce0","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c1016c62-b461-436c-ba30-19f2a47bd34a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"125a585e-dd41-4524-a436-b9eca6c4cb4c","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7f19dfe9-458e-4185-9524-a87d41743557","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1f2656f7-b247-49a7-b0da-9dfd9d218f67","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c2f2a7e5-ea78-405d-b1cc-d17e2d610060","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e275adfc-2f45-4b12-b1f4-1a536185a062","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"baa39a47-9122-4a53-abef-30afcc189a18","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac474026-0d7f-4894-9a40-49a5a74ec4cd","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5fada2cf-b052-49c2-a026-f12538a166cc","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"00e02130-91b4-4e65-9aeb-e815656d8545","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"685fa83a-6d92-4ccc-892a-f8cd75c8d805","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"25e51f7a-2c31-4e29-8442-385993c06fba","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7768698c-767b-4515-930f-437ad35d6570","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a45b84ab-aff2-43e7-8714-061c2ebb64f2","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"10e489cd-ac57-4907-9190-f212ec81e9c9","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3c1d10d0-2daf-4ede-b899-8c9fc98b6b08","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b200114c-7d1d-4c9e-9ca1-059952c6aac8","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"734506b2-eae4-4df5-9a76-151a6607f1de","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"bc5d7eb1-17bc-46b6-ad62-377d69901e2a","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"456e316c-1804-4e24-81ca-ce1673bc6dc7","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"03f7d74c-97ea-4c38-b84d-5900b000c862","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d24e6005-1402-4912-bf5c-d8adc79dbce0","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c1016c62-b461-436c-ba30-19f2a47bd34a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"125a585e-dd41-4524-a436-b9eca6c4cb4c","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7f19dfe9-458e-4185-9524-a87d41743557","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1f2656f7-b247-49a7-b0da-9dfd9d218f67","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c2f2a7e5-ea78-405d-b1cc-d17e2d610060","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e275adfc-2f45-4b12-b1f4-1a536185a062","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"baa39a47-9122-4a53-abef-30afcc189a18","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac474026-0d7f-4894-9a40-49a5a74ec4cd","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5fada2cf-b052-49c2-a026-f12538a166cc","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"00e02130-91b4-4e65-9aeb-e815656d8545","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"685fa83a-6d92-4ccc-892a-f8cd75c8d805","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"25e51f7a-2c31-4e29-8442-385993c06fba","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7768698c-767b-4515-930f-437ad35d6570","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a45b84ab-aff2-43e7-8714-061c2ebb64f2","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"10e489cd-ac57-4907-9190-f212ec81e9c9","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3c1d10d0-2daf-4ede-b899-8c9fc98b6b08","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b200114c-7d1d-4c9e-9ca1-059952c6aac8","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"734506b2-eae4-4df5-9a76-151a6607f1de","path":"sprites/s_hellen_casual_loveletter_getting_up/s_hellen_casual_loveletter_getting_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bc5d7eb1-17bc-46b6-ad62-377d69901e2a","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

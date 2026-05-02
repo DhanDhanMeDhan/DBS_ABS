@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_ksenia_casual_idle_1_down",
-    "path":"sprites/s_ksenia_casual_idle_1_down/s_ksenia_casual_idle_1_down.yy",
+    "name":"s_ksenia_casual_dinner_idle_1",
+    "path":"sprites/s_ksenia_casual_dinner_idle_1/s_ksenia_casual_dinner_idle_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

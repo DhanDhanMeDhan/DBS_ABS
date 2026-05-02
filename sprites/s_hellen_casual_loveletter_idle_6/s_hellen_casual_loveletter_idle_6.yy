@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"love_letter",
-    "path":"folders/Sprites/ppl/children/girls/g_bedroom_2/hellen/extras/love_letter.yy",
+    "name":"letter",
+    "path":"folders/Sprites/ppl/children/girls/g_bedroom_2/hellen/extras/love_letter/confession/letter.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -71,10 +71,18 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"02501aac-6855-4e9a-824b-d4f0cf504211","path":"sprites/s_hellen_casual_loveletter_idle_6/s_hellen_casual_loveletter_idle_6.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fe4b46ac-02f7-45b0-b606-28a674f461a6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f5ef6de0-167f-4a9c-9f4a-2e1fa4f1b18c","path":"sprites/s_hellen_casual_loveletter_idle_6/s_hellen_casual_loveletter_idle_6.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"390bd79d-b4da-410c-8945-8f36ff492451","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bca7c040-a3ba-4ee0-bab7-bad76f3123be","path":"sprites/s_hellen_casual_loveletter_idle_6/s_hellen_casual_loveletter_idle_6.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5a37624c-dabf-419d-ba1f-f8aa557f3371","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c7632d85-bfca-4ded-8e3a-635f2498d327","path":"sprites/s_hellen_casual_loveletter_idle_6/s_hellen_casual_loveletter_idle_6.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f9bfa2d4-638f-43e0-a461-3007b9d97a94","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"02501aac-6855-4e9a-824b-d4f0cf504211","path":"sprites/s_hellen_casual_loveletter_idle_6/s_hellen_casual_loveletter_idle_6.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fe4b46ac-02f7-45b0-b606-28a674f461a6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f5ef6de0-167f-4a9c-9f4a-2e1fa4f1b18c","path":"sprites/s_hellen_casual_loveletter_idle_6/s_hellen_casual_loveletter_idle_6.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"390bd79d-b4da-410c-8945-8f36ff492451","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bca7c040-a3ba-4ee0-bab7-bad76f3123be","path":"sprites/s_hellen_casual_loveletter_idle_6/s_hellen_casual_loveletter_idle_6.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5a37624c-dabf-419d-ba1f-f8aa557f3371","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c7632d85-bfca-4ded-8e3a-635f2498d327","path":"sprites/s_hellen_casual_loveletter_idle_6/s_hellen_casual_loveletter_idle_6.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f9bfa2d4-638f-43e0-a461-3007b9d97a94","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

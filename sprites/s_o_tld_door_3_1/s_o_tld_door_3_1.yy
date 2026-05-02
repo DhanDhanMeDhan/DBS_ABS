@@ -27,7 +27,7 @@
   ],
   "name":"s_o_tld_door_3_1",
   "nineSlice":null,
-  "origin":7,
+  "origin":9,
   "parent":{
     "name":"obj",
     "path":"folders/Sprites/tld/obj/obj.yy",
@@ -94,7 +94,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":19,
-    "yorigin":106,
+    "yorigin":88,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

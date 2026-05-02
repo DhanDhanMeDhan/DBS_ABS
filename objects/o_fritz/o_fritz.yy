@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_fritz_pijama_idle_0_storyteller",
-    "path":"sprites/s_fritz_pijama_idle_0_storyteller/s_fritz_pijama_idle_0_storyteller.yy",
+    "name":"s_fritz_casual_loveletter_confession_idle_1",
+    "path":"sprites/s_fritz_casual_loveletter_confession_idle_1/s_fritz_casual_loveletter_confession_idle_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

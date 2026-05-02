@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_sofia_casual_idle_1_down",
-    "path":"sprites/s_sofia_casual_idle_1_down/s_sofia_casual_idle_1_down.yy",
+    "name":"s_sofia_casual_chill_1_idle_0",
+    "path":"sprites/s_sofia_casual_chill_1_idle_0/s_sofia_casual_chill_1_idle_0.yy",
   },
   "spriteMaskId":null,
   "visible":true,

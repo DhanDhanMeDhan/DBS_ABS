@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_julian_casual_crayon_idle_1",
-    "path":"sprites/s_julian_casual_crayon_idle_1/s_julian_casual_crayon_idle_1.yy",
+    "name":"s_julian_casual_dinner_idle_1",
+    "path":"sprites/s_julian_casual_dinner_idle_1/s_julian_casual_dinner_idle_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

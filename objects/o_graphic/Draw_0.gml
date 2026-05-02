@@ -70,10 +70,10 @@ for(var i=0;i<floors;i++){
 	for(var k=0;k<ds_grid_height(ds_ppl[i]);k++){
 		with(ds_ppl[i][# 0,k]){
 			if(object_get_parent(object_index)==o_light){
-				switch light_set_type{
-					case light_type.artificial: image_alpha=(_at_light_alpha*light_set_alpha)*_alpha; break;
-					case light_type.natural: image_alpha=(_nt_light_alpha*light_set_alpha)*_alpha; break;
-				}
+					switch light_set_type{
+						case light_type.artificial: image_alpha=(_at_light_alpha*light_set_alpha)*_alpha; break;
+						case light_type.natural: image_alpha=(_nt_light_alpha*light_set_alpha)*_alpha; break;
+					}
 			}else{
 				var _a;
 				if(o_graphic.graphic_focus_mode){

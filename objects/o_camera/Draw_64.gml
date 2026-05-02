@@ -45,3 +45,33 @@ if(interact_alpha>0){
 	}
 }
 #endregion
+//============================================================
+//drawing the interaction
+//============================================================
+#region
+/*
+var _ww=(global.cw/2)-(sprite_get_width(s_hud_pause_map_bg_1_1)/2);
+var _hh=(global.ch/2)-(sprite_get_height(s_hud_pause_map_bg_1_1)/2);
+var surf=surface_create(sprite_get_width(s_hud_pause_map_bg_1_2),sprite_get_height(s_hud_pause_map_bg_1_2));
+if(surface_exists(surf)){
+	surface_set_target(surf);
+	draw_sprite_ext(s_hud_pause_map_bg_1_2,0,0,0,1,1,0,c_white,1);
+	gpu_set_colourwriteenable(1,1,1,0);
+	draw_sprite_ext(s_hud_pause_map_0,0,0,0,1,1,0,c_white,1);
+	gpu_set_colourwriteenable(1,1,1,1);
+	surface_reset_target();
+	draw_surface_ext(surf,_ww,_hh,1,1,0,c_white,1);
+}else{
+	surf=surface_create(sprite_get_width(s_hud_pause_map_bg_1_2),sprite_get_height(s_hud_pause_map_bg_1_2));
+}
+
+draw_sprite_ext(s_hud_pause_map_bg_1_1,0,global.cw/2,global.ch/2,1,1,0,c_white,1);
+draw_sprite_ext(s_hud_pause_map_bg_2,0,_ww/2,global.ch/2,1,1,0,c_white,1);
+
+var _offset=16;
+var _hh=((global.ch)-(sprite_get_height(s_hud_pause_map_bg_3)+sprite_get_height(s_hud_pause_map_bg_4)+sprite_get_height(s_hud_pause_map_bg_5)+(_offset*2)))/2;
+draw_sprite_ext(s_hud_pause_map_bg_3,0,global.cw-(_ww/2),_hh,1,1,0,c_white,1);
+draw_sprite_ext(s_hud_pause_map_bg_4,0,global.cw-(_ww/2),_hh+sprite_get_height(s_hud_pause_map_bg_3)+_offset,1,1,0,c_white,1);
+draw_sprite_ext(s_hud_pause_map_bg_5,0,global.cw-(_ww/2),_hh+sprite_get_height(s_hud_pause_map_bg_3)+sprite_get_height(s_hud_pause_map_bg_4)+(_offset*2),1,1,0,c_white,1);
+*/
+#endregion

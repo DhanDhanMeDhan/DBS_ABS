@@ -15,7 +15,7 @@ non_avaliable_cutscene=[
 	//[setting the camera y]
 	[scr_cutscene_circle_wake_up,true,true,-1,-1,true,true,false,make_color_rgb(36,34,52)],
 	[scr_cutscene_wait,1],
-	[scr_cutscene_move_character,o_bunbun,723,488,false,true,false],
+	[scr_cutscene_move_character,o_bunbun,723,488,false,1,true,true],
 	[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",true],
 	[scr_cutscene_wait,1],
 	[scr_cutscene_bars,true,false]
@@ -302,7 +302,7 @@ switch global.day{
 				[scr_cutscene_variable,variable.normal,o_camera,"y",488],
 				[scr_cutscene_circle_wake_up,true,true,-1,-1,true,true,false,make_color_rgb(36,34,52)],
 				[scr_cutscene_wait,1],
-				[scr_cutscene_move_character,o_bunbun,723,488,false,true,false],
+				[scr_cutscene_move_character,o_bunbun,723,488,false,1,true,true],
 				[scr_cutscene_variable,variable.normal,o_linus,"ppl_flowing",false],
 				[scr_cutscene_move_character,o_linus,-64,-32,true,1,true,true],
 				[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",true],
@@ -379,7 +379,28 @@ switch global.day{
 				[scr_cutscene_wait,1],
 				[scr_cutscene_bars,true,false]
 			];
-			complete_cutscene=[];
+			complete_cutscene=[
+				[scr_cutscene_bars,true,true],
+				[scr_cutscene_wait,1],
+				[scr_cutscene_variable,variable.nearst,o_door_3,"open",true,594,406],
+				[scr_cutscene_wait,1],
+				[scr_cutscene_circle_wake_up,true,true,-1,-1,true,false,false,make_color_rgb(36,34,52)],//[scr_cutscene_transition,cutscene_transition_type.bars,true,true,-1,make_color_rgb(36,34,52)],
+				[scr_cutscene_room_goto,rm_bathroom_1,true,false],
+				[scr_cutscene_variable,variable.normal,o_bunbun,"x",813],
+				[scr_cutscene_variable,variable.normal,o_bunbun,"y",542],
+				[scr_cutscene_refresh_party_member,true],
+				[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",false],
+				[scr_cutscene_variable,variable.normal,o_camera,"x",723],
+				[scr_cutscene_variable,variable.normal,o_camera,"y",488],
+				//[setting the camera x]
+				//[setting the camera y]
+				[scr_cutscene_circle_wake_up,true,true,-1,-1,true,true,false,make_color_rgb(36,34,52)],
+				[scr_cutscene_wait,1],
+				[scr_cutscene_move_character,o_bunbun,723,488,false,1,true,true],
+				[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",true],
+				[scr_cutscene_wait,1],
+				[scr_cutscene_bars,true,false]
+			];
 			#endregion
 		}
 		break;

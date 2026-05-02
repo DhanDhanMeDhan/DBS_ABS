@@ -9,7 +9,8 @@ enum quest_type{
 	go_to,
 	someone_exist,
 	someone_party,
-	end_condition
+	end_condition,
+	hide_n_seek
 }
 quest_array=[[-1,-1,-1]];
 quest_index=0;

@@ -4,6 +4,7 @@ if(global.event[0][2]==progress.non_complete){
 	]
 	complete_cutscene=[];
 	non_complete_cutscene[0]=[
+		[scr_cutscene_variable,variable.normal,o_olivia,"ppl_talked",true],
 		[scr_cutscene_bars,true,true],
 		[scr_cutscene_wait,1],
 		[scr_cutscene_move_character,o_bunbun,584,362,false,1,true,true],
@@ -48,7 +49,7 @@ if(global.event[0][2]==progress.non_complete){
 		[scr_cutscene_variable,variable.normal,o_olivia,"ppl_talked",true],
 		[scr_cutscene_wait,1],
 		[scr_cutscene_instance_destroy,o_olivia],
-		[scr_cutscene_instance_destroy_nearst,x,y,o_cutscene_trigger_3],
+		//[scr_cutscene_instance_destroy_nearst,x,y,o_cutscene_trigger_3],
 		[scr_cutscene_circle_wake_up,true,true,-1,-1,true,true,false,make_color_rgb(36,34,52)],
 		[scr_cutscene_wait,1],
 		[scr_cutscene_variable,variable.normal,o_bunbun,"direction",0],

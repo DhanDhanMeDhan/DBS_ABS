@@ -2,28 +2,30 @@
 //checking if _cnf exists
 //============================================================
 #region
-var _ach="cnf.dat";
-var _lng=0;
-var _mst=1;
-var _bgm=1;
-var _bgs=1;
-var _sfx=1;
-var _scr=1;
-var _res=0;
-var _ppr=0;
-var _up1=ord("W");
-var _up2=vk_up;
-var _dw1=ord("S");
-var _dw2=vk_down;
-var _lt1=ord("A");
-var _lt2=vk_left;
-var _rt1=ord("D");
-var _rt2=vk_right;
-var _cn1=vk_end;
-var _cn2=ord("X");
-var _cm1=vk_enter;
-var _cm2=vk_space;
-var _ps=vk_escape;
+
+	var _ach="cnf.dat";
+	var _lng=0;
+	var _mst=1;
+	var _bgm=1;
+	var _bgs=1;
+	var _sfx=1;
+	var _scr=1;
+	var _res=0;
+	var _ppr=0;
+	var _up1=ord("W");
+	var _up2=vk_up;
+	var _dw1=ord("S");
+	var _dw2=vk_down;
+	var _lt1=ord("A");
+	var _lt2=vk_left;
+	var _rt1=ord("D");
+	var _rt2=vk_right;
+	var _cn1=vk_end;
+	var _cn2=ord("X");
+	var _cm1=vk_enter;
+	var _cm2=vk_space;
+	var _ps=vk_escape;
+
 if(file_exists(_ach)){
 	ini_open(_ach);
 	//============================================================

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_gleb_casual_crayon_idle_1",
-    "path":"sprites/s_gleb_casual_crayon_idle_1/s_gleb_casual_crayon_idle_1.yy",
+    "name":"s_gleb_casual_dinner_idle_1",
+    "path":"sprites/s_gleb_casual_dinner_idle_1/s_gleb_casual_dinner_idle_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

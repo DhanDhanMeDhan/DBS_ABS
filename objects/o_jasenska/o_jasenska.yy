@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_o_tld_house_ext_front_3_6",
-    "path":"sprites/s_o_tld_house_ext_front_3_6/s_o_tld_house_ext_front_3_6.yy",
+    "name":"s_jasenska_casual_dinner_idle_1",
+    "path":"sprites/s_jasenska_casual_dinner_idle_1/s_jasenska_casual_dinner_idle_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -190,7 +190,7 @@ switch global.story_moment{
 				[scr_cutscene_wait,2],
 				[scr_cutscene_circle_wake_up,true,false,592,555,true,false,false,make_color_rgb(36,34,52)],
 				[scr_cutscene_wait,1],
-				[scr_cutscene_variable,variable.global,"dinner_moment",0],
+				[scr_cutscene_variable,variable.global,-1,"dinner_moment",1],
 				[scr_cutscene_variable,variable.normal,o_camera,"interact_set",false],
 				[scr_cutscene_variable,variable.normal,o_camera,"can_pause",false],
 				[scr_cutscene_instance_create,0,0,"Instances_Config",o_meal],
@@ -607,7 +607,11 @@ switch global.story_moment{
 		case story_tell.eyecatch_1:
 		#region eyecatch
 			video_string="place_holder.mp4";
-			aval=true;
+			aval=false;
+			ppl_array=[
+				[o_bunbun,s_bunbun_pijama_idle_1_down,547,403,"Instances_People_2"],
+				[o_todd,s_bunbun_pijama_idle_1_down,588,402,"Instances_People_2"],
+			]
 			t_cutscene_play=[
 				[scr_cutscene_variable,variable.normal,o_camera,"can_pause",true],
 				[scr_cutscene_reset_all_rooms],

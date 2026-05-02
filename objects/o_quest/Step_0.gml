@@ -92,6 +92,22 @@ if(quest_index>_max){
 						}
 						break;
 					#endregion
+					//============================================================
+					#region hide end seek
+					case quest_type.hide_n_seek:
+						if(instance_exists(o_hide_n_seek)){
+						var _child=quest_array[quest_index][2];
+							var _size=array_length(o_hide_n_seek.children_playing);
+							for(var i=0;i<_size;i++){
+								if(o_hide_n_seek.children_playing[i][0]==_child){
+									if(o_hide_n_seek.children_playing[i][1]){
+										quest_array[quest_index][0]=1;
+									}
+								}
+							}
+						}
+						break;
+					#endregion
 				}
 			}
 			break;

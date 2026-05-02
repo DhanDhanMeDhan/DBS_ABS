@@ -28,10 +28,27 @@ switch global.day{
 				[false,434,420,"Instances_People_1",ppl_act.custom,o_jeyjey,s_jeyjey_casual_dinner_idle_1_1,.2],
 				[false,405,420,"Instances_People_1",ppl_act.custom,o_larry,s_larry_casual_dinner_talk_1_1,.25],
 				[false,709,364,"Instances_People_1",ppl_act.custom,o_uncle_dmitriy,s_uncle_dmitriy_casual_dinner_idle_0,.2],
-				[false,852,316,"Instances_People_1",ppl_act.custom,o_uncle_bruce,s_uncle_bruce_casual_dinner_idle_1,.2]
+				[false,852,316,"Instances_People_1",ppl_act.custom,o_uncle_bruce,s_uncle_bruce_casual_dinner_idle_1,.2],
+				[false,434,363,"Instances_People_1",ppl_act.custom,o_noah,s_noah_casual_dinner_idle_1,.2],
+				[false,492,363,"Instances_People_1",ppl_act.custom,o_lorie,s_lorie_casual_dinner_idle_1,.2],
+				[false,405,453,"Instances_People_1",ppl_act.custom,o_danica,s_danica_casual_dinner_idle_1,.2],
+				[false,434,454,"Instances_People_1",ppl_act.custom,o_ophelia,s_ophelia_casual_dinner_idle_1,.2],
+				[false,463,455,"Instances_People_1",ppl_act.custom,o_sofia,s_sofia_casual_dinner_idle_1,.2],
+				[false,493,454,"Instances_People_1",ppl_act.custom,o_olivia,s_olivia_casual_dinner_idle_1,.2],
+				[false,405,486,"Instances_People_1",ppl_act.custom,o_oliver,s_oliver_casual_dinner_idle_1,.2],
+				[false,463,486,"Instances_People_1",ppl_act.custom,o_julian,s_julian_casual_dinner_idle_1,.2],
+				[false,492,486,"Instances_People_1",ppl_act.custom,o_paxton,s_paxton_casual_dinner_idle_1,.2],
+				[false,463,544,"Instances_People_1",ppl_act.custom,o_gleb,s_gleb_casual_dinner_idle_1,.2],
+				[false,492,545,"Instances_People_1",ppl_act.custom,o_vladmir,s_vladmir_casual_dinner_idle_1,.2],
+				[false,654,455,"Instances_People_1",ppl_act.custom,o_ksenia,s_ksenia_casual_dinner_idle_1,.2],
+				[false,682,454,"Instances_People_1",ppl_act.custom,o_julia,s_julia_casual_dinner_idle_1,.2],
+				[false,711,455,"Instances_People_1",ppl_act.custom,o_jasenska,s_jasenska_casual_dinner_idle_1,.2],
+				[false,712,486,"Instances_People_1",ppl_act.custom,o_laszlo,s_laszlo_casual_dinner_idle_1,.2],
+				[false,712,545,"Instances_People_1",ppl_act.custom,o_boris,s_boris_casual_dinner_idle_1_1,.2],
 			];
 			#endregion
 		}else if(global.event[0][1]==progress.non_complete){
+			#region
 			children_array=[
 				[false,522,1532,"Instances_People_1",ppl_act.custom,o_calina,s_calina_casual_playground_idle_1_1,.2],
 				[false,1786,1672,"Instances_People_1",ppl_act.custom,o_eleanor,s_eleanor_casual_playground_idle_1_1,.25],
@@ -58,6 +75,21 @@ switch global.day{
 				[false,2102,1351,"Instances_People_1",ppl_act.npc,o_todd,270,.2],
 				[false,2102,1351,"Instances_People_1",ppl_act.npc,o_nickolai,270,.2],
 			];
+			#endregion
+		}else if(global.event[0][3]==progress.non_complete){
+			#region
+			children_array=[
+				[false,288,619,"Instances_People_1",ppl_act.custom,o_fritz,s_fritz_casual_loveletter_idle_1,.2],
+				[false,236,437,"Instances_People_2",ppl_act.custom,o_noah,s_noah_casual_shop_idle_1,.2],
+				[false,929,541,"Instances_People_1",ppl_act.custom,o_darya,s_danya_darya_casual_chill_1_idle_1,.25],
+				[false,878,541,"Instances_People_1",ppl_act.custom,o_danya,s_danya_darya_casual_chill_1_idle_1,.25],
+				[false,903,557,"Instances_People_1",ppl_act.custom,o_amanda,s_amanda_casual_chill_1_idle_1,.25],
+				[false,1207,382+21,"Instances_People_1",ppl_act.custom,o_edgar,s_edgar_casual_chill_1_idle_1,.2],
+				[false,1179,416,"Instances_People_2",ppl_act.custom,o_olivia,s_olivia_casual_chill_1_idle_0,.2],
+				[false,1207,412,"Instances_People_2",ppl_act.custom,o_sofia,s_sofia_casual_chill_1_idle_0,.2],
+				[false,1153,410,"Instances_People_2",ppl_act.custom,o_ophelia,s_ophelia_casual_chill_1_idle_0,.2],
+			];
+			#endregion
 		}else if(global.event[0][4]==progress.non_complete){
 			if(room==rm_cafeteria){
 				#region
@@ -85,7 +117,23 @@ switch global.day{
 					[false,434,420,"Instances_People_1",ppl_act.custom,o_jeyjey,s_jeyjey_casual_dinner_idle_1_1,.2],
 					[false,405,420,"Instances_People_1",ppl_act.custom,o_larry,s_larry_casual_dinner_talk_1_1,.25],
 					[false,709,364,"Instances_People_1",ppl_act.custom,o_uncle_dmitriy,s_uncle_dmitriy_casual_dinner_idle_0,.2],
-					[false,852,316,"Instances_People_1",ppl_act.custom,o_uncle_bruce,s_uncle_bruce_casual_dinner_idle_1,.2]
+					[false,852,316,"Instances_People_1",ppl_act.custom,o_uncle_bruce,s_uncle_bruce_casual_dinner_idle_1,.2],
+					[false,434,363,"Instances_People_1",ppl_act.custom,o_noah,s_noah_casual_dinner_idle_1,.2],
+					[false,492,363,"Instances_People_1",ppl_act.custom,o_lorie,s_lorie_casual_dinner_idle_1,.2],
+					[false,405,453,"Instances_People_1",ppl_act.custom,o_danica,s_danica_casual_dinner_idle_1,.2],
+					[false,434,454,"Instances_People_1",ppl_act.custom,o_ophelia,s_ophelia_casual_dinner_idle_1,.2],
+					[false,463,455,"Instances_People_1",ppl_act.custom,o_sofia,s_sofia_casual_dinner_idle_1,.2],
+					[false,493,454,"Instances_People_1",ppl_act.custom,o_olivia,s_olivia_casual_dinner_idle_1,.2],
+					[false,405,486,"Instances_People_1",ppl_act.custom,o_oliver,s_oliver_casual_dinner_idle_1,.2],
+					[false,463,486,"Instances_People_1",ppl_act.custom,o_julian,s_julian_casual_dinner_idle_1,.2],
+					[false,492,486,"Instances_People_1",ppl_act.custom,o_paxton,s_paxton_casual_dinner_idle_1,.2],
+					[false,463,544,"Instances_People_1",ppl_act.custom,o_gleb,s_gleb_casual_dinner_idle_1,.2],
+					[false,492,545,"Instances_People_1",ppl_act.custom,o_vladmir,s_vladmir_casual_dinner_idle_1,.2],
+					[false,654,455,"Instances_People_1",ppl_act.custom,o_ksenia,s_ksenia_casual_dinner_idle_1,.2],
+					[false,682,454,"Instances_People_1",ppl_act.custom,o_julia,s_julia_casual_dinner_idle_1,.2],
+					[false,711,455,"Instances_People_1",ppl_act.custom,o_jasenska,s_jasenska_casual_dinner_idle_1,.2],
+					[false,712,486,"Instances_People_1",ppl_act.custom,o_laszlo,s_laszlo_casual_dinner_idle_1,.2],
+					[false,712,545,"Instances_People_1",ppl_act.custom,o_boris,s_boris_casual_dinner_idle_1_1,.2],
 				];
 				#endregion
 			}else{
@@ -93,8 +141,11 @@ switch global.day{
 				children_array=[
 					[false,288,619,"Instances_People_1",ppl_act.custom,o_fritz,s_fritz_casual_loveletter_idle_1,.2],
 					[false,591,567,"Instances_People_1",ppl_act.npc,o_hellen,270,.25],
-					[false,1194,386,"Instances_People_1",ppl_act.custom,o_noah,s_noah_casual_chill_idle_0,.25],
-					//[false,405,558,"Instances_People_1",ppl_act.custom,o_petter,s_petter_casual_dinner_idle_1_1,.2],
+					[false,1207,382+21,"Instances_People_1",ppl_act.custom,o_edgar,s_edgar_casual_chill_1_idle_1,.2],
+					[false,236,437,"Instances_People_2",ppl_act.custom,o_noah,s_noah_casual_shop_idle_1,.2],
+					[false,1179,416,"Instances_People_2",ppl_act.custom,o_olivia,s_olivia_casual_chill_1_idle_0,.2],
+					[false,1207,412,"Instances_People_2",ppl_act.custom,o_sofia,s_sofia_casual_chill_1_idle_0,.2],
+					[false,1153,410,"Instances_People_2",ppl_act.custom,o_ophelia,s_ophelia_casual_chill_1_idle_0,.2],
 				];
 				#endregion
 			}
@@ -129,7 +180,23 @@ switch global.day{
 					[false,434,420,"Instances_People_1",ppl_act.custom,o_jeyjey,s_jeyjey_casual_dinner_idle_1_1,.2],
 					[false,405,420,"Instances_People_1",ppl_act.custom,o_larry,s_larry_casual_dinner_talk_1_1,.25],
 					[false,709,364,"Instances_People_1",ppl_act.custom,o_uncle_dmitriy,s_uncle_dmitriy_casual_dinner_idle_0,.2],
-					[false,852,316,"Instances_People_1",ppl_act.custom,o_uncle_bruce,s_uncle_bruce_casual_dinner_idle_1,.2]
+					[false,852,316,"Instances_People_1",ppl_act.custom,o_uncle_bruce,s_uncle_bruce_casual_dinner_idle_1,.2],
+					[false,434,363,"Instances_People_1",ppl_act.custom,o_noah,s_noah_casual_dinner_idle_1,.2],
+					[false,492,363,"Instances_People_1",ppl_act.custom,o_lorie,s_lorie_casual_dinner_idle_1,.2],
+					[false,405,453,"Instances_People_1",ppl_act.custom,o_danica,s_danica_casual_dinner_idle_1,.2],
+					[false,434,454,"Instances_People_1",ppl_act.custom,o_ophelia,s_ophelia_casual_dinner_idle_1,.2],
+					[false,463,455,"Instances_People_1",ppl_act.custom,o_sofia,s_sofia_casual_dinner_idle_1,.2],
+					[false,493,454,"Instances_People_1",ppl_act.custom,o_olivia,s_olivia_casual_dinner_idle_1,.2],
+					[false,405,486,"Instances_People_1",ppl_act.custom,o_oliver,s_oliver_casual_dinner_idle_1,.2],
+					[false,463,486,"Instances_People_1",ppl_act.custom,o_julian,s_julian_casual_dinner_idle_1,.2],
+					[false,492,486,"Instances_People_1",ppl_act.custom,o_paxton,s_paxton_casual_dinner_idle_1,.2],
+					[false,463,544,"Instances_People_1",ppl_act.custom,o_gleb,s_gleb_casual_dinner_idle_1,.2],
+					[false,492,545,"Instances_People_1",ppl_act.custom,o_vladmir,s_vladmir_casual_dinner_idle_1,.2],
+					[false,654,455,"Instances_People_1",ppl_act.custom,o_ksenia,s_ksenia_casual_dinner_idle_1,.2],
+					[false,682,454,"Instances_People_1",ppl_act.custom,o_julia,s_julia_casual_dinner_idle_1,.2],
+					[false,711,455,"Instances_People_1",ppl_act.custom,o_jasenska,s_jasenska_casual_dinner_idle_1,.2],
+					[false,712,486,"Instances_People_1",ppl_act.custom,o_laszlo,s_laszlo_casual_dinner_idle_1,.2],
+					[false,712,545,"Instances_People_1",ppl_act.custom,o_boris,s_boris_casual_dinner_idle_1_1,.2],
 				];
 			}
 			#endregion

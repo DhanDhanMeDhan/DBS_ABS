@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_vladmir_casual_crayon_idle_7",
-    "path":"sprites/s_vladmir_casual_crayon_idle_7/s_vladmir_casual_crayon_idle_7.yy",
+    "name":"s_vladmir_casual_dinner_idle_1",
+    "path":"sprites/s_vladmir_casual_dinner_idle_1/s_vladmir_casual_dinner_idle_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

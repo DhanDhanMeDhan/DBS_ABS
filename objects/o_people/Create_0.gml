@@ -3,6 +3,7 @@ event_inherited();
 //setting the physics
 //============================================================
 #region
+light_set_type=-1;
 sprite_index=s_o_ppl;
 direction=270;
 spd=1;

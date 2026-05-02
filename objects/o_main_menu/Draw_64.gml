@@ -237,6 +237,9 @@ var _sw=sprite_get_width(_spr),_sh=sprite_get_height(_spr);
 draw_sprite_stretched_ext(s_hud_pixel,0,0,0,global.cw,global.ch,_c0,bg_alpha_5);
 draw_sprite_ext(_spr,0,(global.cw/2)-(_sw/2),yy_button-(_sh/2),1,1,0,c_white,1);
 var _txt,_str;
+draw_set_valign(fa_middle);
+draw_set_halign(fa_center);
+draw_set_font(global.font_talk);
 switch array_length(global.scr){
 	case 1:	
 		_str=scr_change_button(global.scr);
@@ -334,3 +337,6 @@ if(!main_menu_level[0][0]){
 	draw_text_ext_colour(global.cw/2,(global.ch/2)+global.font_talk_size*2,"Tenha em mente que, no mini-game Freeze, por mais que você \"ganhe\" com o BunBun, ou seja, ir até o final, ou o máximo que se pode, ele VAI perder, pois ele é péssimo em esportes, para que, na próxima rodada, vá o Todd e Gleb competir, então não se preocupe quanto a isso",global.font_talk_size,global.cw/2,c_white,c_white,c_white,c_white,1);
 }
 #endregion
+
+draw_text_colour(50,50,string(menu_next_level),c_red,c_red,c_red,c_red,1);
+draw_text_colour(50,50+16,string(main_menu_index),c_red,c_red,c_red,c_red,1);

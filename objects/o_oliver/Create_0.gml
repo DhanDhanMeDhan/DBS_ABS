@@ -1,6 +1,6 @@
 event_inherited();
 ppl_face_portrait=-1;
-//scr_talk_oliver();
+scr_talk_oliver();
 //ppl_name=["Oliver","Oliver","Oliver"];
 ppl_name=["46","46","46"];
 ppl_voice=dag_002 ;

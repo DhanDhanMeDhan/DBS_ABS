@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_o_tld_house_ext_front_2_1",
-    "path":"sprites/s_o_tld_house_ext_front_2_1/s_o_tld_house_ext_front_2_1.yy",
+    "name":"s_boris_casual_dinner_idle_1_1",
+    "path":"sprites/s_boris_casual_dinner_idle_1_1/s_boris_casual_dinner_idle_1_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

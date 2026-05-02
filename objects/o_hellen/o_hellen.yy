@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_hellen_pijama_idle_storyteller_1",
-    "path":"sprites/s_hellen_pijama_idle_storyteller_1/s_hellen_pijama_idle_storyteller_1.yy",
+    "name":"s_hellen_casual_confession_1",
+    "path":"sprites/s_hellen_casual_confession_1/s_hellen_casual_confession_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

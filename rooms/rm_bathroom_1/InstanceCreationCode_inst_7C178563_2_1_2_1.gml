@@ -2,6 +2,65 @@ switch global.day{
 	case 0:
 		if(global.event[0][2]==progress.non_complete){
 			#region
+			quest_array=[
+				[0,quest_type.hide_n_seek,o_lorie],
+			]
+			non_complete_cutscene[0]=[
+					[scr_cutscene_bars,true,true],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_variable,variable.nearst,o_door_1,"open",true,x,y],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_circle_wake_up,true,true,-1,-1,true,false,false,make_color_rgb(36,34,52)],//[scr_cutscene_transition,cutscene_transition_type.bars,true,true,-1,make_color_rgb(36,34,52)],
+					[scr_cutscene_room_goto,rm_bathroom_2,true],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"x",499],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"y",385],
+					[scr_cutscene_instance_create,741,411,"Instances_People_2",o_lorie],
+					[scr_cutscene_refresh_party_member,true],
+					[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",false],
+					[scr_cutscene_variable,variable.normal,o_camera,"x",499],
+					[scr_cutscene_variable,variable.normal,o_camera,"y",403],
+					//[setting the camera x]
+					//[setting the camera y]
+					[scr_cutscene_circle_wake_up,true,true,-1,-1,true,true,false,make_color_rgb(36,34,52)],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_variable,variable.nearst,o_door_1,"open",true,499,400],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_move_character,o_bunbun,499,403,false,1,true,true],
+					[scr_cutscene_refresh_party_member,false],
+					[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",true],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_variable,variable.nearst,o_door_1,"open",false,499,400],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_bars,true,false]
+				];
+			complete_cutscene=[
+					[scr_cutscene_bars,true,true],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_variable,variable.nearst,o_door_1,"open",true,x,y],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_circle_wake_up,true,true,-1,-1,true,false,false,make_color_rgb(36,34,52)],//[scr_cutscene_transition,cutscene_transition_type.bars,true,true,-1,make_color_rgb(36,34,52)],
+					[scr_cutscene_room_goto,rm_bathroom_2,true,false],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"x",499],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"y",385],
+					[scr_cutscene_refresh_party_member,true],
+					[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",false],
+					[scr_cutscene_variable,variable.normal,o_camera,"x",499],
+					[scr_cutscene_variable,variable.normal,o_camera,"y",403],
+					//[setting the camera x]
+					//[setting the camera y]
+					[scr_cutscene_circle_wake_up,true,true,-1,-1,true,true,false,make_color_rgb(36,34,52)],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_variable,variable.nearst,o_door_1,"open",true,499,400],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_move_character,o_bunbun,499,403,false,1,true,true],
+					[scr_cutscene_refresh_party_member,false],
+					[scr_cutscene_variable,variable.normal,o_camera,"flow_npc",true],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_variable,variable.nearst,o_door_1,"open",false,499,400],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_bars,true,false]
+				];
+			/*
 			if(o_hide_n_seek.children_playing[5][1]){
 				non_avaliable_cutscene=[
 					[scr_cutscene_bars,true,true],
@@ -105,6 +164,7 @@ switch global.day{
 					[scr_cutscene_bars,true,false]
 				];
 			}
+			*/
 			#endregion
 		}else if(global.event[0][7]==progress.non_complete){
 			#region

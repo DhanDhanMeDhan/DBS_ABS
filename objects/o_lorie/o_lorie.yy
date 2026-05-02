@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_lorie_casual_idle_1_down",
-    "path":"sprites/s_lorie_casual_idle_1_down/s_lorie_casual_idle_1_down.yy",
+    "name":"s_lorie_casual_dinner_idle_1",
+    "path":"sprites/s_lorie_casual_dinner_idle_1/s_lorie_casual_dinner_idle_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

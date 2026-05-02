@@ -142,7 +142,7 @@
           1696,1697,1698,1699,1700,1701,1702,1703,1704,1705,1706,1707,1708,1709,1710,1711,1712,1713,1714,1715,
           -64,15,22,1738,1739,1740,1741,1742,1743,1744,1745,1746,1747,1748,1749,1750,1751,1752,1753,1754,1755,
           1756,1757,1758,1759,-466,15,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tld_big_b_bedroom_2","path":"tilesets/tld_big_b_bedroom_2/tld_big_b_bedroom_2.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"tld_big_b_bedroom_2","path":"tilesets/tld_big_b_bedroom_2/tld_big_b_bedroom_2.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"TLD_Top_1_1_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TLD_Top_1_1_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
           -286,15,22,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,-64,15,22,66,67,68,69,70,
           71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,-64,15,22,110,111,112,113,114,115,116,117,118,119,
@@ -329,7 +329,7 @@
           1649,1650,-63,15,23,1672,1673,1674,1675,1676,1677,1678,1679,1680,1681,1682,1683,1684,1685,1686,1687,
           1688,1689,1690,1691,1692,1693,1694,-63,15,23,1716,1717,1718,1719,1720,1721,1722,1723,1724,1725,1726,
           1727,1728,1729,1730,1731,1732,1733,1734,1735,1736,1737,1738,-465,15,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tld_big_b_bedroom_2","path":"tilesets/tld_big_b_bedroom_2/tld_big_b_bedroom_2.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"tld_big_b_bedroom_2","path":"tilesets/tld_big_b_bedroom_2/tld_big_b_bedroom_2.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"TLD_Floor_1_1_1","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TLD_Floor_1_1_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
           -286,15,23,22,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,-63,15,23,44,45,46,47,48,49,50,
           51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,-63,15,23,88,89,90,91,92,93,94,95,96,97,98,99,100,101,

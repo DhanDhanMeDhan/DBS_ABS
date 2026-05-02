@@ -24,7 +24,7 @@ if(can_use_menu){
 	main_menu_level[main_menu_index][1][1]=_menu_results[1];
 	cursor_x=main_menu_level[main_menu_index][1][0];
 	cursor_y=main_menu_level[main_menu_index][1][1];
-	if(global.input_cancel){
+	if(global.input_cancel)and(!use_config){
 		if(main_menu_index>2){
 			main_menu_level[main_menu_index-1][0]=false;
 		}
@@ -180,13 +180,25 @@ if(main_menu_level[2][0]){
 				if(bg_alpha_3>=0){bg_alpha_3-=.025}
 			}
 			global.save_fle="save_"+string(main_menu_level[3][1][1])+".dat";
+			main_menu_level[3][2][1][1]=global.save_num-1;
 			main_menu_level[3][3]=menu_side_type.vertical;
+			main_menu_level[3][4]=menu_end_type.loop;
 			break;
 		case menu_action.config:
 			use_config=true;
 			xx_settings_box=lerp(xx_settings_box,0,.15);
 			main_menu_level[3][3]=menu_side_type.both;
 			main_menu_level[3][4]=menu_end_type.lock;
+			if(main_menu_level[3][1][1]>7){
+				menu_next_level=true;
+			}else{
+				menu_next_level=false;
+			}
+			if(global.input_cancel)and(!change_button){
+				main_menu_index=2;
+				main_menu_level[3][0]=false;
+				main_menu_level[2][0]=false;
+			}
 			break;
 		case menu_action.quit:
 			use_config=false;
@@ -194,6 +206,7 @@ if(main_menu_level[2][0]){
 			break;
 	}
 }else{
+	use_config=false;
 	menu_next_level=true;
 	yy_slot=lerp(yy_slot,-global.ch,.15);
 	if(bg_alpha_2>=0){bg_alpha_2-=.025}

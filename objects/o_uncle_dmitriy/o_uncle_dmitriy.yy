@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_uncle_dmitriy_casual_storyteller_idle_1",
-    "path":"sprites/s_uncle_dmitriy_casual_storyteller_idle_1/s_uncle_dmitriy_casual_storyteller_idle_1.yy",
+    "name":"s_uncle_dmitriy_casual_hidenseek_sleep_idle",
+    "path":"sprites/s_uncle_dmitriy_casual_hidenseek_sleep_idle/s_uncle_dmitriy_casual_hidenseek_sleep_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

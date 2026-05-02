@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_amanda_casual_idletalk_storyteller",
-    "path":"sprites/s_amanda_casual_idletalk_storyteller/s_amanda_casual_idletalk_storyteller.yy",
+    "name":"s_amanda_casual_chill_1_idle_1",
+    "path":"sprites/s_amanda_casual_chill_1_idle_1/s_amanda_casual_chill_1_idle_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
