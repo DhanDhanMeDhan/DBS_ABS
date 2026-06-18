@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_danya_darya_casual_chill_1_idle_1",
-    "path":"sprites/s_danya_darya_casual_chill_1_idle_1/s_danya_darya_casual_chill_1_idle_1.yy",
+    "name":"s_danya_darya_casual_chill_2_idle_1",
+    "path":"sprites/s_danya_darya_casual_chill_2_idle_1/s_danya_darya_casual_chill_2_idle_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

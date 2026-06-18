@@ -194,7 +194,7 @@ function load_room(){
 			ppl_flowing=_room_struc.person_data[i].ppl_flowing;
 			var _ppl_path=_room_struc.person_data[i].ppl_path_index;
 			path_speed=_room_struc.person_data[i].ppl_path_spd;
-			path_position=_room_struc.person_data[i].ppl_path_pos
+			path_position=_room_struc.person_data[i].ppl_path_pos;
 			pos=_room_struc.person_data[i].ppl_pos;
 			clothe=_room_struc.person_data[i].ppl_clothe;
 			ppl_can_interact=_room_struc.person_data[i].ppl_can_interact;

@@ -544,6 +544,7 @@
 					[scr_cutscene_animation_sprite,o_hellen,[s_hellen_casual_confession_3],[s_hellen_casual_confession_both_idle_3],false,true,[.3,.2]],
 					[scr_cutscene_variable,variable.normal,o_fritz,"sprite_index",s_fritz_casual_loveletter_confession_idle_2],
 					[scr_cutscene_variable,variable.normal,o_hellen,"sprite_index",s_hellen_casual_loveletter_confession_idle_3],
+					[scr_cutscene_instance_destroy,o_rubbert],
 					[scr_cutscene_instance_create,328,465,"Instances_People_2",o_nickolai],
 					[scr_cutscene_instance_create,256,470,"Instances_People_2",o_rubbert],
 					[scr_cutscene_instance_create,333,473,"Instances_People_2",o_clara],

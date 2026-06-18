@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"babies",
-    "path":"folders/Sprites/ppl/children/other_children/babies.yy",
+    "name":"face",
+    "path":"folders/Sprites/ppl/children/other_children/babies/face.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

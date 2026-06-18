@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_rubbert_pijama_idle_storyteller_1",
-    "path":"sprites/s_rubbert_pijama_idle_storyteller_1/s_rubbert_pijama_idle_storyteller_1.yy",
+    "name":"s_rubbert_casual_chill_1_idle_0",
+    "path":"sprites/s_rubbert_casual_chill_1_idle_0/s_rubbert_casual_chill_1_idle_0.yy",
   },
   "spriteMaskId":null,
   "visible":true,
