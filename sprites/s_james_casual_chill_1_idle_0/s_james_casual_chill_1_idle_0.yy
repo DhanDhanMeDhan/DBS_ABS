@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"chill",
-    "path":"folders/Sprites/ppl/children/boys/b_bedroom_3/james/extras/chill.yy",
+    "name":"1",
+    "path":"folders/Sprites/ppl/children/boys/b_bedroom_3/james/extras/chill/1.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

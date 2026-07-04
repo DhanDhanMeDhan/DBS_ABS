@@ -1,3 +1,4 @@
+
 switch global.day{
 		case 0:
 			#region
