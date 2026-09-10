@@ -163,7 +163,7 @@ global.dinner=0;
 global.dinner_moment=0;
 global.day=0;
 global.colored=false;
-global.color=1;
+//global.color=1;
 global.event=[
 	//dia 0
 	[
@@ -223,7 +223,7 @@ global.room_data={
 }
 global.cam_data={
 	save_x:0,save_y:0,save_rm:0,
-	save_prt:0,progress:0,data:0,color:0,
+	save_prt:0,progress:0,data:0,save_color:0,
 	room_name:0,flow_npc:0,npc_flow:0
 }
 #endregion
@@ -278,9 +278,12 @@ enum minigame_set{
 	save_things
 }
 #endregion
-//shake=======================================================
+//other=======================================================
+#region
 shake_permit=false;
 shake_power=2;
+global.floor=3;
+#endregion
 #endregion
 //============================================================
 //instances

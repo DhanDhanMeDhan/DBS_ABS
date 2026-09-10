@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_fritz_casual_loveletter_confession_idle_1",
-    "path":"sprites/s_fritz_casual_loveletter_confession_idle_1/s_fritz_casual_loveletter_confession_idle_1.yy",
+    "name":"s_fritz_casual_chill_3_idle_0",
+    "path":"sprites/s_fritz_casual_chill_3_idle_0/s_fritz_casual_chill_3_idle_0.yy",
   },
   "spriteMaskId":null,
   "visible":true,

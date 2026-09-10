@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_nickolai_pijama_idle_storyteller_1",
-    "path":"sprites/s_nickolai_pijama_idle_storyteller_1/s_nickolai_pijama_idle_storyteller_1.yy",
+    "name":"s_nickolai_casual_chill_3_idle_0",
+    "path":"sprites/s_nickolai_casual_chill_3_idle_0/s_nickolai_casual_chill_3_idle_0.yy",
   },
   "spriteMaskId":null,
   "visible":true,

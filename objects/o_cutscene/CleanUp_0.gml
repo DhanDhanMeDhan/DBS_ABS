@@ -1,0 +1,1 @@
+surface_free(cutscene_circle_surf);

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_uncle_bruce_casual_playground_idle_1_1",
-    "path":"sprites/s_uncle_bruce_casual_playground_idle_1_1/s_uncle_bruce_casual_playground_idle_1_1.yy",
+    "name":"s_uncle_bruce_casual_chill_3_idle_0",
+    "path":"sprites/s_uncle_bruce_casual_chill_3_idle_0/s_uncle_bruce_casual_chill_3_idle_0.yy",
   },
   "spriteMaskId":null,
   "visible":true,

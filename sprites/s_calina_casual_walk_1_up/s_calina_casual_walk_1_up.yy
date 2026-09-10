@@ -26,7 +26,7 @@
   ],
   "name":"s_calina_casual_walk_1_up",
   "nineSlice":null,
-  "origin":7,
+  "origin":9,
   "parent":{
     "name":"walk",
     "path":"folders/Sprites/ppl/children/girls/g_bedroom_1/calina/walk.yy",
@@ -71,15 +71,23 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8ba59e2f-5d38-4c5c-923c-a096553b6be8","path":"sprites/s_calina_casual_walk_1_up/s_calina_casual_walk_1_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"cb54db61-fcbb-47f9-b23d-4f4f86ae525d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8a45ef87-6a02-41e3-9382-e423d047eeeb","path":"sprites/s_calina_casual_walk_1_up/s_calina_casual_walk_1_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"567124e7-6899-4b39-b83d-d1334731b4bb","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"18af8d54-1528-4c8b-a952-6e0c995f23fd","path":"sprites/s_calina_casual_walk_1_up/s_calina_casual_walk_1_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c929dd30-e4ad-40ad-998c-b2b6299ea723","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"46191bf7-b90d-476b-bca6-ae2b4110e7a4","path":"sprites/s_calina_casual_walk_1_up/s_calina_casual_walk_1_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7759949c-8021-4cc5-b085-5a50a2eeaf76","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8ba59e2f-5d38-4c5c-923c-a096553b6be8","path":"sprites/s_calina_casual_walk_1_up/s_calina_casual_walk_1_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cb54db61-fcbb-47f9-b23d-4f4f86ae525d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8a45ef87-6a02-41e3-9382-e423d047eeeb","path":"sprites/s_calina_casual_walk_1_up/s_calina_casual_walk_1_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"567124e7-6899-4b39-b83d-d1334731b4bb","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"18af8d54-1528-4c8b-a952-6e0c995f23fd","path":"sprites/s_calina_casual_walk_1_up/s_calina_casual_walk_1_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c929dd30-e4ad-40ad-998c-b2b6299ea723","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"46191bf7-b90d-476b-bca6-ae2b4110e7a4","path":"sprites/s_calina_casual_walk_1_up/s_calina_casual_walk_1_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7759949c-8021-4cc5-b085-5a50a2eeaf76","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":16,
+    "xorigin":14,
     "yorigin":48,
   },
   "swatchColours":null,

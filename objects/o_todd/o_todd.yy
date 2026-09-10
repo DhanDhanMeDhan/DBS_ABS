@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_todd_pijama_idletalk_1_up",
-    "path":"sprites/s_todd_pijama_idletalk_1_up/s_todd_pijama_idletalk_1_up.yy",
+    "name":"s_todd_casual_chill_3_idle_0",
+    "path":"sprites/s_todd_casual_chill_3_idle_0/s_todd_casual_chill_3_idle_0.yy",
   },
   "spriteMaskId":null,
   "visible":true,

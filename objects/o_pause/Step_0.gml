@@ -204,7 +204,7 @@ if(pause_menu_level[0][0])and(global.pause){
 							global.dinner_moment=0;
 							global.day=0;
 							global.colored=false;
-							global.color=1;
+							//global.color=1;
 							global.event=[
 								//dia 0
 								[

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_mommy_alegra_casual_storyteller_idle_0",
-    "path":"sprites/s_mommy_alegra_casual_storyteller_idle_0/s_mommy_alegra_casual_storyteller_idle_0.yy",
+    "name":"s_mommy_alegra_casual_chill_3_idle_0",
+    "path":"sprites/s_mommy_alegra_casual_chill_3_idle_0/s_mommy_alegra_casual_chill_3_idle_0.yy",
   },
   "spriteMaskId":null,
   "visible":true,

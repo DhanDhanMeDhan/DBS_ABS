@@ -17,10 +17,7 @@
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
-  "spriteId":{
-    "name":"s_tld_corridors_3_1_2",
-    "path":"sprites/s_tld_corridors_3_1_2/s_tld_corridors_3_1_2.yy",
-  },
+  "spriteId":null,
   "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",

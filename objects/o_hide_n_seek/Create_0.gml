@@ -1,3 +1,4 @@
+visible=false;
 icon_left=global.cw+64;
 show_icon=true;
 icon_alp=0

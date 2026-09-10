@@ -37,7 +37,7 @@ switch global.day{
 				[false,493,454,"Instances_People_1",ppl_act.custom,o_olivia,s_olivia_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
 				[false,405,486,"Instances_People_1",ppl_act.custom,o_oliver,s_oliver_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
 				[false,463,486,"Instances_People_1",ppl_act.custom,o_julian,s_julian_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
-				[false,492,486,"Instances_People_1",ppl_act.custom,o_paxton,s_paxton_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
+				[false,492,489,"Instances_People_1",ppl_act.custom,o_paxton,s_paxton_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
 				[false,463,544,"Instances_People_1",ppl_act.custom,o_gleb,s_gleb_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
 				[false,492,545,"Instances_People_1",ppl_act.custom,o_vladmir,s_vladmir_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
 				[false,654,455,"Instances_People_1",ppl_act.custom,o_ksenia,s_ksenia_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
@@ -83,8 +83,8 @@ switch global.day{
 				[false,1210,238,"Instances_People_1",ppl_act.custom,o_grettel,s_grettel_casual_chill_1_idle_0,.2,false,-1,0,-1,-1],
 				[false,288,619,"Instances_People_1",ppl_act.custom,o_fritz,s_fritz_casual_loveletter_idle_1,.2,false,-1,0,-1,-1],
 				[false,236,437,"Instances_People_2",ppl_act.custom,o_noah,s_noah_casual_shop_idle_1,.2,false,-1,0,-1,-1],
-				[false,929,541,"Instances_People_1",ppl_act.custom,o_darya,s_danya_darya_casual_chill_1_idle_1,.25,false,-1,0,-1,-1],
 				[false,878,541,"Instances_People_1",ppl_act.custom,o_danya,s_danya_darya_casual_chill_1_idle_1,.25,false,-1,0,-1,-1],
+				[false,929,541,"Instances_People_1",ppl_act.custom,o_darya,s_danya_darya_casual_chill_1_idle_1,.25,false,-1,0,-1,-1],
 				[false,903,557,"Instances_People_1",ppl_act.custom,o_amanda,s_amanda_casual_chill_1_idle_1,.25,false,-1,0,-1,-1],
 				[false,1207,382+21,"Instances_People_1",ppl_act.custom,o_edgar,s_edgar_casual_chill_1_idle_1,.2,false,-1,0,-1,-1],
 				[false,1179,416,"Instances_People_2",ppl_act.custom,o_olivia,s_olivia_casual_chill_1_idle_0,.2,false,-1,0,-1,-1],
@@ -134,7 +134,7 @@ switch global.day{
 					[false,493,454,"Instances_People_1",ppl_act.custom,o_olivia,s_olivia_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
 					[false,405,486,"Instances_People_1",ppl_act.custom,o_oliver,s_oliver_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
 					[false,463,486,"Instances_People_1",ppl_act.custom,o_julian,s_julian_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
-					[false,492,486,"Instances_People_1",ppl_act.custom,o_paxton,s_paxton_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
+					[false,492,489,"Instances_People_1",ppl_act.custom,o_paxton,s_paxton_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
 					[false,463,544,"Instances_People_1",ppl_act.custom,o_gleb,s_gleb_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
 					[false,492,545,"Instances_People_1",ppl_act.custom,o_vladmir,s_vladmir_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
 					[false,654,455,"Instances_People_1",ppl_act.custom,o_ksenia,s_ksenia_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
@@ -165,6 +165,44 @@ switch global.day{
 					[false,1145,319,"Instances_People_2",ppl_act.custom,o_darya,s_nothing,.2,false,-1,0,-1,-1],
 				];
 				#endregion
+			}
+		}else if(global.event[0][5]==progress.non_complete){
+			if(room==rm_corridors){
+				children_array=[
+					[false,813,313,"Instances_People_2",ppl_act.custom,o_todd,s_todd_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					[false,710,300,"Instances_People_2",ppl_act.npc,o_jeyjey,315,.25,false,-1,0,-1,-1],
+					[false,692,309,"Instances_People_2",ppl_act.custom,o_larry,s_larry_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					[false,919,297,"Instances_People_2",ppl_act.custom,o_paxton,s_paxton_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					[false,1106,324,"Instances_People_2",ppl_act.custom,o_wendy,s_wendy_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					[false,1123,319,"Instances_People_2",ppl_act.custom,o_jasenska,s_jasenska_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					[false,1154,326,"Instances_People_2",ppl_act.custom,o_julia,s_julia_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					[false,1169,409,"Instances_People_2",ppl_act.custom,o_danica,s_danica_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					[false,1193,408,"Instances_People_2",ppl_act.custom,o_ksenia,s_ksenia_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+				
+					[false,397,394,"Instances_People_1",ppl_act.npc,o_oliver,270,.25,true,p_oliver_inside_chill_3,1,path_action_restart,true],
+					[false,370,504,"Instances_People_1",ppl_act.custom,o_cousin_nikita,s_cousin_nikita_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					[false,190,610,"Instances_People_1",ppl_act.custom,o_iriya,s_iriya_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					[false,301,595,"Instances_People_1",ppl_act.custom,o_jill,s_jill_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					[false,273,606,"Instances_People_1",ppl_act.custom,o_nina,s_nina_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					[false,1205,243,"Instances_People_1",ppl_act.custom,o_eleanor,s_eleanor_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					[false,1176,244,"Instances_People_1",ppl_act.custom,o_nickolai,s_nickolai_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					[false,890,557,"Instances_People_1",ppl_act.custom,o_fritz,s_fritz_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					[false,916,556,"Instances_People_1",ppl_act.custom,o_hellen,s_hellen_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					[false,976,409,"Instances_People_1",ppl_act.custom,o_grettel,s_grettel_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					[false,1002,406,"Instances_People_1",ppl_act.custom,o_tomas,s_tomas_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					[false,1028,408,"Instances_People_1",ppl_act.custom,o_lorie,s_lorie_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+				];
+			}else if(room==rm_k_bedroom){
+				children_array=[
+					[false,402,434,"Instances_People_2",ppl_act.custom,o_olivia,s_olivia_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					[false,371,444,"Instances_People_2",ppl_act.custom,o_sofia,s_sofia_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					[false,432,443,"Instances_People_2",ppl_act.custom,o_ophelia,s_ophelia_casual_chill_3_idle_0,.3,false,-1,0,-1,-1],
+					
+					[false,513,391,"Instances_People_2",ppl_act.custom,o_edwin,s_edwin_casual_1,.3,false,-1,0,-1,-1],
+					[false,641,389,"Instances_People_2",ppl_act.custom,o_zanny,s_zanny_casual_1,.3,false,-1,0,-1,-1],
+					[false,915,421,"Instances_People_2",ppl_act.custom,o_galle,s_galle_casual_1,.3,false,-1,0,-1,-1],
+					[false,797,410,"Instances_People_2",ppl_act.custom,o_memo,s_memo_casual_1,.3,false,-1,0,-1,-1],
+				];
 			}
 		}else if(global.event[0][6]==progress.non_complete){
 			children_array=[
@@ -206,7 +244,7 @@ switch global.day{
 					[false,493,454,"Instances_People_1",ppl_act.custom,o_olivia,s_olivia_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
 					[false,405,486,"Instances_People_1",ppl_act.custom,o_oliver,s_oliver_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
 					[false,463,486,"Instances_People_1",ppl_act.custom,o_julian,s_julian_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
-					[false,492,486,"Instances_People_1",ppl_act.custom,o_paxton,s_paxton_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
+					[false,492,489,"Instances_People_1",ppl_act.custom,o_paxton,s_paxton_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
 					[false,463,544,"Instances_People_1",ppl_act.custom,o_gleb,s_gleb_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
 					[false,492,545,"Instances_People_1",ppl_act.custom,o_vladmir,s_vladmir_casual_dinner_idle_1,.2,false,-1,0,-1,-1],
 					[false,654,455,"Instances_People_1",ppl_act.custom,o_ksenia,s_ksenia_casual_dinner_idle_1,.2,false,-1,0,-1,-1],

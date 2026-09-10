@@ -41,7 +41,7 @@ if(!surface_exists(display_surface)){
 	display_surface=surface_create(_surf_ww,_surf_hh);
 }else{
 	surface_set_target(display_surface);
-	draw_clear_alpha(c_blue,0);
+	draw_clear_alpha(0,0);
 	draw_sprite_ext(s_hud_meal_plates,0,_surf_ww/2,display_yy+_surf_hh/4,1,1,0,c_white,1);
 	draw_sprite_ext(s_hud_meal_plates,1,_surf_ww/2,display_yy+_surf_hh/2,1,1,0,c_white,1);
 	draw_sprite_ext(s_hud_meal_drinks,0,_surf_ww/2,display_yy+(_surf_hh/2)+(_surf_hh/3),1,1,0,c_white,1);

@@ -36,6 +36,9 @@ function save_room(){
 			ppl_act_state: _inst.ppl_act_state,
 			sprite_index: _inst.sprite_index,
 			image_speed: _inst.image_speed,
+			image_index: _inst.image_index,
+			x_scale: _inst.image_xscale,
+			y_scale: _inst.image_yscale,
 			ppl_custom_img_spd: _inst.ppl_custom_img_spd,
 			direction: _inst.direction,
 			persistent: _inst.persistent,
@@ -43,7 +46,7 @@ function save_room(){
 			ppl_to_look_at: _inst.ppl_to_look_at,
 			ppl_can_play: _inst.ppl_can_play,
 			ppl_flowing: _inst.ppl_flowing,
-			ppl_path_index: _inst.ppl_path_index,
+			ppl_path_index: _inst.path_index,
 			ppl_path_spd: _inst.path_speed,
 			ppl_path_pos: _inst.path_position,
 			ppl_pos: _inst.pos,
@@ -185,6 +188,7 @@ function load_room(){
 			ppl_act_state=_room_struc.person_data[i].ppl_act_state;
 			sprite_index=_room_struc.person_data[i].sprite_index;
 			image_speed=_room_struc.person_data[i].image_speed;
+			image_index=_room_struc.person_data[i].image_index;
 			ppl_custom_img_spd=_room_struc.person_data[i].ppl_custom_img_spd;
 			direction=_room_struc.person_data[i].direction;
 			persistent=_room_struc.person_data[i].persistent;
@@ -193,15 +197,16 @@ function load_room(){
 			ppl_can_play=_room_struc.person_data[i].ppl_can_play;
 			ppl_flowing=_room_struc.person_data[i].ppl_flowing;
 			var _ppl_path=_room_struc.person_data[i].ppl_path_index;
+			if(_ppl_path!=-1){
+				path_start(_ppl_path,spd,path_action_restart,true);
+				ppl_path_index=path_index;
+			}
 			path_speed=_room_struc.person_data[i].ppl_path_spd;
 			path_position=_room_struc.person_data[i].ppl_path_pos;
 			pos=_room_struc.person_data[i].ppl_pos;
 			clothe=_room_struc.person_data[i].ppl_clothe;
 			ppl_can_interact=_room_struc.person_data[i].ppl_can_interact;
 			spd=_room_struc.person_data[i].spd;
-			if(_ppl_path!=-1){
-				path_start(_ppl_path,spd,path_action_restart,true);
-			}
 		}
 	}
 	#endregion
@@ -300,8 +305,9 @@ function save_game(){
 	global.cam_data.save_y=o_camera.y;
 	global.cam_data.save_rm=room_get_name(room);
 	global.cam_data.save_prt=global.party;
+	global.cam_data.save_color=global.colored;
 	global.cam_data.progress=global.event;
-	global.cam_data.color=global.color;
+	//global.cam_data.color=global.color;
 	global.cam_data.data=[
 		date_get_day(date_current_datetime()),
 		date_get_month(date_current_datetime()),
@@ -337,6 +343,7 @@ function load_game(){
 	
 	global.event=global.cam_data.progress;
 	global.party=global.cam_data.save_prt;
+	global.colored=global.cam_data.save_color;
 	o_camera.x=global.cam_data.save_x;
 	o_camera.y=global.cam_data.save_y;
 	o_camera.flow_npc=global.cam_data.flow_npc;

@@ -180,8 +180,10 @@ switch global.day{
 				[scr_cutscene_wait,1],
 				[scr_cutscene_circle_wake_up,true,true,-1,-1,true,false,false,make_color_rgb(36,34,52)],//[scr_cutscene_transition,cutscene_transition_type.bars,true,true,-1,make_color_rgb(36,34,52)],
 				[scr_cutscene_room_goto,rm_b_bedroom_1,true,false],
+				[scr_cutscene_instance_create,550,387,"Instances_People_2",o_edgar],
 				[scr_cutscene_variable,variable.normal,o_bunbun,"x",571],
 				[scr_cutscene_variable,variable.normal,o_bunbun,"y",541],
+				[scr_cutscene_variable,variable.normal,o_edgar,"direction",90],
 				[scr_cutscene_refresh_party_member,true],
 				[scr_cutscene_variable,variable.normal,o_camera,"x",571],
 				[scr_cutscene_variable,variable.normal,o_camera,"y",441],
@@ -243,6 +245,7 @@ switch global.day{
 			];
 			#endregion
 		}else if(global.event[0][8]==progress.non_complete){
+			#region
 			quest_array=[
 				[0,quest_type.switch_clothes,clothes.pijama],
 				[-1,quest_type.talk_to,o_bunbun],
@@ -330,7 +333,8 @@ switch global.day{
 				[scr_cutscene_room_goto,rm_storytelling,false,false],
 				[scr_cutscene_video,story_tell.fritz_1,sq_fritz_story_1,],
 				[scr_cutscene_bars,true,false]
-			]
+			];
+			#endregion
 		}
 		break;
 }

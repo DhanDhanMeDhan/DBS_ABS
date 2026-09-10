@@ -1,2 +1,2 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
+//ds_grid_destroy(ds_pause_string);
+surface_free(sur_config);

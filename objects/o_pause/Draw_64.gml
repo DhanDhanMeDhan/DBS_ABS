@@ -155,6 +155,7 @@ if(pause_menu_options[principal_cursor][3]==pause_menu_action.map){
 		surf_map=surface_create(w,h);
 	}else{
 		surface_set_target(surf_map);
+		draw_clear_alpha(0,0);
 		draw_sprite_ext(s_hud_pause_map_bg_1_2,0,0,0,1,1,0,c_white,1);
 		gpu_set_colourwriteenable(1,1,1,0);
 		draw_sprite_ext(s_hud_pause_map_0,0,map_x_pos,map_y_pos,1,1,0,c_white,1);

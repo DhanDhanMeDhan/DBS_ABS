@@ -26,7 +26,7 @@
   ],
   "name":"s_calina_casual_idletalk_1_upleft",
   "nineSlice":null,
-  "origin":7,
+  "origin":9,
   "parent":{
     "name":"calina",
     "path":"folders/Sprites/ppl/children/girls/g_bedroom_1/calina.yy",
@@ -73,15 +73,23 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c6ec326e-b1bf-4220-8da9-3e0cd554d2cd","path":"sprites/s_calina_casual_idletalk_1_upleft/s_calina_casual_idletalk_1_upleft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3fff12bb-faa8-441c-a302-ec4f3844eab7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7ac89d53-82b6-4159-964e-7fca23fc526c","path":"sprites/s_calina_casual_idletalk_1_upleft/s_calina_casual_idletalk_1_upleft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fd9b9630-82c9-4172-a26f-6a4126ee1b30","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"569315a2-6484-48b3-a90b-270fc7cce28e","path":"sprites/s_calina_casual_idletalk_1_upleft/s_calina_casual_idletalk_1_upleft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8c6c871c-64ed-48c9-a9fa-8f7155bfe3a2","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"70f6f566-d011-444f-98f2-ef3b4af65348","path":"sprites/s_calina_casual_idletalk_1_upleft/s_calina_casual_idletalk_1_upleft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9c816645-8f04-4739-a889-5008989cfac7","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c6ec326e-b1bf-4220-8da9-3e0cd554d2cd","path":"sprites/s_calina_casual_idletalk_1_upleft/s_calina_casual_idletalk_1_upleft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3fff12bb-faa8-441c-a302-ec4f3844eab7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7ac89d53-82b6-4159-964e-7fca23fc526c","path":"sprites/s_calina_casual_idletalk_1_upleft/s_calina_casual_idletalk_1_upleft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fd9b9630-82c9-4172-a26f-6a4126ee1b30","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"569315a2-6484-48b3-a90b-270fc7cce28e","path":"sprites/s_calina_casual_idletalk_1_upleft/s_calina_casual_idletalk_1_upleft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8c6c871c-64ed-48c9-a9fa-8f7155bfe3a2","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"70f6f566-d011-444f-98f2-ef3b4af65348","path":"sprites/s_calina_casual_idletalk_1_upleft/s_calina_casual_idletalk_1_upleft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9c816645-8f04-4739-a889-5008989cfac7","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":16,
+    "xorigin":15,
     "yorigin":48,
   },
   "swatchColours":null,

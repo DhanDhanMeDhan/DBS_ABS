@@ -1,6 +1,7 @@
 function scr_config(_surface,_ds_grid,_cursor_x,_cursor_y,_use,_top,_index){
+	if(!surface_exists(_surface)) exit;
 	surface_set_target(_surface);
-	draw_clear_alpha(c_black,0);
+	draw_clear_alpha(0,0);
 	var ww=surface_get_width(_surface);
 	var wh=surface_get_height(_surface);
 	var _w_padding=8;

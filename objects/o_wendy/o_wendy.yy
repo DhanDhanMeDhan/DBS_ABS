@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_wendy_casual_idletalk_storyteller",
-    "path":"sprites/s_wendy_casual_idletalk_storyteller/s_wendy_casual_idletalk_storyteller.yy",
+    "name":"s_wendy_casual_chill_3_idle_0",
+    "path":"sprites/s_wendy_casual_chill_3_idle_0/s_wendy_casual_chill_3_idle_0.yy",
   },
   "spriteMaskId":null,
   "visible":true,

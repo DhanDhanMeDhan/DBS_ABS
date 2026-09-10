@@ -73,6 +73,7 @@ function scr_talk_uncle_big_b(){
 					[-1,quest_type.talk_to,o_big_b_bedroom_detail_8_1],
 					[-1,quest_type.talk_to,o_big_b_bedroom_detail_9_1],
 					[-1,quest_type.talk_to,o_big_b_bedroom_detail_10_1],
+					[-1,quest_type.have_item,item.uncle_spices],
 				];
 				non_complete_cutscene[0]=[
 					[scr_cutscene_variable,variable.normal,o_uncle_bruce,"spd",0],
@@ -102,7 +103,7 @@ function scr_talk_uncle_big_b(){
 					[scr_cutscene_bars,true,false],
 					[scr_cutscene_variable,variable.normal,o_uncle_bruce,"spd",1],
 				];
-				var i=1; repeat array_length(quest_array)-1{
+				var i=1; repeat array_length(quest_array)-2{
 					non_complete_cutscene[i]=[
 						[scr_cutscene_variable,variable.normal,o_uncle_bruce,"spd",0],
 						[scr_cutscene_bars,true,true],
@@ -144,7 +145,7 @@ function scr_talk_uncle_big_b(){
 					];
 					i++;
 				}
-				complete_cutscene=[
+				non_complete_cutscene[array_length(quest_array)-1]=[
 					[scr_cutscene_variable,variable.normal,o_uncle_bruce,"spd",0],
 					[scr_cutscene_bars,true,true],
 					[scr_cutscene_wait,1],
@@ -191,6 +192,23 @@ function scr_talk_uncle_big_b(){
 					[scr_cutscene_bars,true,false],
 					[scr_cutscene_variable,variable.normal,o_uncle_bruce,"spd",1],
 				];
+				complete_cutscene=[
+					[scr_cutscene_variable,variable.normal,o_uncle_bruce,"spd",0],
+					[scr_cutscene_bars,true,true],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_variable,variable.normal,o_uncle_bruce,"ppl_to_look_at",o_bunbun],
+					[scr_cutscene_variable,variable.normal,o_uncle_bruce,"ppl_looking_to",true],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_to_look_at",o_uncle_bruce],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_looking_to",true],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_uncle_bruce,["Vocês estão livres já, pequenos, vão lá entregra isso para a Mamãe de vocês"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Pode deixar, Tio!"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_todd,["Uh-hum!!"]],
+					[scr_cutscene_variable,variable.normal,o_uncle_bruce,"ppl_looking_to",false],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_looking_to",false],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_bars,true,false],
+					[scr_cutscene_variable,variable.normal,o_uncle_bruce,"spd",1],
+				]
 			}
 			break;
 	}

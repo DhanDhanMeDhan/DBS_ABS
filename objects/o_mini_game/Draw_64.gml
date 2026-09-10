@@ -12,7 +12,7 @@ if(minigame_draw_gui){
 		var _s_w=surface_get_width(minigame_screen);
 		var _s_h=surface_get_height(minigame_screen);
 		surface_set_target(minigame_screen);
-		draw_clear_alpha(c_black,0);
+		draw_clear_alpha(0,0);
 		//draw_minigame============================================
 		#region
 			scr_minigame(minigame,_s_w,_s_h);

@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"p_oliver_inside_chill_3",
+  "closed":true,
+  "kind":0,
+  "name":"p_oliver_inside_chill_3",
+  "parent":{
+    "name":"others",
+    "path":"folders/Rutas/others.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":400.0,"y":394.0,},
+    {"speed":100.0,"x":294.0,"y":394.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_cousin_nikita_casual_idle_1_down",
-    "path":"sprites/s_cousin_nikita_casual_idle_1_down/s_cousin_nikita_casual_idle_1_down.yy",
+    "name":"s_cousin_nikita_casual_chill_3_idle_0",
+    "path":"sprites/s_cousin_nikita_casual_chill_3_idle_0/s_cousin_nikita_casual_chill_3_idle_0.yy",
   },
   "spriteMaskId":null,
   "visible":true,

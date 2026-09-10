@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_rubbert_casual_chill_1_idle_0",
-    "path":"sprites/s_rubbert_casual_chill_1_idle_0/s_rubbert_casual_chill_1_idle_0.yy",
+    "name":"s_rubbert_casual_chill_3_idle_0",
+    "path":"sprites/s_rubbert_casual_chill_3_idle_0/s_rubbert_casual_chill_3_idle_0.yy",
   },
   "spriteMaskId":null,
   "visible":true,

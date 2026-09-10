@@ -3,6 +3,7 @@ function scr_talk_edgar(){
 		case 0:
 			#region
 			if(global.event[0][1]==progress.non_complete){
+				#region
 				quest_array=[
 					[0,quest_type.talk_to,o_edgar]
 				];
@@ -107,6 +108,53 @@ function scr_talk_edgar(){
 					[scr_cutscene_bars,true,false],
 					[scr_cutscene_variable,variable.normal,o_bunbun,"ppl_act_state",ppl_act.play]
 				];
+				#endregion
+			}else if(global.event[0][5]==progress.non_complete){
+				quest_array=[
+					[0,quest_type.someone_party,o_petter],
+				];
+				non_complete_cutscene[0]=[
+					[scr_cutscene_bars,true,true],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_move_character,o_bunbun,582,387,false,1,true,true],
+					[scr_cutscene_variable,variable.normal,o_bunbun,"direction",180],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Olá, Edgar!"]],
+					[scr_cutscene_variable,variable.normal,o_edgar,"direction",0],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_edgar,["Ah-ha!! Pequeno BunBun!"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_edgar,["Cadê o Todd?"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Ele está treinando com os garotos, lá fora"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_edgar,["Ah sim?"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_edgar,["HeeHee"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_edgar,["Vocês sempre estão juntos, fiquei preocupado se aconteceu algo entre vocês"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Ah, não não, está tudo bem!! Mas o que você está fazendo?"]],
+					[scr_cutscene_variable,variable.normal,o_edgar,"direction",90],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_edgar,["Bom, estava olhando alguns livros do Fritz"]],
+					[scr_cutscene_variable,variable.normal,o_edgar,"direction",0],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_edgar,["Ele tem um bom gosto e sempre conta suas histórias"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Sim sim! Na realidade, seria legal você aparecer uma vez em uma noite de história dele!"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_edgar,["Se você estiver, eu topo"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Eu e o Todd sempre aparecemos, então... Você está mais do que convidado!!"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_edgar,["HeeHee, eu topo então"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_edgar,["Mas e você, Pequeno BunBun?"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Uh? Eu o que?"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_edgar,["O que tu tá fazendo?"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Estou apenas andando por ai, buscando algo para fazer..."]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_edgar,["Tá entediado então, Pequeno, BunBun?"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Sim, um pouco"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_edgar,["Se quiser, posso te fazer companhia, enquanto você busca por algo para fazer"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_bunbun,["Ah! Bom, seria legal andar com você!!"]],
+					[scr_cutscene_talk,cutscene_talk_mode.normal,o_edgar,["HeeHee, você é uma belezinha, Pequeno BunBun, vamos lá em busca de algo para fazer!"]],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_refresh_party_member,false],
+					[scr_cutscene_new_party_member,o_edgar],
+					[scr_cutscene_wait,1],
+					[scr_cutscene_variable,variable.normal,o_edgar,"can_interact",false],
+					[scr_cutscene_bars,true,false],
+				];
+				complete_cutscene=[
+				
+				]
 			}
 			#endregion
 			break;

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_ophelia_casual_chill_1_idle_0",
-    "path":"sprites/s_ophelia_casual_chill_1_idle_0/s_ophelia_casual_chill_1_idle_0.yy",
+    "name":"s_ophelia_casual_chill_3_idle_0",
+    "path":"sprites/s_ophelia_casual_chill_3_idle_0/s_ophelia_casual_chill_3_idle_0.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -27,7 +27,8 @@ enum path_act{
 }
 ppl_do_path_act=-1;
 ppl_path_index=-1
-
+path_points=-1;
+path_timer=0;
 ppl_flowing=true;
 array_size=128;
 pos=24;

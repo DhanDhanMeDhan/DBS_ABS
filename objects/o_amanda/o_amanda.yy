@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_amanda_casual_chill_1_idle_1",
-    "path":"sprites/s_amanda_casual_chill_1_idle_1/s_amanda_casual_chill_1_idle_1.yy",
+    "name":"s_amanda_casual_chill_3_idle_0",
+    "path":"sprites/s_amanda_casual_chill_3_idle_0/s_amanda_casual_chill_3_idle_0.yy",
   },
   "spriteMaskId":null,
   "visible":true,

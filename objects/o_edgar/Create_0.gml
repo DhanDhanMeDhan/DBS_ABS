@@ -1,4 +1,5 @@
 event_inherited();
+ppl_face_icon_idle=s_edgar_faceicon_idle_1;
 ppl_face_portrait=-1;
 scr_talk_edgar();
 ppl_name=["Edgar","Edgar","Edgar"];

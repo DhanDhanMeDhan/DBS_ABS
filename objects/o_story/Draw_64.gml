@@ -34,7 +34,7 @@ if(global.pause)or(!window_has_focus()){
 			global.dinner_moment=0;
 			global.day=0;
 			global.colored=false;
-			global.color=1;
+			//global.color=1;
 			global.event=[
 				//dia 0
 				[

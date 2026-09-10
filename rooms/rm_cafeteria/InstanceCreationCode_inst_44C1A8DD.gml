@@ -48,7 +48,7 @@ switch global.day{
 				[scr_cutscene_variable,variable.normal,o_camera,"y",505],
 				[scr_cutscene_set_children],
 				[scr_cutscene_wait,1],
-				[scr_cutscene_variable,variable.normal,o_darya,"image_xscale",-1],
+				[scr_cutscene_variable,variable.normal,o_danya,"image_xscale",-1],
 				//[setting the camera x]
 				//[setting the camera y]
 				[scr_cutscene_circle_wake_up,true,true,-1,-1,true,true,false,make_color_rgb(36,34,52)],

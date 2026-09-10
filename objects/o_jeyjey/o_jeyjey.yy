@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_jeyjey_casual_idletalk_storyteller",
-    "path":"sprites/s_jeyjey_casual_idletalk_storyteller/s_jeyjey_casual_idletalk_storyteller.yy",
+    "name":"s_jeyjey_casual_idle_1_downright",
+    "path":"sprites/s_jeyjey_casual_idle_1_downright/s_jeyjey_casual_idle_1_downright.yy",
   },
   "spriteMaskId":null,
   "visible":true,

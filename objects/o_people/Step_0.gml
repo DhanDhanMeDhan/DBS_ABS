@@ -18,7 +18,32 @@ if(global.pause)or(!window_has_focus()){
 		}
 	}
 	path_speed=spd;
-
+	if(path_index!=-1)and(path_points!=-1){
+		var _num=path_get_number(path_index);
+		var i=0; repeat array_length(path_points){
+			var xx=path_get_point_x(path_index,path_points[i]);
+			var yy=path_get_point_y(path_index,path_points[i]);
+			if(point_distance(x,y,xx,yy)<=spd-.1){
+				path_timer++;
+				if(path_timer>2*60){
+					path_speed=spd;
+					path_timer=0;
+				}else{
+					path_speed=0;
+				}
+			}
+			//if(xx==path_points[i][1])and(yy==path_points[i][2]){
+			//	path_timer++;
+			//	if(path_timer>2*60){
+			//		path_speed=spd;
+			//		path_timer=0;
+			//	}else{
+			//		path_speed=0;					
+			//	}
+			//}
+			i++;
+		}
+	}
 	if(ppl_looking_to){
 		if(instance_exists(ppl_to_look_at)){
 			direction=point_direction(x,y,ppl_to_look_at.x,ppl_to_look_at.y);
@@ -122,6 +147,7 @@ if(global.pause)or(!window_has_focus()){
 				image_speed=.2;
 				break;
 			#endregion
+			//============================================================
 			#region walk
 			case ppl_anm.walk:
 				spr_down=spr_walk_down;
@@ -135,6 +161,7 @@ if(global.pause)or(!window_has_focus()){
 				image_speed=.2;
 				break;
 			#endregion
+			//============================================================
 			#region talk
 			case ppl_anm.talk:
 				spr_down=spr_talk_down;
@@ -159,14 +186,14 @@ if(global.pause)or(!window_has_focus()){
 			if(!ppl_talk){ppl_anm_state=ppl_anm.idle;}else{ppl_anm_state=ppl_anm.talk;}
 		}
 		switch floor((direction+22.5)/45){
-			case 0: sprite_index=spr_right; break;
-			case 1: sprite_index=spr_upright; break;
-			case 2: sprite_index=spr_up; break;
-			case 3: sprite_index=spr_upleft; break;
-			case 4: sprite_index=spr_left; break;
-			case 5: sprite_index=spr_downleft; break;
-			case 6: sprite_index=spr_down; break;
-			case 7: sprite_index=spr_downright; break;
+			case 0:  sprite_index=spr_right; break;
+			case 1:  sprite_index=spr_upright; break;
+			case 2:  sprite_index=spr_up; break;
+			case 3:  sprite_index=spr_upleft; break;
+			case 4:  sprite_index=spr_left; break;
+			case 5:  sprite_index=spr_downleft; break;
+			case 6:  sprite_index=spr_down; break;
+			case 7:  sprite_index=spr_downright; break;
 			default: sprite_index=spr_right; break;
 		}
 	}

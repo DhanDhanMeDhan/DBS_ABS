@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_oliver_casual_chill_1_idle_0",
-    "path":"sprites/s_oliver_casual_chill_1_idle_0/s_oliver_casual_chill_1_idle_0.yy",
+    "name":"s_oliver_casual_idle_1_down",
+    "path":"sprites/s_oliver_casual_idle_1_down/s_oliver_casual_idle_1_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,
